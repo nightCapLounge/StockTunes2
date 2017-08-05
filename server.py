@@ -8,6 +8,7 @@ from api.api_config import api
 
 # Grab namespaces
 from api.stock.endpoints.endpoints import _namespace as stock_current_endpoints
+from api.core.endpoints.endpoints import _namespace as midi_endpoints
 
 # Make us that good app
 app = Flask(__name__)
@@ -47,6 +48,7 @@ def initialize(flask_app):
     api.init_app(blueprint)
 
     api.add_namespace(stock_current_endpoints)
+    api.add_namespace(midi_endpoints)
 
     # Register Blueprints
     flask_app.register_blueprint(blueprint)

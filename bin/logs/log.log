@@ -1972,3 +1972,391 @@ AttributeError: 'dict_values' object has no attribute 'to_json'
 2017-08-05 10:32:06,493 - __main__ - INFO - 	> Application launching just fine.
 2017-08-05 10:32:07,094 - __main__ - INFO - 	> Application launching just fine.
 2017-08-05 10:32:31,106 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:34:12,962 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:35:05,375 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:35:08,191 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 15:36:16,565 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 15:36:21,325 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 15:36:35,193 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 15:36:37,903 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 15:36:44,743 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 15:36:56,598 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 15:37:12,792 - __main__ - ERROR - Exception on /api/midi/GOOGL [GET]
+Traceback (most recent call last):
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/nate/projects/amper/StockTunes/api/core/endpoints/endpoints.py", line 31, in get
+    midifile = create_midi_file(data, "Adj Close")
+  File "/Users/nate/projects/amper/StockTunes/api/core/core.py", line 11, in create_midi_file
+    me.Run()
+  File "/Users/nate/projects/amper/StockTunes/models/music/midi_engine.py", line 20, in Run
+    self.GenerateHarmonicMap()
+  File "/Users/nate/projects/amper/StockTunes/models/music/midi_engine.py", line 38, in GenerateHarmonicMap
+    prev = self.seed_data.pop(0)[self.target_field]
+KeyError: 0
+2017-08-05 15:37:12,794 - __main__ - INFO - [2017-Aug-05 15:37] - 127.0.0.1 - GET - http - /api/midi/GOOGL?start=2014-09-01&end=2014-11-01 - 500 INTERNAL SERVER ERROR
+2017-08-05 15:37:39,813 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 15:37:46,377 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 15:37:47,015 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 15:37:50,344 - __main__ - INFO - [2017-Aug-05 15:37] - 127.0.0.1 - GET - http - /api/midi/GOOGL?start=2014-09-01&end=2014-11-01 - 200 OK
+2017-08-05 15:39:08,722 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 15:39:12,065 - __main__ - ERROR - Exception on /api/midi/GOOGL [GET]
+Traceback (most recent call last):
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/nate/projects/amper/StockTunes/api/core/endpoints/endpoints.py", line 31, in get
+    midifile = create_midi_file(data["data"], "Adj Close")
+  File "/Users/nate/projects/amper/StockTunes/api/core/core.py", line 11, in create_midi_file
+    me.Run()
+  File "/Users/nate/projects/amper/StockTunes/models/music/midi_engine.py", line 20, in Run
+    self.GenerateHarmonicMap()
+  File "/Users/nate/projects/amper/StockTunes/models/music/midi_engine.py", line 38, in GenerateHarmonicMap
+    prev = self.seed_data.pop(0)[self.target_field]
+KeyError: 0
+2017-08-05 15:39:12,068 - __main__ - INFO - [2017-Aug-05 15:39] - 127.0.0.1 - GET - http - /api/midi/GOOGL?start=2014-09-01&end=2014-11-01 - 500 INTERNAL SERVER ERROR
+2017-08-05 15:39:33,946 - __main__ - ERROR - Exception on /api/midi/GOOGL [GET]
+Traceback (most recent call last):
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/nate/projects/amper/StockTunes/api/core/endpoints/endpoints.py", line 31, in get
+    midifile = create_midi_file(data["data"], "Adj Close")
+  File "/Users/nate/projects/amper/StockTunes/api/core/core.py", line 11, in create_midi_file
+    me.Run()
+  File "/Users/nate/projects/amper/StockTunes/models/music/midi_engine.py", line 20, in Run
+    self.GenerateHarmonicMap()
+  File "/Users/nate/projects/amper/StockTunes/models/music/midi_engine.py", line 38, in GenerateHarmonicMap
+    prev = self.seed_data.pop(0)[self.target_field]
+KeyError: 0
+2017-08-05 15:39:33,947 - __main__ - INFO - [2017-Aug-05 15:39] - 127.0.0.1 - GET - http - /api/midi/GOOGL?start=2014-09-01&end=2014-11-01 - 500 INTERNAL SERVER ERROR
+2017-08-05 15:39:46,897 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 15:39:51,900 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 15:39:52,557 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 15:39:56,992 - __main__ - INFO - [2017-Aug-05 15:39] - 127.0.0.1 - GET - http - /api/midi/GOOGL?start=2014-09-01&end=2014-11-01 - 200 OK
+2017-08-05 15:40:18,629 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 15:40:20,598 - __main__ - INFO - [2017-Aug-05 15:40] - 127.0.0.1 - GET - http - /api/midi/GOOGL?start=2014-09-01&end=2014-11-01 - 200 OK
+2017-08-05 16:33:18,299 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 16:33:21,099 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 16:33:47,144 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 16:34:01,012 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 16:34:08,847 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 16:34:20,710 - __main__ - ERROR - Exception on /api/midi/GOOGL [GET]
+Traceback (most recent call last):
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/nate/projects/amper/StockTunes/api/core/endpoints/endpoints.py", line 34, in get
+    return send_file(midifile, mimetype='audio/midi', as_attachment=True)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/helpers.py", line 535, in send_file
+    raise TypeError('filename unavailable, required for '
+TypeError: filename unavailable, required for sending as attachment
+2017-08-05 16:34:20,716 - __main__ - INFO - [2017-Aug-05 16:34] - 127.0.0.1 - GET - http - /api/midi/GOOGL?start=2014-09-01&end=2014-11-01 - 500 INTERNAL SERVER ERROR
+2017-08-05 16:35:23,627 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 16:35:24,324 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 16:35:31,453 - __main__ - ERROR - Exception on /api/midi/GOOGL [GET]
+Traceback (most recent call last):
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/nate/projects/amper/StockTunes/api/core/endpoints/endpoints.py", line 34, in get
+    return send_file(midifile, mimetype='audio/midi', as_attachment=True)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/helpers.py", line 535, in send_file
+    raise TypeError('filename unavailable, required for '
+TypeError: filename unavailable, required for sending as attachment
+2017-08-05 16:35:31,456 - __main__ - INFO - [2017-Aug-05 16:35] - 127.0.0.1 - GET - http - /api/midi/GOOGL?start=2014-09-01&end=2014-11-01 - 500 INTERNAL SERVER ERROR
+2017-08-05 16:37:17,324 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 16:37:23,465 - __main__ - INFO - [2017-Aug-05 16:37] - 127.0.0.1 - GET - http - /api/midi/GOOGL?start=2014-09-01&end=2014-11-01 - 200 OK
+2017-08-05 16:40:32,250 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 16:40:41,087 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 16:40:42,918 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 16:40:48,020 - __main__ - ERROR - Exception on /api/midi/GOOGL [GET]
+Traceback (most recent call last):
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/nate/projects/amper/StockTunes/api/core/endpoints/endpoints.py", line 33, in get
+    return send_file(midifile, mimetype='audio/midi', as_attachment=True)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/helpers.py", line 535, in send_file
+    raise TypeError('filename unavailable, required for '
+TypeError: filename unavailable, required for sending as attachment
+2017-08-05 16:40:48,023 - __main__ - INFO - [2017-Aug-05 16:40] - 127.0.0.1 - GET - http - /api/midi/GOOGL?start=2014-09-01&end=2014-11-01 - 500 INTERNAL SERVER ERROR
+2017-08-05 16:41:30,242 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 16:41:35,793 - __main__ - ERROR - Exception on /api/midi/GOOGL [GET]
+Traceback (most recent call last):
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/nate/projects/amper/StockTunes/api/core/endpoints/endpoints.py", line 32, in get
+    print(midifile.value())
+AttributeError: '_io.BytesIO' object has no attribute 'value'
+2017-08-05 16:41:35,795 - __main__ - INFO - [2017-Aug-05 16:41] - 127.0.0.1 - GET - http - /api/midi/GOOGL?start=2014-09-01&end=2014-11-01 - 500 INTERNAL SERVER ERROR
+2017-08-05 16:42:09,446 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 16:42:13,439 - __main__ - ERROR - Exception on /api/midi/GOOGL [GET]
+Traceback (most recent call last):
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/nate/projects/amper/StockTunes/api/core/endpoints/endpoints.py", line 34, in get
+    return send_file(midifile, mimetype='audio/midi', as_attachment=True)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/helpers.py", line 535, in send_file
+    raise TypeError('filename unavailable, required for '
+TypeError: filename unavailable, required for sending as attachment
+2017-08-05 16:42:13,441 - __main__ - INFO - [2017-Aug-05 16:42] - 127.0.0.1 - GET - http - /api/midi/GOOGL?start=2014-09-01&end=2014-11-01 - 500 INTERNAL SERVER ERROR
+2017-08-05 16:44:46,978 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 16:44:50,776 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 16:45:01,434 - __main__ - ERROR - Exception on /api/midi/GOOGL [GET]
+Traceback (most recent call last):
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/nate/projects/amper/StockTunes/api/core/endpoints/endpoints.py", line 35, in get
+    return send_file(buffer, mimetype='audio/midi', as_attachment=True)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/helpers.py", line 535, in send_file
+    raise TypeError('filename unavailable, required for '
+TypeError: filename unavailable, required for sending as attachment
+2017-08-05 16:45:01,436 - __main__ - INFO - [2017-Aug-05 16:45] - 127.0.0.1 - GET - http - /api/midi/GOOGL?start=2014-09-01&end=2014-11-01 - 500 INTERNAL SERVER ERROR
+2017-08-05 16:45:31,014 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 16:45:32,402 - __main__ - INFO - [2017-Aug-05 16:45] - 127.0.0.1 - GET - http - /api/midi/GOOGL?start=2014-09-01&end=2014-11-01 - 200 OK
+2017-08-05 16:45:42,890 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 16:58:03,753 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 16:58:14,590 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 16:58:21,551 - __main__ - ERROR - Exception on /api/midi/GOOGL [GET]
+Traceback (most recent call last):
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/nate/projects/amper/StockTunes/api/core/endpoints/endpoints.py", line 35, in get
+    return send_file(_buffer, mimetype='audio/midi', as_attachment=True)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/helpers.py", line 535, in send_file
+    raise TypeError('filename unavailable, required for '
+TypeError: filename unavailable, required for sending as attachment
+2017-08-05 16:58:21,553 - __main__ - INFO - [2017-Aug-05 16:58] - 127.0.0.1 - GET - http - /api/midi/GOOGL?start=2014-09-01&end=2014-11-01 - 500 INTERNAL SERVER ERROR
+2017-08-05 16:58:26,043 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 16:58:26,721 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 16:58:29,438 - __main__ - ERROR - Exception on /api/midi/GOOGL [GET]
+Traceback (most recent call last):
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/nate/projects/amper/StockTunes/api/core/endpoints/endpoints.py", line 35, in get
+    return send_file(_buffer, mimetype='audio/midi', as_attachment=True)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/helpers.py", line 535, in send_file
+    raise TypeError('filename unavailable, required for '
+TypeError: filename unavailable, required for sending as attachment
+2017-08-05 16:58:29,441 - __main__ - INFO - [2017-Aug-05 16:58] - 127.0.0.1 - GET - http - /api/midi/GOOGL?start=2014-09-01&end=2014-11-01 - 500 INTERNAL SERVER ERROR
+2017-08-05 16:58:59,867 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 16:59:07,700 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 16:59:17,537 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 16:59:19,317 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 16:59:25,223 - __main__ - INFO - [2017-Aug-05 16:59] - 127.0.0.1 - GET - http - /api/midi/GOOGL?start=2014-09-01&end=2014-11-01 - 200 OK
+2017-08-05 17:00:14,033 - __main__ - INFO - [2017-Aug-05 17:00] - 127.0.0.1 - GET - http - /api/midi/SPY?start=2014-09-01&end=2014-11-01 - 200 OK
+2017-08-05 17:05:36,211 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:05:37,976 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:07:49,245 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:07:57,070 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:08:23,097 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:08:32,928 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:08:44,800 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:08:54,688 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:09:41,946 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:10:23,159 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:10:49,191 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:11:40,508 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:12:38,905 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:12:42,720 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:12:46,548 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:12:49,345 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:12:55,153 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:13:08,040 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:13:15,866 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:13:17,621 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:13:58,360 - __main__ - ERROR - Page not found: /api/stock/GOOGL/history
+2017-08-05 17:13:58,361 - __main__ - INFO - [2017-Aug-05 17:13] - 127.0.0.1 - GET - http - /api/stock/GOOGL/history?start=2014-09-01&end=2014-11-01 - 404 NOT FOUND
+2017-08-05 17:14:04,734 - __main__ - ERROR - Page not found: /api/stocks/GOOGL/history
+2017-08-05 17:14:04,734 - __main__ - INFO - [2017-Aug-05 17:14] - 127.0.0.1 - GET - http - /api/stocks/GOOGL/history?start=2014-09-01&end=2014-11-01 - 404 NOT FOUND
+2017-08-05 17:14:17,509 - __main__ - ERROR - Page not found: /api/stock/GOOGL/history
+2017-08-05 17:14:17,509 - __main__ - INFO - [2017-Aug-05 17:14] - 127.0.0.1 - GET - http - /api/stock/GOOGL/history?start=2014-09-01&end=2014-11-01 - 404 NOT FOUND
+2017-08-05 17:14:35,260 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:14:43,337 - __main__ - INFO - [2017-Aug-05 17:14] - 127.0.0.1 - GET - http - /api/stock/GOOGL/historical?start=2014-09-01&end=2014-11-01 - 200 OK
+2017-08-05 17:15:14,436 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:15:16,222 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:15:21,033 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:16:20,443 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:16:24,221 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:16:37,342 - __main__ - ERROR - Exception on /api/stock/asdf/historical [GET]
+Traceback (most recent call last):
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/nate/projects/amper/StockTunes/api/stock/endpoints/endpoints.py", line 237, in get
+    api.abort(code=500, message=data["errors"])
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/namespace.py", line 127, in abort
+    abort(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/errors.py", line 29, in abort
+    flask.abort(code)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/werkzeug/exceptions.py", line 707, in abort
+    return _aborter(status, *args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/werkzeug/exceptions.py", line 687, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.InternalServerError: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request.  Either the server is overloaded or there is an error in the application.
+2017-08-05 17:16:37,347 - __main__ - INFO - [2017-Aug-05 17:16] - 127.0.0.1 - GET - http - /api/stock/asdf/historical?start=2014-09-01&end=2014-11-01 - 500 INTERNAL SERVER ERROR
+2017-08-05 17:17:23,196 - __main__ - INFO - [2017-Aug-05 17:17] - 127.0.0.1 - GET - http - /api/stock/asdf/historical?start=2014-09-01 - 400 BAD REQUEST
+2017-08-05 17:17:41,835 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:17:47,686 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:17:55,526 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:18:08,428 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:18:54,677 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:19:02,503 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:20:35,328 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:20:41,130 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:20:49,991 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:20:52,775 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:21:19,785 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:21:50,130 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:21:52,922 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:21:59,741 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:22:15,651 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:22:22,466 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:23:06,726 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:23:08,482 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:23:35,522 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:23:38,299 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:23:49,208 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:23:59,086 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:24:01,877 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:24:24,875 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:24:34,718 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:26:05,456 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:26:43,623 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:26:46,402 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:27:55,971 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:27:58,788 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:28:04,640 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:28:20,559 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:28:28,414 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:28:39,318 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:28:47,188 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:28:49,985 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:29:20,046 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:31:03,924 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:31:08,780 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:32:05,145 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:32:06,926 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:32:13,772 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:32:25,657 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:32:27,441 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:32:36,288 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:32:49,195 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:33:18,306 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:33:31,185 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:33:37,980 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:33:45,879 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:33:49,659 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:34:10,662 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:34:42,766 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:34:58,728 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:36:26,406 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:36:32,203 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:37:03,289 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:37:06,068 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:38:43,874 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:38:52,731 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:38:58,580 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:39:01,433 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:39:13,340 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:39:33,284 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:39:51,250 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:40:01,154 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:40:17,491 - __main__ - INFO - [2017-Aug-05 17:40] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-05 17:40:17,516 - __main__ - INFO - [2017-Aug-05 17:40] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 304 NOT MODIFIED
+2017-08-05 17:40:17,522 - __main__ - INFO - [2017-Aug-05 17:40] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-05 17:40:17,524 - __main__ - INFO - [2017-Aug-05 17:40] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 304 NOT MODIFIED
+2017-08-05 17:40:34,356 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:40:49,277 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:40:58,118 - __main__ - INFO - 	> Application launching just fine.

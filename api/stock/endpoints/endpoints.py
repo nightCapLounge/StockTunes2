@@ -196,15 +196,21 @@ class Historical(Resource):
             Parameters:
                 ticker:string
                     The ticker corresponding to a stock
-                    %Y-%m-%d
                 start:datestring
                     The start date for historical data
                     %Y-%m-%d
                 end:datestring
                     The end date for historical data
+                    %Y-%m-%d
 
             Returns:
-                The percent change of a specific stock
+                A list of dictionaries containing:
+                    Volume:int
+                    Open:float
+                    Low:float
+                    Adj Close:float
+                    High:float
+                    Close:float
 
             Description:
                 Gets all historical data for a stock in a certain range of dates.
@@ -213,7 +219,7 @@ class Historical(Resource):
         if request.args.get("start") is None:
             api.abort(code=400, message="GET Requests to '/<string:ticker>/historical' must contain a start date ('%Y-%m-%d')")  
 
-        if request.args.get("start") is None:
+        if request.args.get("end") is None:
             api.abort(code=400, message="GET Requests to '/<string:ticker>/historical' must contain an end date ('%Y-%m-%d')")
 
         start = request.args.get("start")

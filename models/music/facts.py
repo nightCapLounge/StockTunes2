@@ -946,9 +946,7 @@ class KeyMeta(type):
         return cls._ChordSequence[index]
 
 
-class Key(object):
-
-    __metaclass__ = KeyMeta
+class Key(metaclass=KeyMeta):
 
     _ChordSequence = []
 
@@ -977,7 +975,7 @@ class Minor_Key(Key):
 
     @classmethod
     def Tonic(cls):
-        return Key[0]
+        return super(Minor_Key, cls)[0]
 
     @classmethod
     def Dominant(cls):
@@ -1351,6 +1349,7 @@ class Tone_To_MIDI_Meta(type):
 
 
 Tone_MIDI_Mapping = [
+            None,
             [24, 36, 48, 60, 72, 84, 96],       # C
             [25, 37, 49, 61, 73, 85],           # C#
             [26, 38, 50, 62, 74, 86],           # D
@@ -1406,7 +1405,7 @@ class Inst(Enum):
     Tenor_Trombone = 30
     Bass_Trombone = 31
     Tuba = 32
-    Baritone = 33
+    #Baritone = 33
     Euphonium = 34
     Timpani = 35
     Xylophone = 36
@@ -1460,7 +1459,7 @@ Instruments = { 0 : [21, 108],
                 Inst.Tenor_Trombone : [40, 72],
                 Inst.Bass_Trombone : [34, 67],
                 Inst.Tuba : [28, 58],
-                Inst.Baritone : [],
+                #Inst.Baritone : [],
                 Inst.Euphonium : [],
                 Inst.Timpani : [40, 55],
                 Inst.Xylophone : [65, 108],
