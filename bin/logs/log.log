@@ -1,0 +1,1602 @@
+2017-08-02 18:33:14,205 - __main__ - INFO - Logger ready for use.
+2017-08-02 18:34:19,609 - __main__ - INFO - Logger ready for use.
+2017-08-02 18:37:17,212 - __main__ - INFO - Logger ready for use.
+2017-08-02 18:38:08,026 - __main__ - INFO - Logger ready for use.
+2017-08-02 18:38:20,597 - __main__ - INFO - Logger ready for use.
+2017-08-02 18:38:20,946 - __main__ - INFO - Logger ready for use.
+2017-08-02 18:38:46,544 - __main__ - INFO - Logger ready for use.
+2017-08-02 18:38:48,950 - __main__ - INFO - Logger ready for use.
+2017-08-02 18:38:49,263 - __main__ - INFO - Logger ready for use.
+2017-08-02 18:39:30,958 - __main__ - INFO - Logger ready for use.
+2017-08-02 18:39:34,432 - __main__ - INFO - Logger ready for use.
+2017-08-02 18:39:34,765 - __main__ - INFO - Logger ready for use.
+2017-08-02 18:39:50,605 - __main__ - INFO - [2017-Aug-02 18:39] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-02 18:39:50,627 - __main__ - INFO - [2017-Aug-02 18:39] - 127.0.0.1 - GET - http - /swaggerui/bower/swagger-ui/dist/css/typography.css? - 200 OK
+2017-08-02 18:39:50,629 - __main__ - INFO - [2017-Aug-02 18:39] - 127.0.0.1 - GET - http - /swaggerui/bower/swagger-ui/dist/css/reset.css? - 200 OK
+2017-08-02 18:39:50,630 - __main__ - INFO - [2017-Aug-02 18:39] - 127.0.0.1 - GET - http - /swaggerui/bower/swagger-ui/dist/css/screen.css? - 200 OK
+2017-08-02 18:39:50,632 - __main__ - INFO - [2017-Aug-02 18:39] - 127.0.0.1 - GET - http - /swaggerui/bower/swagger-ui/dist/lib/object-assign-pollyfill.js? - 200 OK
+2017-08-02 18:39:50,634 - __main__ - INFO - [2017-Aug-02 18:39] - 127.0.0.1 - GET - http - /swaggerui/bower/swagger-ui/dist/lib/jquery-1.8.0.min.js? - 200 OK
+2017-08-02 18:39:50,636 - __main__ - INFO - [2017-Aug-02 18:39] - 127.0.0.1 - GET - http - /swaggerui/bower/swagger-ui/dist/lib/jquery.slideto.min.js? - 200 OK
+2017-08-02 18:39:50,638 - __main__ - INFO - [2017-Aug-02 18:39] - 127.0.0.1 - GET - http - /swaggerui/bower/swagger-ui/dist/lib/jquery.wiggle.min.js? - 200 OK
+2017-08-02 18:39:50,641 - __main__ - INFO - [2017-Aug-02 18:39] - 127.0.0.1 - GET - http - /swaggerui/bower/swagger-ui/dist/lib/jquery.ba-bbq.min.js? - 200 OK
+2017-08-02 18:39:50,643 - __main__ - INFO - [2017-Aug-02 18:39] - 127.0.0.1 - GET - http - /swaggerui/bower/swagger-ui/dist/lib/handlebars-4.0.5.js? - 200 OK
+2017-08-02 18:39:50,647 - __main__ - INFO - [2017-Aug-02 18:39] - 127.0.0.1 - GET - http - /swaggerui/bower/swagger-ui/dist/lib/lodash.min.js? - 200 OK
+2017-08-02 18:39:50,649 - __main__ - INFO - [2017-Aug-02 18:39] - 127.0.0.1 - GET - http - /swaggerui/bower/swagger-ui/dist/lib/backbone-min.js? - 200 OK
+2017-08-02 18:39:50,651 - __main__ - INFO - [2017-Aug-02 18:39] - 127.0.0.1 - GET - http - /swaggerui/bower/swagger-ui/dist/swagger-ui.js? - 200 OK
+2017-08-02 18:39:51,585 - __main__ - INFO - [2017-Aug-02 18:39] - 127.0.0.1 - GET - http - /swaggerui/bower/swagger-ui/dist/lib/highlight.9.1.0.pack.js? - 200 OK
+2017-08-02 18:39:51,587 - __main__ - INFO - [2017-Aug-02 18:39] - 127.0.0.1 - GET - http - /swaggerui/bower/swagger-ui/dist/lib/highlight.9.1.0.pack_extended.js? - 200 OK
+2017-08-02 18:39:51,589 - __main__ - INFO - [2017-Aug-02 18:39] - 127.0.0.1 - GET - http - /swaggerui/bower/swagger-ui/dist/lib/jsoneditor.min.js? - 200 OK
+2017-08-02 18:39:51,591 - __main__ - INFO - [2017-Aug-02 18:39] - 127.0.0.1 - GET - http - /swaggerui/bower/swagger-ui/dist/lib/marked.js? - 200 OK
+2017-08-02 18:39:51,594 - __main__ - INFO - [2017-Aug-02 18:39] - 127.0.0.1 - GET - http - /swaggerui/bower/swagger-ui/dist/lib/swagger-oauth.js? - 200 OK
+2017-08-02 18:39:51,757 - __main__ - INFO - [2017-Aug-02 18:39] - 127.0.0.1 - GET - http - /swaggerui/bower/swagger-ui/dist/fonts/DroidSans.ttf? - 200 OK
+2017-08-02 18:39:51,773 - __main__ - INFO - [2017-Aug-02 18:39] - 127.0.0.1 - GET - http - /swagger.json? - 200 OK
+2017-08-02 18:39:51,839 - __main__ - INFO - [2017-Aug-02 18:39] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-02 18:39:51,840 - __main__ - INFO - [2017-Aug-02 18:39] - 127.0.0.1 - GET - http - /swaggerui/bower/swagger-ui/dist/fonts/DroidSans-Bold.ttf? - 200 OK
+2017-08-02 18:39:59,605 - __main__ - INFO - [2017-Aug-02 18:39] - 127.0.0.1 - GET - http - /hello? - 200 OK
+2017-08-02 18:40:47,620 - __main__ - INFO - Logger ready for use.
+2017-08-02 18:49:02,049 - __main__ - INFO - Logger ready for use.
+2017-08-02 18:49:17,630 - __main__ - INFO - Logger ready for use.
+2017-08-02 18:49:50,289 - __main__ - INFO - Logger ready for use.
+2017-08-02 18:50:08,395 - __main__ - INFO - Logger ready for use.
+2017-08-02 18:50:08,722 - __main__ - INFO - Logger ready for use.
+2017-08-02 18:50:18,626 - __main__ - ERROR - Exception on /nasty_route [GET]
+Traceback (most recent call last):
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/resource.py", line 37, in dispatch_request
+    assert meth is not None, 'Unimplemented method %r' % request.method
+AssertionError: Unimplemented method 'GET'
+2017-08-02 18:50:18,628 - __main__ - INFO - [2017-Aug-02 18:50] - 127.0.0.1 - GET - http - /nasty_route? - 500 INTERNAL SERVER ERROR
+2017-08-02 18:50:37,290 - __main__ - INFO - Logger ready for use.
+2017-08-02 18:50:46,738 - __main__ - INFO - Logger ready for use.
+2017-08-02 18:51:11,324 - __main__ - INFO - Logger ready for use.
+2017-08-02 18:51:17,237 - __main__ - INFO - [2017-Aug-02 18:51] - 127.0.0.1 - GET - http - /hello? - 200 OK
+2017-08-02 18:51:21,779 - __main__ - INFO - Logger ready for use.
+2017-08-02 18:51:23,156 - __main__ - INFO - Logger ready for use.
+2017-08-02 18:54:50,978 - __main__ - INFO - Logger ready for use.
+2017-08-02 18:55:02,425 - __main__ - INFO - Logger ready for use.
+2017-08-02 18:57:41,467 - __main__ - INFO - 	> Application launching just fine.
+2017-08-02 18:57:41,789 - __main__ - INFO - 	> Application launching just fine.
+2017-08-02 18:57:47,223 - __main__ - INFO - 	> Application launching just fine.
+2017-08-02 18:57:52,651 - __main__ - INFO - 	> Application launching just fine.
+2017-08-02 18:57:57,088 - __main__ - INFO - 	> Application launching just fine.
+2017-08-02 19:01:50,222 - __main__ - INFO - 	> Application launching just fine.
+2017-08-02 19:02:19,784 - __main__ - INFO - 	> Application launching just fine.
+2017-08-02 19:02:46,392 - __main__ - INFO - 	> Application launching just fine.
+2017-08-02 19:04:20,438 - __main__ - INFO - 	> Application launching just fine.
+2017-08-02 19:04:43,972 - __main__ - INFO - 	> Application launching just fine.
+2017-08-02 19:04:45,338 - __main__ - INFO - 	> Application launching just fine.
+2017-08-02 19:05:31,050 - __main__ - INFO - 	> Application launching just fine.
+2017-08-02 19:06:01,864 - __main__ - INFO - 	> Application launching just fine.
+2017-08-02 19:06:02,209 - __main__ - INFO - 	> Application launching just fine.
+2017-08-02 19:06:18,724 - __main__ - INFO - 	> Application launching just fine.
+2017-08-02 19:06:33,206 - __main__ - INFO - 	> Application launching just fine.
+2017-08-02 20:18:13,019 - __main__ - INFO - 	> Application launching just fine.
+2017-08-02 20:18:13,341 - __main__ - INFO - 	> Application launching just fine.
+2017-08-02 20:18:19,634 - __main__ - ERROR - Page not found: /hello
+2017-08-02 20:18:19,635 - __main__ - INFO - [2017-Aug-02 20:18] - 127.0.0.1 - GET - http - /hello? - 404 NOT FOUND
+2017-08-02 20:18:38,981 - __main__ - ERROR - Page not found: /stock/price/GOOGL
+2017-08-02 20:18:38,982 - __main__ - INFO - [2017-Aug-02 20:18] - 127.0.0.1 - GET - http - /stock/price/GOOGL? - 404 NOT FOUND
+2017-08-02 20:19:03,020 - __main__ - ERROR - Page not found: /stock/current/price/GOOGL
+2017-08-02 20:19:03,021 - __main__ - INFO - [2017-Aug-02 20:19] - 127.0.0.1 - GET - http - /stock/current/price/GOOGL? - 404 NOT FOUND
+2017-08-02 20:20:55,108 - __main__ - ERROR - Page not found: /
+2017-08-02 20:20:55,108 - __main__ - INFO - [2017-Aug-02 20:20] - 127.0.0.1 - GET - http - /? - 404 NOT FOUND
+2017-08-02 20:27:50,786 - __main__ - INFO - 	> Application launching just fine.
+2017-08-02 20:28:26,213 - __main__ - INFO - 	> Application launching just fine.
+2017-08-02 20:28:26,545 - __main__ - INFO - 	> Application launching just fine.
+2017-08-02 20:28:29,947 - __main__ - INFO - 	> Application launching just fine.
+2017-08-02 20:29:22,689 - __main__ - INFO - 	> Application launching just fine.
+2017-08-02 20:29:29,535 - __main__ - ERROR - Page not found: /stock/current/price
+2017-08-02 20:29:29,536 - __main__ - INFO - [2017-Aug-02 20:29] - 127.0.0.1 - GET - http - /stock/current/price? - 404 NOT FOUND
+2017-08-02 20:31:47,037 - __main__ - INFO - 	> Application launching just fine.
+2017-08-02 20:32:00,175 - __main__ - ERROR - Exception on /api/stock/current/price [GET]
+Traceback (most recent call last):
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+TypeError: get() missing 1 required positional argument: 'ticker'
+2017-08-02 20:32:00,178 - __main__ - INFO - [2017-Aug-02 20:32] - 127.0.0.1 - GET - http - /api/stock/current/price? - 500 INTERNAL SERVER ERROR
+2017-08-03 09:23:14,272 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 09:39:31,638 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 09:40:53,615 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 09:40:57,037 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 09:41:08,507 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 09:45:05,574 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 09:45:13,010 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 09:45:26,519 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 09:45:33,354 - __main__ - INFO - [2017-Aug-03 09:45] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 09:45:56,110 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 09:47:09,040 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 09:48:01,773 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 09:48:10,238 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 09:48:14,674 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 09:48:22,110 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 09:48:34,598 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 09:53:36,899 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 09:57:52,165 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 09:58:42,906 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:07:31,184 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:07:35,595 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:08:55,564 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:09:00,991 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:09:03,405 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:09:11,887 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:09:17,335 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:09:24,784 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:09:29,176 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:09:36,598 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:09:38,998 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:09:45,442 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:09:47,818 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:09:56,256 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:10:03,729 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:10:12,192 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:10:16,343 - __main__ - INFO - [2017-Aug-03 10:10] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 10:10:26,033 - __main__ - INFO - [2017-Aug-03 10:10] - 127.0.0.1 - GET - http - /api/stock/GOOGL/price? - 200 OK
+2017-08-03 10:10:56,925 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:11:09,414 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:11:10,785 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:11:31,295 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:11:43,805 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:12:18,459 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:12:19,871 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:12:24,291 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:12:35,777 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:12:43,227 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:12:50,671 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:12:55,079 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:14:26,073 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:14:43,615 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:15:00,132 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:15:05,570 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:15:11,015 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:15:13,472 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:15:22,958 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:15:30,392 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:15:31,763 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:15:34,165 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:15:44,600 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:15:50,698 - __main__ - INFO - [2017-Aug-03 10:15] - 127.0.0.1 - GET - http - /api/stock/GOOGL/volume? - 200 OK
+2017-08-03 10:15:59,092 - __main__ - INFO - [2017-Aug-03 10:15] - 127.0.0.1 - GET - http - /api/stock/GOOGL/avg-daily-volume? - 200 OK
+2017-08-03 10:16:03,109 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:16:12,546 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:16:14,944 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 10:39:46,937 - __main__ - INFO - [2017-Aug-03 10:39] - 127.0.0.1 - GET - http - /api/stock/XZc/avg-daily-volume? - 200 OK
+2017-08-03 11:03:24,681 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:03:26,058 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:03:40,521 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:03:44,905 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:35:51,873 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:35:58,350 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:36:16,848 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:40:53,211 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:40:54,646 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:41:13,168 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:41:14,537 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:41:16,958 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:41:24,375 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:41:25,770 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:41:27,170 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:41:28,556 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:42:03,227 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:42:05,650 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:42:11,066 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:42:13,471 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:53:37,090 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:53:37,411 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:53:43,200 - __main__ - INFO - [2017-Aug-03 11:53] - 127.0.0.1 - GET - http - /api/stock/XZc/open? - 200 OK
+2017-08-03 11:53:48,943 - __main__ - INFO - [2017-Aug-03 11:53] - 127.0.0.1 - GET - http - /api/stock/GOOGL/open? - 200 OK
+2017-08-03 11:54:01,005 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:54:02,474 - __main__ - INFO - [2017-Aug-03 11:54] - 127.0.0.1 - GET - http - /api/stock/GOOGL/open? - 200 OK
+2017-08-03 11:54:35,634 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:54:37,471 - __main__ - INFO - [2017-Aug-03 11:54] - 127.0.0.1 - GET - http - /api/stock/GOOGL/open? - 200 OK
+2017-08-03 11:54:43,078 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:55:36,632 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:55:36,960 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:55:40,046 - __main__ - ERROR - Exception on /api/stock/GOOGL/open [GET]
+Traceback (most recent call last):
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/nate/projects/amper/StockTunes/api/stock/endpoints/endpoints.py", line 26, in get
+    _open = get_open(ticker)
+  File "/Users/nate/projects/amper/StockTunes/api/stock/stock.py", line 22, in get_open
+    raise e
+  File "/Users/nate/projects/amper/StockTunes/api/stock/stock.py", line 18, in get_open
+    response["data"]["value"] = float("_open")
+ValueError: could not convert string to float: '_open'
+2017-08-03 11:55:40,052 - __main__ - INFO - [2017-Aug-03 11:55] - 127.0.0.1 - GET - http - /api/stock/GOOGL/open? - 500 INTERNAL SERVER ERROR
+2017-08-03 11:56:22,690 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:56:44,202 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:56:45,630 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:56:55,098 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:56:57,513 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:56:58,899 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:57:02,310 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:57:07,768 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:57:20,230 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:57:21,609 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:57:28,054 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:57:29,473 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:57:33,753 - __main__ - INFO - [2017-Aug-03 11:57] - 127.0.0.1 - GET - http - /api/stock/GOOGL/open? - 200 OK
+2017-08-03 11:57:44,966 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:57:46,392 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:57:48,798 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:57:51,185 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:58:30,883 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:58:32,295 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:58:34,681 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:58:50,156 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:58:59,593 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:59:16,101 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 11:59:37,633 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:00:04,201 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:00:07,611 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:00:33,179 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:00:34,547 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:08:13,854 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:08:14,188 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:08:16,512 - __main__ - INFO - [2017-Aug-03 12:08] - 127.0.0.1 - GET - http - /api/stock/GOOGL/open? - 200 OK
+2017-08-03 12:08:22,084 - __main__ - INFO - [2017-Aug-03 12:08] - 127.0.0.1 - GET - http - /api/stock/GOOGL/price? - 200 OK
+2017-08-03 12:08:27,033 - __main__ - ERROR - Page not found: /api/stock/GOOGL/
+2017-08-03 12:08:27,033 - __main__ - INFO - [2017-Aug-03 12:08] - 127.0.0.1 - GET - http - /api/stock/GOOGL/? - 404 NOT FOUND
+2017-08-03 12:08:37,757 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:08:49,480 - __main__ - INFO - [2017-Aug-03 12:08] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 12:09:15,434 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:09:38,009 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:09:50,486 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:09:56,952 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:09:59,375 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:10:07,822 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:10:10,221 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:10:12,640 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:10:20,083 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:10:28,544 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:10:30,702 - __main__ - INFO - [2017-Aug-03 12:10] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 12:10:39,038 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:10:55,548 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:11:27,167 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:11:50,700 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:11:52,117 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:12:04,625 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:12:27,180 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:12:32,636 - __main__ - INFO - [2017-Aug-03 12:12] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 12:12:44,667 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:12:46,041 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:12:58,573 - __main__ - INFO - [2017-Aug-03 12:12] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 12:13:28,744 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:13:30,130 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:14:10,492 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:14:10,822 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:14:16,830 - __main__ - INFO - [2017-Aug-03 12:14] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 12:14:32,367 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:15:45,325 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:15:45,671 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:15:54,294 - __main__ - INFO - [2017-Aug-03 12:15] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 12:16:06,239 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:16:07,619 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:17:03,781 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:17:04,119 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:17:06,954 - __main__ - INFO - [2017-Aug-03 12:17] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 12:17:11,590 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:17:24,069 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:17:27,467 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:17:31,879 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:17:46,345 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:48:41,732 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:48:49,155 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:48:50,524 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:49:01,975 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:52:48,017 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:53:08,539 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:53:17,965 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:53:23,391 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:53:33,871 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:53:36,279 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:53:49,301 - __main__ - INFO - [2017-Aug-03 12:53] - 127.0.0.1 - GET - http - /api/stock/GOOGL/percent-change? - 200 OK
+2017-08-03 12:53:55,810 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:53:57,211 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:54:09,674 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:54:23,154 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:54:24,575 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:55:08,258 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:55:15,732 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:56:39,728 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:56:43,164 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:56:48,589 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:56:59,018 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:57:23,570 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:58:08,258 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:58:26,793 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:58:31,215 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:58:49,742 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:58:58,176 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:59:05,604 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:59:08,032 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:59:16,475 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:59:19,884 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:59:40,398 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:59:52,866 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:59:54,304 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 12:59:59,772 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 13:00:03,180 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 13:00:14,650 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 13:00:18,027 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 13:19:38,183 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 13:19:38,514 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 13:30:21,744 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 13:30:23,131 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 13:32:07,236 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 13:32:12,750 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 13:36:28,949 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 13:36:31,336 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 13:36:50,871 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 13:36:54,293 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 13:36:59,704 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 13:37:03,142 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 13:44:21,808 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 13:44:22,178 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 13:44:24,239 - __main__ - INFO - [2017-Aug-03 13:44] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 13:46:03,848 - __main__ - INFO - [2017-Aug-03 13:46] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 13:49:48,973 - __main__ - INFO - [2017-Aug-03 13:49] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 13:50:25,024 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 13:50:29,491 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 13:50:40,061 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 13:50:42,559 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 13:52:33,184 - __main__ - INFO - [2017-Aug-03 13:52] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 13:56:41,786 - __main__ - INFO - [2017-Aug-03 13:56] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 13:58:28,007 - __main__ - INFO - [2017-Aug-03 13:58] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 13:58:57,277 - __main__ - INFO - [2017-Aug-03 13:58] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 13:59:13,890 - __main__ - INFO - [2017-Aug-03 13:59] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 13:59:23,411 - __main__ - INFO - [2017-Aug-03 13:59] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 14:03:10,857 - __main__ - INFO - [2017-Aug-03 14:03] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 14:15:27,116 - __main__ - INFO - [2017-Aug-03 14:15] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 14:15:47,204 - __main__ - INFO - [2017-Aug-03 14:15] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 14:19:38,675 - __main__ - INFO - [2017-Aug-03 14:19] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 14:20:12,000 - __main__ - INFO - [2017-Aug-03 14:20] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 14:23:04,065 - __main__ - INFO - [2017-Aug-03 14:23] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 14:24:44,730 - __main__ - INFO - [2017-Aug-03 14:24] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 14:25:08,861 - __main__ - INFO - [2017-Aug-03 14:25] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 14:25:30,258 - __main__ - INFO - [2017-Aug-03 14:25] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 14:25:55,528 - __main__ - INFO - [2017-Aug-03 14:25] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 14:26:23,868 - __main__ - INFO - [2017-Aug-03 14:26] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 14:27:16,922 - __main__ - INFO - [2017-Aug-03 14:27] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 14:27:26,826 - __main__ - INFO - [2017-Aug-03 14:27] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 14:27:36,359 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 14:28:16,935 - __main__ - INFO - [2017-Aug-03 14:28] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 14:28:17,068 - __main__ - INFO - [2017-Aug-03 14:28] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 14:32:16,104 - __main__ - INFO - [2017-Aug-03 14:32] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 14:32:19,470 - __main__ - INFO - [2017-Aug-03 14:32] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 14:32:21,506 - __main__ - INFO - [2017-Aug-03 14:32] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 14:32:26,226 - __main__ - INFO - [2017-Aug-03 14:32] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 14:32:29,942 - __main__ - INFO - [2017-Aug-03 14:32] - 127.0.0.1 - GET - http - /api/stock/GOOGL/price? - 200 OK
+2017-08-03 14:32:31,654 - __main__ - INFO - [2017-Aug-03 14:32] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 14:35:10,981 - __main__ - INFO - [2017-Aug-03 14:35] - 127.0.0.1 - GET - http - /api/stock/GOOGL/price? - 200 OK
+2017-08-03 14:35:11,212 - __main__ - INFO - [2017-Aug-03 14:35] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 14:35:11,416 - __main__ - INFO - [2017-Aug-03 14:35] - 127.0.0.1 - GET - http - /api/stock/GOOGL/price? - 200 OK
+2017-08-03 14:35:11,622 - __main__ - INFO - [2017-Aug-03 14:35] - 127.0.0.1 - GET - http - /api/stock/GOOGL/price? - 200 OK
+2017-08-03 14:35:11,953 - __main__ - INFO - [2017-Aug-03 14:35] - 127.0.0.1 - GET - http - /api/stock/GOOGL/price? - 200 OK
+2017-08-03 14:35:32,763 - __main__ - INFO - [2017-Aug-03 14:35] - 127.0.0.1 - GET - http - /api/stock/GOOGL/price? - 200 OK
+2017-08-03 14:35:32,952 - __main__ - INFO - [2017-Aug-03 14:35] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 14:35:33,231 - __main__ - INFO - [2017-Aug-03 14:35] - 127.0.0.1 - GET - http - /api/stock/GOOGL/price? - 200 OK
+2017-08-03 14:35:33,630 - __main__ - INFO - [2017-Aug-03 14:35] - 127.0.0.1 - GET - http - /api/stock/GOOGL/price? - 200 OK
+2017-08-03 14:35:33,844 - __main__ - INFO - [2017-Aug-03 14:35] - 127.0.0.1 - GET - http - /api/stock/GOOGL/price? - 200 OK
+2017-08-03 14:35:34,072 - __main__ - INFO - [2017-Aug-03 14:35] - 127.0.0.1 - GET - http - /api/stock/GOOGL/price? - 200 OK
+2017-08-03 14:36:22,991 - __main__ - INFO - [2017-Aug-03 14:36] - 127.0.0.1 - GET - http - /api/stock/GOOGL/price? - 200 OK
+2017-08-03 14:36:23,220 - __main__ - INFO - [2017-Aug-03 14:36] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 14:36:23,478 - __main__ - INFO - [2017-Aug-03 14:36] - 127.0.0.1 - GET - http - /api/stock/GOOGL/price? - 200 OK
+2017-08-03 14:36:23,726 - __main__ - INFO - [2017-Aug-03 14:36] - 127.0.0.1 - GET - http - /api/stock/GOOGL/price? - 200 OK
+2017-08-03 14:36:23,947 - __main__ - INFO - [2017-Aug-03 14:36] - 127.0.0.1 - GET - http - /api/stock/GOOGL/price? - 200 OK
+2017-08-03 14:36:24,178 - __main__ - INFO - [2017-Aug-03 14:36] - 127.0.0.1 - GET - http - /api/stock/GOOGL/price? - 200 OK
+2017-08-03 14:39:21,551 - __main__ - INFO - [2017-Aug-03 14:39] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 14:39:23,346 - __main__ - INFO - [2017-Aug-03 14:39] - 127.0.0.1 - GET - http - /api/stock/GOOGL/open? - 200 OK
+2017-08-03 14:39:24,289 - __main__ - INFO - [2017-Aug-03 14:39] - 127.0.0.1 - GET - http - /api/stock/GOOGL/percent-change? - 200 OK
+2017-08-03 14:39:28,118 - __main__ - INFO - [2017-Aug-03 14:39] - 127.0.0.1 - GET - http - /api/stock/GOOGL/price? - 200 OK
+2017-08-03 14:39:30,241 - __main__ - INFO - [2017-Aug-03 14:39] - 127.0.0.1 - GET - http - /api/stock/GOOGL/volume? - 200 OK
+2017-08-03 14:40:37,088 - __main__ - INFO - [2017-Aug-03 14:40] - 127.0.0.1 - GET - http - /api/stock/GOOGL/avg-daily-volume? - 200 OK
+2017-08-03 14:40:37,287 - __main__ - INFO - [2017-Aug-03 14:40] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 14:40:37,537 - __main__ - INFO - [2017-Aug-03 14:40] - 127.0.0.1 - GET - http - /api/stock/GOOGL/open? - 200 OK
+2017-08-03 14:40:37,773 - __main__ - INFO - [2017-Aug-03 14:40] - 127.0.0.1 - GET - http - /api/stock/GOOGL/percent-change? - 200 OK
+2017-08-03 14:40:37,971 - __main__ - INFO - [2017-Aug-03 14:40] - 127.0.0.1 - GET - http - /api/stock/GOOGL/price? - 200 OK
+2017-08-03 14:40:38,177 - __main__ - INFO - [2017-Aug-03 14:40] - 127.0.0.1 - GET - http - /api/stock/GOOGL/volume? - 200 OK
+2017-08-03 14:41:39,131 - __main__ - INFO - [2017-Aug-03 14:41] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 14:41:40,910 - __main__ - INFO - [2017-Aug-03 14:41] - 127.0.0.1 - GET - http - /api/stock/GOOGL/avg-daily-volume? - 200 OK
+2017-08-03 14:41:43,846 - __main__ - INFO - [2017-Aug-03 14:41] - 127.0.0.1 - GET - http - /api/stock/GOOGL/open? - 200 OK
+2017-08-03 14:41:54,284 - __main__ - INFO - [2017-Aug-03 14:41] - 127.0.0.1 - GET - http - /api/stock/GOOGL/percent-change? - 200 OK
+2017-08-03 14:41:58,664 - __main__ - INFO - [2017-Aug-03 14:41] - 127.0.0.1 - GET - http - /api/stock/GOOGL/price? - 200 OK
+2017-08-03 14:42:02,154 - __main__ - INFO - [2017-Aug-03 14:42] - 127.0.0.1 - GET - http - /api/stock/GOOGL/volume? - 200 OK
+2017-08-03 14:45:03,857 - __main__ - INFO - [2017-Aug-03 14:45] - 127.0.0.1 - GET - http - /api/stock/GOOGL/avg-daily-volume? - 200 OK
+2017-08-03 14:45:04,057 - __main__ - INFO - [2017-Aug-03 14:45] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-03 14:45:04,254 - __main__ - INFO - [2017-Aug-03 14:45] - 127.0.0.1 - GET - http - /api/stock/GOOGL/open? - 200 OK
+2017-08-03 14:45:04,452 - __main__ - INFO - [2017-Aug-03 14:45] - 127.0.0.1 - GET - http - /api/stock/GOOGL/percent-change? - 200 OK
+2017-08-03 14:45:04,646 - __main__ - INFO - [2017-Aug-03 14:45] - 127.0.0.1 - GET - http - /api/stock/GOOGL/price? - 200 OK
+2017-08-03 14:45:04,835 - __main__ - INFO - [2017-Aug-03 14:45] - 127.0.0.1 - GET - http - /api/stock/GOOGL/volume? - 200 OK
+2017-08-03 14:53:16,752 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 14:56:00,696 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 14:56:02,143 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 14:56:49,000 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 15:02:04,422 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 15:03:52,905 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 15:05:21,748 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 15:05:22,124 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 15:05:52,453 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 15:05:52,847 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 15:33:54,923 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 15:35:49,946 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 15:35:50,348 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 15:35:52,347 - __main__ - ERROR - Page not found: /
+2017-08-03 15:35:52,348 - __main__ - INFO - [2017-Aug-03 15:35] - 127.0.0.1 - GET - http - /? - 404 NOT FOUND
+2017-08-03 15:36:08,980 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 15:36:10,437 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 15:36:22,962 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 15:36:27,775 - __main__ - INFO - [2017-Aug-03 15:36] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 15:36:32,488 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 15:36:36,012 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 15:36:38,021 - __main__ - ERROR - Page not found: /
+2017-08-03 15:36:38,022 - __main__ - INFO - [2017-Aug-03 15:36] - 127.0.0.1 - GET - http - /? - 404 NOT FOUND
+2017-08-03 15:37:26,932 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 15:37:28,941 - __main__ - ERROR - Page not found: /
+2017-08-03 15:37:28,942 - __main__ - INFO - [2017-Aug-03 15:37] - 127.0.0.1 - GET - http - /? - 404 NOT FOUND
+2017-08-03 15:37:53,597 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 15:38:08,170 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 15:39:07,171 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 15:39:09,675 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 15:39:13,528 - __main__ - INFO - [2017-Aug-03 15:39] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 15:39:20,207 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 15:39:35,797 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 15:40:09,552 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 15:40:14,031 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 15:40:15,496 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 15:40:22,025 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 15:40:23,465 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 15:43:02,276 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 15:43:37,115 - __main__ - INFO - [2017-Aug-03 15:43] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 15:43:37,131 - __main__ - ERROR - Page not found: /{{ url_for('static', filename='bower_components/bootstrap/dist/css/bootstrap.min.css') }}
+2017-08-03 15:43:37,132 - __main__ - INFO - [2017-Aug-03 15:43] - 127.0.0.1 - GET - http - /{{ url_for('static', filename='bower_components/bootstrap/dist/css/bootstrap.min.css') }}? - 404 NOT FOUND
+2017-08-03 15:43:37,133 - __main__ - ERROR - Page not found: /{{ url_for('static', filename='css/style.css') }}
+2017-08-03 15:43:37,133 - __main__ - INFO - [2017-Aug-03 15:43] - 127.0.0.1 - GET - http - /{{ url_for('static', filename='css/style.css') }}? - 404 NOT FOUND
+2017-08-03 15:43:37,134 - __main__ - ERROR - Page not found: /{{ url_for('static', filename='bower_components/react/react.min.js') }}
+2017-08-03 15:43:37,135 - __main__ - INFO - [2017-Aug-03 15:43] - 127.0.0.1 - GET - http - /{{ url_for('static', filename='bower_components/react/react.min.js') }}? - 404 NOT FOUND
+2017-08-03 15:43:37,136 - __main__ - ERROR - Page not found: /{{ url_for('static', filename='bower_components/react/react-dom.min.js') }}
+2017-08-03 15:43:37,136 - __main__ - INFO - [2017-Aug-03 15:43] - 127.0.0.1 - GET - http - /{{ url_for('static', filename='bower_components/react/react-dom.min.js') }}? - 404 NOT FOUND
+2017-08-03 15:43:37,138 - __main__ - ERROR - Page not found: /{{ url_for('static', filename='scripts/js/main.js') }}
+2017-08-03 15:43:37,138 - __main__ - INFO - [2017-Aug-03 15:43] - 127.0.0.1 - GET - http - /{{ url_for('static', filename='scripts/js/main.js') }}? - 404 NOT FOUND
+2017-08-03 15:43:38,017 - __main__ - ERROR - Page not found: /{{ url_for('static', filename='css/style.css') }}
+2017-08-03 15:43:38,018 - __main__ - INFO - [2017-Aug-03 15:43] - 127.0.0.1 - GET - http - /{{ url_for('static', filename='css/style.css') }}? - 404 NOT FOUND
+2017-08-03 15:43:38,019 - __main__ - ERROR - Page not found: /{{ url_for('static', filename='bower_components/react/react.min.js') }}
+2017-08-03 15:43:38,019 - __main__ - INFO - [2017-Aug-03 15:43] - 127.0.0.1 - GET - http - /{{ url_for('static', filename='bower_components/react/react.min.js') }}? - 404 NOT FOUND
+2017-08-03 15:43:38,045 - __main__ - ERROR - Page not found: /{{ url_for('static', filename='bower_components/react/react-dom.min.js') }}
+2017-08-03 15:43:38,046 - __main__ - INFO - [2017-Aug-03 15:43] - 127.0.0.1 - GET - http - /{{ url_for('static', filename='bower_components/react/react-dom.min.js') }}? - 404 NOT FOUND
+2017-08-03 15:43:38,052 - __main__ - ERROR - Page not found: /{{ url_for('static', filename='scripts/js/main.js') }}
+2017-08-03 15:43:38,052 - __main__ - INFO - [2017-Aug-03 15:43] - 127.0.0.1 - GET - http - /{{ url_for('static', filename='scripts/js/main.js') }}? - 404 NOT FOUND
+2017-08-03 15:44:11,530 - __main__ - INFO - [2017-Aug-03 15:44] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 15:44:11,543 - __main__ - ERROR - Page not found: /{{ url_for('static', filename='bower_components/bootstrap/dist/css/bootstrap.min.css') }}
+2017-08-03 15:44:11,544 - __main__ - INFO - [2017-Aug-03 15:44] - 127.0.0.1 - GET - http - /{{ url_for('static', filename='bower_components/bootstrap/dist/css/bootstrap.min.css') }}? - 404 NOT FOUND
+2017-08-03 15:44:11,545 - __main__ - ERROR - Page not found: /{{ url_for('static', filename='css/style.css') }}
+2017-08-03 15:44:11,545 - __main__ - INFO - [2017-Aug-03 15:44] - 127.0.0.1 - GET - http - /{{ url_for('static', filename='css/style.css') }}? - 404 NOT FOUND
+2017-08-03 15:44:11,546 - __main__ - ERROR - Page not found: /{{ url_for('static', filename='bower_components/react/react.min.js') }}
+2017-08-03 15:44:11,547 - __main__ - INFO - [2017-Aug-03 15:44] - 127.0.0.1 - GET - http - /{{ url_for('static', filename='bower_components/react/react.min.js') }}? - 404 NOT FOUND
+2017-08-03 15:44:11,548 - __main__ - ERROR - Page not found: /{{ url_for('static', filename='bower_components/react/react-dom.min.js') }}
+2017-08-03 15:44:11,548 - __main__ - INFO - [2017-Aug-03 15:44] - 127.0.0.1 - GET - http - /{{ url_for('static', filename='bower_components/react/react-dom.min.js') }}? - 404 NOT FOUND
+2017-08-03 15:44:11,549 - __main__ - ERROR - Page not found: /{{ url_for('static', filename='app/scripts/main.js') }}
+2017-08-03 15:44:11,550 - __main__ - INFO - [2017-Aug-03 15:44] - 127.0.0.1 - GET - http - /{{ url_for('static', filename='app/scripts/main.js') }}? - 404 NOT FOUND
+2017-08-03 15:44:12,435 - __main__ - ERROR - Page not found: /{{ url_for('static', filename='css/style.css') }}
+2017-08-03 15:44:12,435 - __main__ - INFO - [2017-Aug-03 15:44] - 127.0.0.1 - GET - http - /{{ url_for('static', filename='css/style.css') }}? - 404 NOT FOUND
+2017-08-03 15:44:12,437 - __main__ - ERROR - Page not found: /{{ url_for('static', filename='bower_components/react/react.min.js') }}
+2017-08-03 15:44:12,437 - __main__ - INFO - [2017-Aug-03 15:44] - 127.0.0.1 - GET - http - /{{ url_for('static', filename='bower_components/react/react.min.js') }}? - 404 NOT FOUND
+2017-08-03 15:44:12,449 - __main__ - ERROR - Page not found: /{{ url_for('static', filename='bower_components/react/react-dom.min.js') }}
+2017-08-03 15:44:12,450 - __main__ - INFO - [2017-Aug-03 15:44] - 127.0.0.1 - GET - http - /{{ url_for('static', filename='bower_components/react/react-dom.min.js') }}? - 404 NOT FOUND
+2017-08-03 15:44:12,465 - __main__ - ERROR - Page not found: /{{ url_for('static', filename='app/scripts/main.js') }}
+2017-08-03 15:44:12,465 - __main__ - INFO - [2017-Aug-03 15:44] - 127.0.0.1 - GET - http - /{{ url_for('static', filename='app/scripts/main.js') }}? - 404 NOT FOUND
+2017-08-03 15:44:18,915 - __main__ - INFO - [2017-Aug-03 15:44] - 127.0.0.1 - GET - http - /? - 304 NOT MODIFIED
+2017-08-03 15:44:18,929 - __main__ - ERROR - Page not found: /{{ url_for('static', filename='bower_components/bootstrap/dist/css/bootstrap.min.css') }}
+2017-08-03 15:44:18,930 - __main__ - INFO - [2017-Aug-03 15:44] - 127.0.0.1 - GET - http - /{{ url_for('static', filename='bower_components/bootstrap/dist/css/bootstrap.min.css') }}? - 404 NOT FOUND
+2017-08-03 15:44:18,931 - __main__ - ERROR - Page not found: /{{ url_for('static', filename='css/style.css') }}
+2017-08-03 15:44:18,932 - __main__ - INFO - [2017-Aug-03 15:44] - 127.0.0.1 - GET - http - /{{ url_for('static', filename='css/style.css') }}? - 404 NOT FOUND
+2017-08-03 15:44:18,933 - __main__ - ERROR - Page not found: /{{ url_for('static', filename='bower_components/react/react.min.js') }}
+2017-08-03 15:44:18,934 - __main__ - INFO - [2017-Aug-03 15:44] - 127.0.0.1 - GET - http - /{{ url_for('static', filename='bower_components/react/react.min.js') }}? - 404 NOT FOUND
+2017-08-03 15:44:18,935 - __main__ - ERROR - Page not found: /{{ url_for('static', filename='bower_components/react/react-dom.min.js') }}
+2017-08-03 15:44:18,936 - __main__ - INFO - [2017-Aug-03 15:44] - 127.0.0.1 - GET - http - /{{ url_for('static', filename='bower_components/react/react-dom.min.js') }}? - 404 NOT FOUND
+2017-08-03 15:44:18,938 - __main__ - ERROR - Page not found: /{{ url_for('static', filename='app/scripts/main.js') }}
+2017-08-03 15:44:18,938 - __main__ - INFO - [2017-Aug-03 15:44] - 127.0.0.1 - GET - http - /{{ url_for('static', filename='app/scripts/main.js') }}? - 404 NOT FOUND
+2017-08-03 15:44:24,369 - __main__ - ERROR - Page not found: /{{ url_for('static', filename='bower_components/bootstrap/dist/css/bootstrap.min.css') }}
+2017-08-03 15:44:24,369 - __main__ - INFO - [2017-Aug-03 15:44] - 127.0.0.1 - GET - http - /{{ url_for('static', filename='bower_components/bootstrap/dist/css/bootstrap.min.css') }}? - 404 NOT FOUND
+2017-08-03 15:44:24,370 - __main__ - ERROR - Page not found: /{{ url_for('static', filename='css/style.css') }}
+2017-08-03 15:44:24,370 - __main__ - INFO - [2017-Aug-03 15:44] - 127.0.0.1 - GET - http - /{{ url_for('static', filename='css/style.css') }}? - 404 NOT FOUND
+2017-08-03 15:46:13,285 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 15:46:13,717 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 15:46:15,908 - __main__ - INFO - [2017-Aug-03 15:46] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 15:46:15,940 - __main__ - ERROR - Page not found: /{{ url_for('static', filename='app/scripts/main.js') }}
+2017-08-03 15:46:15,941 - __main__ - INFO - [2017-Aug-03 15:46] - 127.0.0.1 - GET - http - /{{ url_for('static', filename='app/scripts/main.js') }}? - 404 NOT FOUND
+2017-08-03 15:46:17,093 - __main__ - ERROR - Page not found: /{{ url_for('static', filename='app/scripts/main.js') }}
+2017-08-03 15:46:17,094 - __main__ - INFO - [2017-Aug-03 15:46] - 127.0.0.1 - GET - http - /{{ url_for('static', filename='app/scripts/main.js') }}? - 404 NOT FOUND
+2017-08-03 15:46:39,693 - __main__ - INFO - [2017-Aug-03 15:46] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 15:46:39,709 - __main__ - ERROR - Page not found: /{{ url_for('static', filename='/app/scripts/main.js') }}
+2017-08-03 15:46:39,709 - __main__ - INFO - [2017-Aug-03 15:46] - 127.0.0.1 - GET - http - /{{ url_for('static', filename='/app/scripts/main.js') }}? - 404 NOT FOUND
+2017-08-03 15:46:40,668 - __main__ - ERROR - Page not found: /{{ url_for('static', filename='/app/scripts/main.js') }}
+2017-08-03 15:46:40,668 - __main__ - INFO - [2017-Aug-03 15:46] - 127.0.0.1 - GET - http - /{{ url_for('static', filename='/app/scripts/main.js') }}? - 404 NOT FOUND
+2017-08-03 15:46:56,814 - __main__ - INFO - [2017-Aug-03 15:46] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 15:46:56,835 - __main__ - ERROR - Page not found: /{{ url_for('static', filename='app/scripts/main.js') }}
+2017-08-03 15:46:56,835 - __main__ - INFO - [2017-Aug-03 15:46] - 127.0.0.1 - GET - http - /{{ url_for('static', filename='app/scripts/main.js') }}? - 404 NOT FOUND
+2017-08-03 15:46:57,810 - __main__ - ERROR - Page not found: /{{ url_for('static', filename='app/scripts/main.js') }}
+2017-08-03 15:46:57,810 - __main__ - INFO - [2017-Aug-03 15:46] - 127.0.0.1 - GET - http - /{{ url_for('static', filename='app/scripts/main.js') }}? - 404 NOT FOUND
+2017-08-03 15:48:32,638 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 15:48:33,031 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 15:49:36,517 - __main__ - INFO - [2017-Aug-03 15:49] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 15:49:36,538 - __main__ - ERROR - Page not found: /{{ url_for('static', filename='app/styles/style.css') }}
+2017-08-03 15:49:36,539 - __main__ - INFO - [2017-Aug-03 15:49] - 127.0.0.1 - GET - http - /{{ url_for('static', filename='app/styles/style.css') }}? - 404 NOT FOUND
+2017-08-03 15:49:36,540 - __main__ - ERROR - Page not found: /app/scripts/main.js'
+2017-08-03 15:49:36,540 - __main__ - INFO - [2017-Aug-03 15:49] - 127.0.0.1 - GET - http - /app/scripts/main.js'? - 404 NOT FOUND
+2017-08-03 15:49:37,470 - __main__ - ERROR - Page not found: /{{ url_for('static', filename='app/styles/style.css') }}
+2017-08-03 15:49:37,470 - __main__ - INFO - [2017-Aug-03 15:49] - 127.0.0.1 - GET - http - /{{ url_for('static', filename='app/styles/style.css') }}? - 404 NOT FOUND
+2017-08-03 15:49:37,560 - __main__ - ERROR - Page not found: /app/scripts/main.js'
+2017-08-03 15:49:37,560 - __main__ - INFO - [2017-Aug-03 15:49] - 127.0.0.1 - GET - http - /app/scripts/main.js'? - 404 NOT FOUND
+2017-08-03 15:57:16,007 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 15:57:24,518 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 15:57:26,370 - __main__ - INFO - [2017-Aug-03 15:57] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 15:57:26,390 - __main__ - INFO - [2017-Aug-03 15:57] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 15:57:26,392 - __main__ - INFO - [2017-Aug-03 15:57] - 127.0.0.1 - GET - http - /static/app/scripts/main.js? - 200 OK
+2017-08-03 15:57:41,213 - __main__ - INFO - [2017-Aug-03 15:57] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:02:21,268 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 16:02:21,700 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 16:02:39,061 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 16:02:39,436 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 16:03:01,300 - __main__ - INFO - [2017-Aug-03 16:03] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:06:45,211 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 16:06:45,609 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 16:06:48,938 - __main__ - INFO - [2017-Aug-03 16:06] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:06:48,957 - __main__ - INFO - [2017-Aug-03 16:06] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:10:03,923 - __main__ - INFO - [2017-Aug-03 16:10] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:10:46,458 - __main__ - INFO - [2017-Aug-03 16:10] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:10:55,822 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 16:10:56,220 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 16:11:00,967 - __main__ - INFO - [2017-Aug-03 16:11] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:11:06,554 - __main__ - INFO - [2017-Aug-03 16:11] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:11:06,569 - __main__ - INFO - [2017-Aug-03 16:11] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:11:06,572 - __main__ - INFO - [2017-Aug-03 16:11] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:11:06,856 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:11:06,858 - __main__ - INFO - [2017-Aug-03 16:11] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:14:13,905 - __main__ - INFO - [2017-Aug-03 16:14] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:14:18,145 - __main__ - INFO - [2017-Aug-03 16:14] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:14:18,159 - __main__ - INFO - [2017-Aug-03 16:14] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:14:18,161 - __main__ - INFO - [2017-Aug-03 16:14] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:14:18,514 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:14:18,515 - __main__ - INFO - [2017-Aug-03 16:14] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:16:12,642 - __main__ - INFO - [2017-Aug-03 16:16] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:16:12,656 - __main__ - INFO - [2017-Aug-03 16:16] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:16:12,660 - __main__ - INFO - [2017-Aug-03 16:16] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:16:13,703 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:16:13,704 - __main__ - INFO - [2017-Aug-03 16:16] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:16:20,402 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 16:16:20,784 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 16:16:27,245 - __main__ - INFO - [2017-Aug-03 16:16] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:16:27,260 - __main__ - INFO - [2017-Aug-03 16:16] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:16:27,262 - __main__ - INFO - [2017-Aug-03 16:16] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:16:28,246 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:16:28,247 - __main__ - INFO - [2017-Aug-03 16:16] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:16:58,914 - __main__ - INFO - [2017-Aug-03 16:16] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:16:58,941 - __main__ - INFO - [2017-Aug-03 16:16] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:16:58,943 - __main__ - INFO - [2017-Aug-03 16:16] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:17:07,769 - __main__ - INFO - [2017-Aug-03 16:17] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:17:07,792 - __main__ - INFO - [2017-Aug-03 16:17] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:17:07,794 - __main__ - INFO - [2017-Aug-03 16:17] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:17:19,062 - __main__ - INFO - [2017-Aug-03 16:17] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:17:19,081 - __main__ - INFO - [2017-Aug-03 16:17] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:17:19,082 - __main__ - INFO - [2017-Aug-03 16:17] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:17:58,970 - __main__ - INFO - [2017-Aug-03 16:17] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:18:01,970 - __main__ - INFO - [2017-Aug-03 16:18] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:18:01,991 - __main__ - INFO - [2017-Aug-03 16:18] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:18:01,993 - __main__ - INFO - [2017-Aug-03 16:18] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:18:09,074 - __main__ - INFO - [2017-Aug-03 16:18] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:18:09,095 - __main__ - INFO - [2017-Aug-03 16:18] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:18:09,097 - __main__ - INFO - [2017-Aug-03 16:18] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:18:16,299 - __main__ - INFO - [2017-Aug-03 16:18] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:18:16,318 - __main__ - INFO - [2017-Aug-03 16:18] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:18:16,320 - __main__ - INFO - [2017-Aug-03 16:18] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:20:48,452 - __main__ - INFO - [2017-Aug-03 16:20] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:20:48,477 - __main__ - INFO - [2017-Aug-03 16:20] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:20:48,479 - __main__ - INFO - [2017-Aug-03 16:20] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:21:20,986 - __main__ - INFO - [2017-Aug-03 16:21] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:21:21,007 - __main__ - INFO - [2017-Aug-03 16:21] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:21:21,009 - __main__ - INFO - [2017-Aug-03 16:21] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:24:54,578 - __main__ - INFO - [2017-Aug-03 16:24] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:24:56,428 - __main__ - INFO - [2017-Aug-03 16:24] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:24:56,444 - __main__ - INFO - [2017-Aug-03 16:24] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:24:56,446 - __main__ - INFO - [2017-Aug-03 16:24] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:24:56,789 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:24:56,790 - __main__ - INFO - [2017-Aug-03 16:24] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:26:17,751 - __main__ - INFO - [2017-Aug-03 16:26] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:26:17,768 - __main__ - INFO - [2017-Aug-03 16:26] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:26:17,769 - __main__ - INFO - [2017-Aug-03 16:26] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:26:18,833 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:26:18,833 - __main__ - INFO - [2017-Aug-03 16:26] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:26:29,488 - __main__ - INFO - [2017-Aug-03 16:26] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:26:32,137 - __main__ - INFO - [2017-Aug-03 16:26] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:26:32,154 - __main__ - INFO - [2017-Aug-03 16:26] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:26:32,155 - __main__ - INFO - [2017-Aug-03 16:26] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:26:32,502 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:26:32,503 - __main__ - INFO - [2017-Aug-03 16:26] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:28:10,485 - __main__ - INFO - [2017-Aug-03 16:28] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:28:12,268 - __main__ - INFO - [2017-Aug-03 16:28] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:28:12,283 - __main__ - INFO - [2017-Aug-03 16:28] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:28:12,286 - __main__ - INFO - [2017-Aug-03 16:28] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:28:13,654 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:28:13,655 - __main__ - INFO - [2017-Aug-03 16:28] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:28:24,087 - __main__ - INFO - [2017-Aug-03 16:28] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:28:24,101 - __main__ - INFO - [2017-Aug-03 16:28] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:28:24,102 - __main__ - INFO - [2017-Aug-03 16:28] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:28:25,140 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:28:25,141 - __main__ - INFO - [2017-Aug-03 16:28] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:33:15,149 - __main__ - INFO - [2017-Aug-03 16:33] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:33:15,167 - __main__ - INFO - [2017-Aug-03 16:33] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:33:15,168 - __main__ - INFO - [2017-Aug-03 16:33] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:33:16,263 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:33:16,264 - __main__ - INFO - [2017-Aug-03 16:33] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:33:27,316 - __main__ - INFO - [2017-Aug-03 16:33] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:33:27,341 - __main__ - INFO - [2017-Aug-03 16:33] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:33:27,343 - __main__ - INFO - [2017-Aug-03 16:33] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:33:28,372 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:33:28,373 - __main__ - INFO - [2017-Aug-03 16:33] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:33:58,589 - __main__ - INFO - [2017-Aug-03 16:33] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:33:59,709 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:33:59,710 - __main__ - INFO - [2017-Aug-03 16:33] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:34:28,830 - __main__ - INFO - [2017-Aug-03 16:34] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:34:32,023 - __main__ - INFO - [2017-Aug-03 16:34] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:34:33,618 - __main__ - INFO - [2017-Aug-03 16:34] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:34:34,993 - __main__ - INFO - [2017-Aug-03 16:34] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:34:43,697 - __main__ - INFO - [2017-Aug-03 16:34] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:34:43,714 - __main__ - INFO - [2017-Aug-03 16:34] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:34:43,716 - __main__ - INFO - [2017-Aug-03 16:34] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:34:43,980 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:34:43,981 - __main__ - INFO - [2017-Aug-03 16:34] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:34:59,022 - __main__ - INFO - [2017-Aug-03 16:34] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:34:59,036 - __main__ - INFO - [2017-Aug-03 16:34] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:34:59,040 - __main__ - INFO - [2017-Aug-03 16:34] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:35:00,056 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:35:00,057 - __main__ - INFO - [2017-Aug-03 16:35] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:35:01,464 - __main__ - INFO - [2017-Aug-03 16:35] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:35:01,482 - __main__ - INFO - [2017-Aug-03 16:35] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:35:01,484 - __main__ - INFO - [2017-Aug-03 16:35] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:35:01,741 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:35:01,741 - __main__ - INFO - [2017-Aug-03 16:35] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:35:02,896 - __main__ - INFO - [2017-Aug-03 16:35] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:35:02,910 - __main__ - INFO - [2017-Aug-03 16:35] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:35:02,911 - __main__ - INFO - [2017-Aug-03 16:35] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:35:03,169 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:35:03,169 - __main__ - INFO - [2017-Aug-03 16:35] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:35:21,633 - __main__ - INFO - [2017-Aug-03 16:35] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:35:21,646 - __main__ - INFO - [2017-Aug-03 16:35] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:35:21,648 - __main__ - INFO - [2017-Aug-03 16:35] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:35:22,662 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:35:22,662 - __main__ - INFO - [2017-Aug-03 16:35] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:35:39,482 - __main__ - INFO - [2017-Aug-03 16:35] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:35:42,897 - __main__ - INFO - [2017-Aug-03 16:35] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:35:42,911 - __main__ - INFO - [2017-Aug-03 16:35] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:35:42,914 - __main__ - INFO - [2017-Aug-03 16:35] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:35:43,170 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:35:43,171 - __main__ - INFO - [2017-Aug-03 16:35] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:35:50,911 - __main__ - INFO - [2017-Aug-03 16:35] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:35:50,925 - __main__ - INFO - [2017-Aug-03 16:35] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:35:50,926 - __main__ - INFO - [2017-Aug-03 16:35] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:35:51,216 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:35:51,217 - __main__ - INFO - [2017-Aug-03 16:35] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:36:26,781 - __main__ - INFO - [2017-Aug-03 16:36] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:36:26,795 - __main__ - INFO - [2017-Aug-03 16:36] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:36:26,796 - __main__ - INFO - [2017-Aug-03 16:36] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:36:27,795 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:36:27,796 - __main__ - INFO - [2017-Aug-03 16:36] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:36:34,332 - __main__ - INFO - [2017-Aug-03 16:36] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:36:34,346 - __main__ - INFO - [2017-Aug-03 16:36] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:36:34,347 - __main__ - INFO - [2017-Aug-03 16:36] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:36:34,618 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:36:34,619 - __main__ - INFO - [2017-Aug-03 16:36] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:36:39,389 - __main__ - INFO - [2017-Aug-03 16:36] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:36:39,402 - __main__ - INFO - [2017-Aug-03 16:36] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:36:39,405 - __main__ - INFO - [2017-Aug-03 16:36] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:36:39,669 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:36:39,669 - __main__ - INFO - [2017-Aug-03 16:36] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:36:41,261 - __main__ - INFO - [2017-Aug-03 16:36] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:36:41,275 - __main__ - INFO - [2017-Aug-03 16:36] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:36:41,279 - __main__ - INFO - [2017-Aug-03 16:36] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:36:41,520 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:36:41,521 - __main__ - INFO - [2017-Aug-03 16:36] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:37:05,987 - __main__ - INFO - [2017-Aug-03 16:37] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:37:06,001 - __main__ - INFO - [2017-Aug-03 16:37] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:37:06,003 - __main__ - INFO - [2017-Aug-03 16:37] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:37:06,954 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:37:06,954 - __main__ - INFO - [2017-Aug-03 16:37] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:37:31,863 - __main__ - INFO - [2017-Aug-03 16:37] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:37:31,879 - __main__ - INFO - [2017-Aug-03 16:37] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:37:31,881 - __main__ - INFO - [2017-Aug-03 16:37] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:37:32,877 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:37:32,877 - __main__ - INFO - [2017-Aug-03 16:37] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:38:48,355 - __main__ - INFO - [2017-Aug-03 16:38] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:38:48,374 - __main__ - INFO - [2017-Aug-03 16:38] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:38:48,376 - __main__ - INFO - [2017-Aug-03 16:38] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:38:49,396 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:38:49,397 - __main__ - INFO - [2017-Aug-03 16:38] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:38:50,302 - __main__ - INFO - [2017-Aug-03 16:38] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:38:50,317 - __main__ - INFO - [2017-Aug-03 16:38] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:38:50,319 - __main__ - INFO - [2017-Aug-03 16:38] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:38:50,631 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:38:50,631 - __main__ - INFO - [2017-Aug-03 16:38] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:39:00,223 - __main__ - INFO - [2017-Aug-03 16:39] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:39:00,241 - __main__ - INFO - [2017-Aug-03 16:39] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:39:00,243 - __main__ - INFO - [2017-Aug-03 16:39] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:39:00,532 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:39:00,532 - __main__ - INFO - [2017-Aug-03 16:39] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:39:06,767 - __main__ - INFO - [2017-Aug-03 16:39] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:39:06,780 - __main__ - INFO - [2017-Aug-03 16:39] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:39:06,782 - __main__ - INFO - [2017-Aug-03 16:39] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:39:07,029 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:39:07,030 - __main__ - INFO - [2017-Aug-03 16:39] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:39:16,790 - __main__ - INFO - [2017-Aug-03 16:39] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:39:16,805 - __main__ - INFO - [2017-Aug-03 16:39] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:39:16,807 - __main__ - INFO - [2017-Aug-03 16:39] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:39:17,761 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:39:17,762 - __main__ - INFO - [2017-Aug-03 16:39] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:39:18,645 - __main__ - INFO - [2017-Aug-03 16:39] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:39:18,659 - __main__ - INFO - [2017-Aug-03 16:39] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:39:18,661 - __main__ - INFO - [2017-Aug-03 16:39] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:39:18,936 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:39:18,937 - __main__ - INFO - [2017-Aug-03 16:39] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:39:49,876 - __main__ - INFO - [2017-Aug-03 16:39] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:39:49,890 - __main__ - INFO - [2017-Aug-03 16:39] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:39:49,892 - __main__ - INFO - [2017-Aug-03 16:39] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:39:50,859 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:39:50,859 - __main__ - INFO - [2017-Aug-03 16:39] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:39:52,191 - __main__ - INFO - [2017-Aug-03 16:39] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:39:52,205 - __main__ - INFO - [2017-Aug-03 16:39] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:39:52,207 - __main__ - INFO - [2017-Aug-03 16:39] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:39:52,511 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:39:52,511 - __main__ - INFO - [2017-Aug-03 16:39] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:40:14,804 - __main__ - INFO - [2017-Aug-03 16:40] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:40:14,822 - __main__ - INFO - [2017-Aug-03 16:40] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:40:14,824 - __main__ - INFO - [2017-Aug-03 16:40] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:40:15,769 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:40:15,770 - __main__ - INFO - [2017-Aug-03 16:40] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:40:17,080 - __main__ - INFO - [2017-Aug-03 16:40] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:40:17,093 - __main__ - INFO - [2017-Aug-03 16:40] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:40:17,095 - __main__ - INFO - [2017-Aug-03 16:40] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:40:17,363 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:40:17,363 - __main__ - INFO - [2017-Aug-03 16:40] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:40:37,411 - __main__ - INFO - [2017-Aug-03 16:40] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:40:37,426 - __main__ - INFO - [2017-Aug-03 16:40] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:40:37,427 - __main__ - INFO - [2017-Aug-03 16:40] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:40:38,458 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:40:38,459 - __main__ - INFO - [2017-Aug-03 16:40] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:40:42,653 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 16:40:43,044 - __main__ - INFO - 	> Application launching just fine.
+2017-08-03 16:40:45,130 - __main__ - INFO - [2017-Aug-03 16:40] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:40:46,242 - __main__ - INFO - [2017-Aug-03 16:40] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:40:46,260 - __main__ - INFO - [2017-Aug-03 16:40] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:40:46,262 - __main__ - INFO - [2017-Aug-03 16:40] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:40:46,568 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:40:46,569 - __main__ - INFO - [2017-Aug-03 16:40] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:40:47,610 - __main__ - INFO - [2017-Aug-03 16:40] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:40:47,625 - __main__ - INFO - [2017-Aug-03 16:40] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:40:47,626 - __main__ - INFO - [2017-Aug-03 16:40] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:40:47,907 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:40:47,907 - __main__ - INFO - [2017-Aug-03 16:40] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:40:48,641 - __main__ - INFO - [2017-Aug-03 16:40] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:40:48,660 - __main__ - INFO - [2017-Aug-03 16:40] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:40:48,662 - __main__ - INFO - [2017-Aug-03 16:40] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:40:48,924 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:40:48,924 - __main__ - INFO - [2017-Aug-03 16:40] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:41:05,411 - __main__ - INFO - [2017-Aug-03 16:41] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:41:05,428 - __main__ - INFO - [2017-Aug-03 16:41] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:41:05,430 - __main__ - INFO - [2017-Aug-03 16:41] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:41:06,418 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:41:06,419 - __main__ - INFO - [2017-Aug-03 16:41] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:41:24,666 - __main__ - INFO - [2017-Aug-03 16:41] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:41:24,682 - __main__ - INFO - [2017-Aug-03 16:41] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:41:24,684 - __main__ - INFO - [2017-Aug-03 16:41] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:41:25,651 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:41:25,651 - __main__ - INFO - [2017-Aug-03 16:41] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:41:55,352 - __main__ - INFO - [2017-Aug-03 16:41] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:41:58,047 - __main__ - INFO - [2017-Aug-03 16:41] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:41:58,061 - __main__ - INFO - [2017-Aug-03 16:41] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:41:58,063 - __main__ - INFO - [2017-Aug-03 16:41] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:41:58,344 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:41:58,344 - __main__ - INFO - [2017-Aug-03 16:41] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:42:05,637 - __main__ - INFO - [2017-Aug-03 16:42] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:42:05,653 - __main__ - INFO - [2017-Aug-03 16:42] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:42:05,654 - __main__ - INFO - [2017-Aug-03 16:42] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:42:05,930 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:42:05,931 - __main__ - INFO - [2017-Aug-03 16:42] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:42:45,759 - __main__ - INFO - [2017-Aug-03 16:42] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:42:45,777 - __main__ - INFO - [2017-Aug-03 16:42] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:42:45,778 - __main__ - INFO - [2017-Aug-03 16:42] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:42:46,804 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:42:46,804 - __main__ - INFO - [2017-Aug-03 16:42] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:43:01,223 - __main__ - INFO - [2017-Aug-03 16:43] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:43:01,237 - __main__ - INFO - [2017-Aug-03 16:43] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:43:01,239 - __main__ - INFO - [2017-Aug-03 16:43] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:43:02,210 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:43:02,210 - __main__ - INFO - [2017-Aug-03 16:43] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:43:20,440 - __main__ - INFO - [2017-Aug-03 16:43] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:43:20,453 - __main__ - INFO - [2017-Aug-03 16:43] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:43:20,455 - __main__ - INFO - [2017-Aug-03 16:43] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:43:21,444 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:43:21,444 - __main__ - INFO - [2017-Aug-03 16:43] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:44:20,596 - __main__ - INFO - [2017-Aug-03 16:44] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:44:20,614 - __main__ - INFO - [2017-Aug-03 16:44] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:44:20,616 - __main__ - INFO - [2017-Aug-03 16:44] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:44:21,611 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:44:21,611 - __main__ - INFO - [2017-Aug-03 16:44] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:44:23,269 - __main__ - INFO - [2017-Aug-03 16:44] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:44:30,262 - __main__ - INFO - [2017-Aug-03 16:44] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:44:30,277 - __main__ - INFO - [2017-Aug-03 16:44] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:44:30,279 - __main__ - INFO - [2017-Aug-03 16:44] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:44:30,547 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:44:30,548 - __main__ - INFO - [2017-Aug-03 16:44] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:44:52,223 - __main__ - INFO - [2017-Aug-03 16:44] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:44:52,238 - __main__ - INFO - [2017-Aug-03 16:44] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:44:52,239 - __main__ - INFO - [2017-Aug-03 16:44] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:44:53,256 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:44:53,256 - __main__ - INFO - [2017-Aug-03 16:44] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:44:58,807 - __main__ - INFO - [2017-Aug-03 16:44] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:44:58,821 - __main__ - INFO - [2017-Aug-03 16:44] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:44:58,823 - __main__ - INFO - [2017-Aug-03 16:44] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:44:59,097 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:44:59,097 - __main__ - INFO - [2017-Aug-03 16:44] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:45:00,347 - __main__ - INFO - [2017-Aug-03 16:45] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:45:00,360 - __main__ - INFO - [2017-Aug-03 16:45] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:45:00,363 - __main__ - INFO - [2017-Aug-03 16:45] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:45:00,627 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:45:00,628 - __main__ - INFO - [2017-Aug-03 16:45] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:45:12,892 - __main__ - INFO - [2017-Aug-03 16:45] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:45:12,907 - __main__ - INFO - [2017-Aug-03 16:45] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:45:12,909 - __main__ - INFO - [2017-Aug-03 16:45] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:45:13,875 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:45:13,875 - __main__ - INFO - [2017-Aug-03 16:45] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:45:20,677 - __main__ - INFO - [2017-Aug-03 16:45] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:45:20,691 - __main__ - INFO - [2017-Aug-03 16:45] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:45:20,692 - __main__ - INFO - [2017-Aug-03 16:45] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:45:20,958 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:45:20,959 - __main__ - INFO - [2017-Aug-03 16:45] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:45:33,133 - __main__ - INFO - [2017-Aug-03 16:45] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:45:33,158 - __main__ - INFO - [2017-Aug-03 16:45] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:45:33,161 - __main__ - INFO - [2017-Aug-03 16:45] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:45:34,122 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:45:34,122 - __main__ - INFO - [2017-Aug-03 16:45] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:46:23,634 - __main__ - INFO - [2017-Aug-03 16:46] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:46:24,842 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:46:24,842 - __main__ - INFO - [2017-Aug-03 16:46] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:46:26,286 - __main__ - INFO - [2017-Aug-03 16:46] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:46:26,301 - __main__ - INFO - [2017-Aug-03 16:46] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:46:26,303 - __main__ - INFO - [2017-Aug-03 16:46] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:46:26,790 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:46:26,791 - __main__ - INFO - [2017-Aug-03 16:46] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:46:47,862 - __main__ - INFO - [2017-Aug-03 16:46] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:46:47,897 - __main__ - INFO - [2017-Aug-03 16:46] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:46:47,900 - __main__ - INFO - [2017-Aug-03 16:46] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:46:48,207 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:46:48,207 - __main__ - INFO - [2017-Aug-03 16:46] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:47:45,847 - __main__ - INFO - [2017-Aug-03 16:47] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:47:45,861 - __main__ - INFO - [2017-Aug-03 16:47] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:47:45,862 - __main__ - INFO - [2017-Aug-03 16:47] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:47:46,879 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:47:46,879 - __main__ - INFO - [2017-Aug-03 16:47] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:48:13,149 - __main__ - INFO - [2017-Aug-03 16:48] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:48:13,164 - __main__ - INFO - [2017-Aug-03 16:48] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:48:13,166 - __main__ - INFO - [2017-Aug-03 16:48] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:48:14,170 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:48:14,170 - __main__ - INFO - [2017-Aug-03 16:48] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:49:08,281 - __main__ - INFO - [2017-Aug-03 16:49] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:49:08,296 - __main__ - INFO - [2017-Aug-03 16:49] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:49:08,297 - __main__ - INFO - [2017-Aug-03 16:49] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:49:09,337 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:49:09,337 - __main__ - INFO - [2017-Aug-03 16:49] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:49:23,193 - __main__ - INFO - [2017-Aug-03 16:49] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:49:23,208 - __main__ - INFO - [2017-Aug-03 16:49] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:49:23,210 - __main__ - INFO - [2017-Aug-03 16:49] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:49:24,193 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:49:24,193 - __main__ - INFO - [2017-Aug-03 16:49] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:50:59,560 - __main__ - INFO - [2017-Aug-03 16:50] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:50:59,574 - __main__ - INFO - [2017-Aug-03 16:50] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:50:59,576 - __main__ - INFO - [2017-Aug-03 16:50] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:51:00,571 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:51:00,571 - __main__ - INFO - [2017-Aug-03 16:51] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:51:08,549 - __main__ - INFO - [2017-Aug-03 16:51] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:51:08,562 - __main__ - INFO - [2017-Aug-03 16:51] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:51:08,564 - __main__ - INFO - [2017-Aug-03 16:51] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:51:08,836 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:51:08,837 - __main__ - INFO - [2017-Aug-03 16:51] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:51:24,703 - __main__ - INFO - [2017-Aug-03 16:51] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:51:24,718 - __main__ - INFO - [2017-Aug-03 16:51] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:51:24,720 - __main__ - INFO - [2017-Aug-03 16:51] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:51:25,703 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:51:25,703 - __main__ - INFO - [2017-Aug-03 16:51] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:51:29,708 - __main__ - INFO - [2017-Aug-03 16:51] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:51:29,723 - __main__ - INFO - [2017-Aug-03 16:51] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:51:29,726 - __main__ - INFO - [2017-Aug-03 16:51] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:51:29,999 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:51:30,000 - __main__ - INFO - [2017-Aug-03 16:51] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:51:51,320 - __main__ - INFO - [2017-Aug-03 16:51] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:51:51,335 - __main__ - INFO - [2017-Aug-03 16:51] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:51:51,336 - __main__ - INFO - [2017-Aug-03 16:51] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:51:52,363 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:51:52,363 - __main__ - INFO - [2017-Aug-03 16:51] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:52:08,623 - __main__ - INFO - [2017-Aug-03 16:52] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:52:08,637 - __main__ - INFO - [2017-Aug-03 16:52] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:52:08,639 - __main__ - INFO - [2017-Aug-03 16:52] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:52:09,656 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:52:09,656 - __main__ - INFO - [2017-Aug-03 16:52] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:52:13,975 - __main__ - INFO - [2017-Aug-03 16:52] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:52:13,989 - __main__ - INFO - [2017-Aug-03 16:52] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:52:13,990 - __main__ - INFO - [2017-Aug-03 16:52] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:52:14,254 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:52:14,254 - __main__ - INFO - [2017-Aug-03 16:52] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:52:25,437 - __main__ - INFO - [2017-Aug-03 16:52] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:52:25,451 - __main__ - INFO - [2017-Aug-03 16:52] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:52:25,453 - __main__ - INFO - [2017-Aug-03 16:52] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:52:26,473 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:52:26,474 - __main__ - INFO - [2017-Aug-03 16:52] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:53:05,183 - __main__ - INFO - [2017-Aug-03 16:53] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:53:05,199 - __main__ - INFO - [2017-Aug-03 16:53] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:53:05,200 - __main__ - INFO - [2017-Aug-03 16:53] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:53:06,205 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:53:06,206 - __main__ - INFO - [2017-Aug-03 16:53] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:53:27,301 - __main__ - INFO - [2017-Aug-03 16:53] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:53:27,315 - __main__ - INFO - [2017-Aug-03 16:53] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:53:27,317 - __main__ - INFO - [2017-Aug-03 16:53] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:53:28,335 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:53:28,336 - __main__ - INFO - [2017-Aug-03 16:53] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:53:45,253 - __main__ - INFO - [2017-Aug-03 16:53] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:53:45,267 - __main__ - INFO - [2017-Aug-03 16:53] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:53:45,269 - __main__ - INFO - [2017-Aug-03 16:53] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:53:46,254 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:53:46,254 - __main__ - INFO - [2017-Aug-03 16:53] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:54:23,226 - __main__ - INFO - [2017-Aug-03 16:54] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:54:23,241 - __main__ - INFO - [2017-Aug-03 16:54] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:54:23,243 - __main__ - INFO - [2017-Aug-03 16:54] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:54:24,269 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:54:24,269 - __main__ - INFO - [2017-Aug-03 16:54] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:54:52,584 - __main__ - INFO - [2017-Aug-03 16:54] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:54:52,600 - __main__ - INFO - [2017-Aug-03 16:54] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:54:52,601 - __main__ - INFO - [2017-Aug-03 16:54] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:54:53,654 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:54:53,654 - __main__ - INFO - [2017-Aug-03 16:54] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:55:04,622 - __main__ - INFO - [2017-Aug-03 16:55] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:55:04,639 - __main__ - INFO - [2017-Aug-03 16:55] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:55:04,641 - __main__ - INFO - [2017-Aug-03 16:55] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:55:05,625 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:55:05,625 - __main__ - INFO - [2017-Aug-03 16:55] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:55:26,906 - __main__ - INFO - [2017-Aug-03 16:55] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:55:26,920 - __main__ - INFO - [2017-Aug-03 16:55] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:55:26,922 - __main__ - INFO - [2017-Aug-03 16:55] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:55:27,911 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:55:27,911 - __main__ - INFO - [2017-Aug-03 16:55] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:56:04,347 - __main__ - INFO - [2017-Aug-03 16:56] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:56:04,366 - __main__ - INFO - [2017-Aug-03 16:56] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:56:04,368 - __main__ - INFO - [2017-Aug-03 16:56] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:56:05,354 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:56:05,355 - __main__ - INFO - [2017-Aug-03 16:56] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:56:23,459 - __main__ - INFO - [2017-Aug-03 16:56] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:56:23,476 - __main__ - INFO - [2017-Aug-03 16:56] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:56:23,479 - __main__ - INFO - [2017-Aug-03 16:56] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:56:24,465 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:56:24,466 - __main__ - INFO - [2017-Aug-03 16:56] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:56:31,519 - __main__ - INFO - [2017-Aug-03 16:56] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:56:31,540 - __main__ - INFO - [2017-Aug-03 16:56] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:56:31,543 - __main__ - INFO - [2017-Aug-03 16:56] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:56:31,826 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:56:31,826 - __main__ - INFO - [2017-Aug-03 16:56] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 16:56:43,578 - __main__ - INFO - [2017-Aug-03 16:56] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 16:56:43,593 - __main__ - INFO - [2017-Aug-03 16:56] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 16:56:43,595 - __main__ - INFO - [2017-Aug-03 16:56] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 16:56:44,633 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 16:56:44,634 - __main__ - INFO - [2017-Aug-03 16:56] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 17:05:05,084 - __main__ - INFO - [2017-Aug-03 17:05] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 17:05:05,098 - __main__ - INFO - [2017-Aug-03 17:05] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 17:05:05,100 - __main__ - INFO - [2017-Aug-03 17:05] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 17:05:06,090 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 17:05:06,091 - __main__ - INFO - [2017-Aug-03 17:05] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 17:12:30,390 - __main__ - INFO - [2017-Aug-03 17:12] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 17:12:30,404 - __main__ - INFO - [2017-Aug-03 17:12] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 17:12:30,406 - __main__ - INFO - [2017-Aug-03 17:12] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 17:12:31,401 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 17:12:31,401 - __main__ - INFO - [2017-Aug-03 17:12] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 17:12:59,445 - __main__ - INFO - [2017-Aug-03 17:12] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 17:12:59,459 - __main__ - INFO - [2017-Aug-03 17:12] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 17:12:59,461 - __main__ - INFO - [2017-Aug-03 17:12] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 17:13:00,500 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 17:13:00,501 - __main__ - INFO - [2017-Aug-03 17:13] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 17:13:28,401 - __main__ - INFO - [2017-Aug-03 17:13] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 17:13:28,416 - __main__ - INFO - [2017-Aug-03 17:13] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 17:13:28,418 - __main__ - INFO - [2017-Aug-03 17:13] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 17:13:29,421 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 17:13:29,422 - __main__ - INFO - [2017-Aug-03 17:13] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 17:13:45,058 - __main__ - INFO - [2017-Aug-03 17:13] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 17:13:45,072 - __main__ - INFO - [2017-Aug-03 17:13] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 17:13:45,074 - __main__ - INFO - [2017-Aug-03 17:13] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 17:13:46,081 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 17:13:46,081 - __main__ - INFO - [2017-Aug-03 17:13] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 17:14:10,525 - __main__ - INFO - [2017-Aug-03 17:14] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 17:14:10,539 - __main__ - INFO - [2017-Aug-03 17:14] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 17:14:10,540 - __main__ - INFO - [2017-Aug-03 17:14] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 17:14:11,588 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 17:14:11,589 - __main__ - INFO - [2017-Aug-03 17:14] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-03 17:14:31,178 - __main__ - INFO - [2017-Aug-03 17:14] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-03 17:14:31,193 - __main__ - INFO - [2017-Aug-03 17:14] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-03 17:14:31,194 - __main__ - INFO - [2017-Aug-03 17:14] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-03 17:14:32,183 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-03 17:14:32,183 - __main__ - INFO - [2017-Aug-03 17:14] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-04 08:52:45,528 - __main__ - INFO - [2017-Aug-04 08:52] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 10:20:12,332 - __main__ - INFO - [2017-Aug-04 10:20] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 10:20:12,353 - __main__ - INFO - [2017-Aug-04 10:20] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 10:20:12,355 - __main__ - INFO - [2017-Aug-04 10:20] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 10:20:13,409 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-04 10:20:13,410 - __main__ - INFO - [2017-Aug-04 10:20] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-04 10:28:13,600 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 10:28:13,980 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 10:28:16,122 - __main__ - INFO - [2017-Aug-04 10:28] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 10:28:16,140 - __main__ - INFO - [2017-Aug-04 10:28] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 10:28:16,142 - __main__ - INFO - [2017-Aug-04 10:28] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 10:28:16,144 - __main__ - INFO - [2017-Aug-04 10:28] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 10:28:17,122 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-04 10:28:17,123 - __main__ - INFO - [2017-Aug-04 10:28] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-04 10:34:29,354 - __main__ - INFO - [2017-Aug-04 10:34] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 10:34:29,370 - __main__ - INFO - [2017-Aug-04 10:34] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 10:34:29,372 - __main__ - INFO - [2017-Aug-04 10:34] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 10:34:29,373 - __main__ - INFO - [2017-Aug-04 10:34] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 10:34:30,411 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-04 10:34:30,412 - __main__ - INFO - [2017-Aug-04 10:34] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-04 10:35:14,097 - __main__ - INFO - [2017-Aug-04 10:35] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 10:35:14,111 - __main__ - INFO - [2017-Aug-04 10:35] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 10:35:14,113 - __main__ - INFO - [2017-Aug-04 10:35] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 10:35:14,114 - __main__ - INFO - [2017-Aug-04 10:35] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 10:35:15,147 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-04 10:35:15,148 - __main__ - INFO - [2017-Aug-04 10:35] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-04 10:36:26,673 - __main__ - INFO - [2017-Aug-04 10:36] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 10:36:26,698 - __main__ - INFO - [2017-Aug-04 10:36] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 10:36:26,701 - __main__ - INFO - [2017-Aug-04 10:36] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 10:36:26,703 - __main__ - INFO - [2017-Aug-04 10:36] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 10:36:39,863 - __main__ - INFO - [2017-Aug-04 10:36] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 10:36:39,882 - __main__ - INFO - [2017-Aug-04 10:36] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 10:36:39,884 - __main__ - INFO - [2017-Aug-04 10:36] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 10:36:39,886 - __main__ - INFO - [2017-Aug-04 10:36] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 10:37:20,385 - __main__ - INFO - [2017-Aug-04 10:37] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 10:37:20,404 - __main__ - INFO - [2017-Aug-04 10:37] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 10:37:20,409 - __main__ - INFO - [2017-Aug-04 10:37] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 10:37:20,411 - __main__ - INFO - [2017-Aug-04 10:37] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 10:37:28,469 - __main__ - INFO - [2017-Aug-04 10:37] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 10:37:28,487 - __main__ - INFO - [2017-Aug-04 10:37] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 10:37:28,489 - __main__ - INFO - [2017-Aug-04 10:37] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 10:37:28,491 - __main__ - INFO - [2017-Aug-04 10:37] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 10:37:38,773 - __main__ - INFO - [2017-Aug-04 10:37] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 10:37:38,797 - __main__ - INFO - [2017-Aug-04 10:37] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 10:37:38,798 - __main__ - INFO - [2017-Aug-04 10:37] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 10:37:38,800 - __main__ - INFO - [2017-Aug-04 10:37] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 10:48:58,929 - __main__ - INFO - [2017-Aug-04 10:48] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 10:48:58,949 - __main__ - INFO - [2017-Aug-04 10:48] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 10:48:58,952 - __main__ - INFO - [2017-Aug-04 10:48] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 10:48:58,953 - __main__ - INFO - [2017-Aug-04 10:48] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 10:49:00,000 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-04 10:49:00,000 - __main__ - INFO - [2017-Aug-04 10:49] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-04 10:49:01,358 - __main__ - INFO - [2017-Aug-04 10:49] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 10:49:01,371 - __main__ - INFO - [2017-Aug-04 10:49] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 10:49:01,373 - __main__ - INFO - [2017-Aug-04 10:49] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 10:49:01,375 - __main__ - INFO - [2017-Aug-04 10:49] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 10:49:01,659 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-04 10:49:01,660 - __main__ - INFO - [2017-Aug-04 10:49] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-04 10:49:09,659 - __main__ - INFO - [2017-Aug-04 10:49] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 10:49:09,672 - __main__ - INFO - [2017-Aug-04 10:49] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 10:49:09,674 - __main__ - INFO - [2017-Aug-04 10:49] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 10:49:09,675 - __main__ - INFO - [2017-Aug-04 10:49] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 10:49:09,977 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-04 10:49:09,978 - __main__ - INFO - [2017-Aug-04 10:49] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-04 10:49:11,272 - __main__ - INFO - [2017-Aug-04 10:49] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 10:49:11,286 - __main__ - INFO - [2017-Aug-04 10:49] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 10:49:11,288 - __main__ - INFO - [2017-Aug-04 10:49] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 10:49:11,289 - __main__ - INFO - [2017-Aug-04 10:49] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 10:49:11,552 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-04 10:49:11,553 - __main__ - INFO - [2017-Aug-04 10:49] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-04 10:50:14,297 - __main__ - INFO - [2017-Aug-04 10:50] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 10:50:14,312 - __main__ - INFO - [2017-Aug-04 10:50] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 10:50:14,315 - __main__ - INFO - [2017-Aug-04 10:50] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 10:50:14,317 - __main__ - INFO - [2017-Aug-04 10:50] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 10:50:15,426 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-04 10:50:15,426 - __main__ - INFO - [2017-Aug-04 10:50] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-04 10:50:24,109 - __main__ - INFO - [2017-Aug-04 10:50] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 10:50:24,129 - __main__ - INFO - [2017-Aug-04 10:50] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 10:50:24,131 - __main__ - INFO - [2017-Aug-04 10:50] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 10:50:24,133 - __main__ - INFO - [2017-Aug-04 10:50] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 10:50:25,166 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-04 10:50:25,167 - __main__ - INFO - [2017-Aug-04 10:50] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-04 10:51:39,463 - __main__ - INFO - [2017-Aug-04 10:51] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 10:51:39,477 - __main__ - INFO - [2017-Aug-04 10:51] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 10:51:39,479 - __main__ - INFO - [2017-Aug-04 10:51] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 10:51:39,481 - __main__ - INFO - [2017-Aug-04 10:51] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 10:51:40,496 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-04 10:51:40,497 - __main__ - INFO - [2017-Aug-04 10:51] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-04 10:51:46,906 - __main__ - INFO - [2017-Aug-04 10:51] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 10:51:46,919 - __main__ - INFO - [2017-Aug-04 10:51] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 10:51:46,921 - __main__ - INFO - [2017-Aug-04 10:51] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 10:51:46,922 - __main__ - INFO - [2017-Aug-04 10:51] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 10:51:47,273 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-04 10:51:47,274 - __main__ - INFO - [2017-Aug-04 10:51] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-04 10:53:06,619 - __main__ - INFO - [2017-Aug-04 10:53] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 10:53:06,634 - __main__ - INFO - [2017-Aug-04 10:53] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 10:53:06,636 - __main__ - INFO - [2017-Aug-04 10:53] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 10:53:06,637 - __main__ - INFO - [2017-Aug-04 10:53] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 10:53:08,636 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-04 10:53:08,637 - __main__ - INFO - [2017-Aug-04 10:53] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-04 10:53:09,567 - __main__ - INFO - [2017-Aug-04 10:53] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 10:53:09,582 - __main__ - INFO - [2017-Aug-04 10:53] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 10:53:09,584 - __main__ - INFO - [2017-Aug-04 10:53] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 10:53:09,586 - __main__ - INFO - [2017-Aug-04 10:53] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 10:53:09,924 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-04 10:53:09,924 - __main__ - INFO - [2017-Aug-04 10:53] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-04 10:54:00,608 - __main__ - INFO - [2017-Aug-04 10:54] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 10:54:00,623 - __main__ - INFO - [2017-Aug-04 10:54] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 10:54:00,625 - __main__ - INFO - [2017-Aug-04 10:54] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 10:54:00,626 - __main__ - INFO - [2017-Aug-04 10:54] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 10:54:01,729 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-04 10:54:01,730 - __main__ - INFO - [2017-Aug-04 10:54] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-04 10:54:12,979 - __main__ - ERROR - Page not found: /api/stocks/
+2017-08-04 10:54:12,980 - __main__ - INFO - [2017-Aug-04 10:54] - 127.0.0.1 - GET - http - /api/stocks/? - 404 NOT FOUND
+2017-08-04 11:25:50,352 - __main__ - INFO - [2017-Aug-04 11:25] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 11:25:50,368 - __main__ - INFO - [2017-Aug-04 11:25] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 11:25:50,371 - __main__ - INFO - [2017-Aug-04 11:25] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 11:25:50,373 - __main__ - INFO - [2017-Aug-04 11:25] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 11:25:51,439 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-04 11:25:51,440 - __main__ - INFO - [2017-Aug-04 11:25] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-04 12:29:58,803 - __main__ - INFO - [2017-Aug-04 12:29] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 12:29:58,819 - __main__ - INFO - [2017-Aug-04 12:29] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 12:29:58,822 - __main__ - INFO - [2017-Aug-04 12:29] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 12:29:58,824 - __main__ - INFO - [2017-Aug-04 12:29] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 12:29:59,984 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-04 12:29:59,985 - __main__ - INFO - [2017-Aug-04 12:29] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-04 12:37:48,630 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 12:37:49,017 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 12:37:53,974 - __main__ - INFO - [2017-Aug-04 12:37] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 12:37:53,987 - __main__ - INFO - [2017-Aug-04 12:37] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 12:37:53,990 - __main__ - INFO - [2017-Aug-04 12:37] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 12:37:53,991 - __main__ - INFO - [2017-Aug-04 12:37] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 12:37:54,978 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-04 12:37:54,979 - __main__ - INFO - [2017-Aug-04 12:37] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-04 12:38:22,905 - __main__ - INFO - [2017-Aug-04 12:38] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 12:38:22,920 - __main__ - INFO - [2017-Aug-04 12:38] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 12:38:22,922 - __main__ - INFO - [2017-Aug-04 12:38] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 12:38:22,924 - __main__ - INFO - [2017-Aug-04 12:38] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 12:38:24,004 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-04 12:38:24,005 - __main__ - INFO - [2017-Aug-04 12:38] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-04 12:39:34,919 - __main__ - INFO - [2017-Aug-04 12:39] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 12:39:34,939 - __main__ - INFO - [2017-Aug-04 12:39] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 12:39:34,943 - __main__ - INFO - [2017-Aug-04 12:39] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 12:39:34,944 - __main__ - INFO - [2017-Aug-04 12:39] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 12:39:36,019 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-04 12:39:36,019 - __main__ - INFO - [2017-Aug-04 12:39] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-04 12:40:42,663 - __main__ - INFO - [2017-Aug-04 12:40] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 12:40:42,680 - __main__ - INFO - [2017-Aug-04 12:40] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 12:40:42,682 - __main__ - INFO - [2017-Aug-04 12:40] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 12:40:42,684 - __main__ - INFO - [2017-Aug-04 12:40] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 12:40:43,742 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-04 12:40:43,743 - __main__ - INFO - [2017-Aug-04 12:40] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-04 12:41:24,960 - __main__ - INFO - [2017-Aug-04 12:41] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 12:41:24,974 - __main__ - INFO - [2017-Aug-04 12:41] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 12:41:24,976 - __main__ - INFO - [2017-Aug-04 12:41] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 12:41:24,978 - __main__ - INFO - [2017-Aug-04 12:41] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 12:41:26,046 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-04 12:41:26,046 - __main__ - INFO - [2017-Aug-04 12:41] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-04 12:41:40,463 - __main__ - INFO - [2017-Aug-04 12:41] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 12:41:40,478 - __main__ - INFO - [2017-Aug-04 12:41] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 12:41:40,479 - __main__ - INFO - [2017-Aug-04 12:41] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 12:41:40,481 - __main__ - INFO - [2017-Aug-04 12:41] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 12:41:41,512 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-04 12:41:41,512 - __main__ - INFO - [2017-Aug-04 12:41] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-04 12:42:07,185 - __main__ - INFO - [2017-Aug-04 12:42] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 12:42:07,201 - __main__ - INFO - [2017-Aug-04 12:42] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 12:42:07,202 - __main__ - INFO - [2017-Aug-04 12:42] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 12:42:07,204 - __main__ - INFO - [2017-Aug-04 12:42] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 12:42:08,270 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-04 12:42:08,271 - __main__ - INFO - [2017-Aug-04 12:42] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-04 12:42:12,108 - __main__ - INFO - [2017-Aug-04 12:42] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 12:42:12,124 - __main__ - INFO - [2017-Aug-04 12:42] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 12:42:12,128 - __main__ - INFO - [2017-Aug-04 12:42] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 12:42:12,129 - __main__ - INFO - [2017-Aug-04 12:42] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 12:42:12,511 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-04 12:42:12,512 - __main__ - INFO - [2017-Aug-04 12:42] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-04 12:42:34,277 - __main__ - INFO - [2017-Aug-04 12:42] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 12:42:34,294 - __main__ - INFO - [2017-Aug-04 12:42] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 12:42:34,296 - __main__ - INFO - [2017-Aug-04 12:42] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 12:42:34,298 - __main__ - INFO - [2017-Aug-04 12:42] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 12:42:35,407 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-04 12:42:35,407 - __main__ - INFO - [2017-Aug-04 12:42] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-04 12:42:49,394 - __main__ - INFO - [2017-Aug-04 12:42] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 12:42:49,416 - __main__ - INFO - [2017-Aug-04 12:42] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 12:42:49,419 - __main__ - INFO - [2017-Aug-04 12:42] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 12:42:49,421 - __main__ - INFO - [2017-Aug-04 12:42] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 12:42:50,425 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-04 12:42:50,425 - __main__ - INFO - [2017-Aug-04 12:42] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-04 12:43:12,579 - __main__ - INFO - [2017-Aug-04 12:43] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 12:43:12,594 - __main__ - INFO - [2017-Aug-04 12:43] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 12:43:12,595 - __main__ - INFO - [2017-Aug-04 12:43] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 12:43:12,597 - __main__ - INFO - [2017-Aug-04 12:43] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 12:43:13,665 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-04 12:43:13,665 - __main__ - INFO - [2017-Aug-04 12:43] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-04 12:44:12,495 - __main__ - INFO - [2017-Aug-04 12:44] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 12:44:12,517 - __main__ - INFO - [2017-Aug-04 12:44] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 12:44:12,537 - __main__ - INFO - [2017-Aug-04 12:44] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 12:44:12,539 - __main__ - INFO - [2017-Aug-04 12:44] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 12:44:16,985 - __main__ - ERROR - Page not found: /api/stocks/GOOGL
+2017-08-04 12:44:16,986 - __main__ - INFO - [2017-Aug-04 12:44] - 127.0.0.1 - GET - http - /api/stocks/GOOGL? - 404 NOT FOUND
+2017-08-04 12:44:30,232 - __main__ - ERROR - Page not found: /api/stocks/GOOGL
+2017-08-04 12:44:30,232 - __main__ - INFO - [2017-Aug-04 12:44] - 127.0.0.1 - GET - http - /api/stocks/GOOGL? - 404 NOT FOUND
+2017-08-04 12:44:36,681 - __main__ - INFO - [2017-Aug-04 12:44] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:44:42,375 - __main__ - INFO - [2017-Aug-04 12:44] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 12:44:42,400 - __main__ - INFO - [2017-Aug-04 12:44] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 12:44:42,403 - __main__ - INFO - [2017-Aug-04 12:44] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 12:44:42,405 - __main__ - INFO - [2017-Aug-04 12:44] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 12:44:45,490 - __main__ - INFO - [2017-Aug-04 12:44] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:44:50,066 - __main__ - INFO - [2017-Aug-04 12:44] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:45:29,801 - __main__ - INFO - [2017-Aug-04 12:45] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:45:30,819 - __main__ - INFO - [2017-Aug-04 12:45] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:45:33,814 - __main__ - INFO - [2017-Aug-04 12:45] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:45:34,073 - __main__ - INFO - [2017-Aug-04 12:45] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:45:34,234 - __main__ - INFO - [2017-Aug-04 12:45] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:45:34,750 - __main__ - INFO - [2017-Aug-04 12:45] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:45:34,948 - __main__ - INFO - [2017-Aug-04 12:45] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:45:35,243 - __main__ - INFO - [2017-Aug-04 12:45] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:45:35,422 - __main__ - INFO - [2017-Aug-04 12:45] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:45:35,588 - __main__ - INFO - [2017-Aug-04 12:45] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:45:35,902 - __main__ - INFO - [2017-Aug-04 12:45] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:45:36,084 - __main__ - INFO - [2017-Aug-04 12:45] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:45:36,251 - __main__ - INFO - [2017-Aug-04 12:45] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:45:36,452 - __main__ - INFO - [2017-Aug-04 12:45] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:46:52,665 - __main__ - INFO - [2017-Aug-04 12:46] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 12:46:52,683 - __main__ - INFO - [2017-Aug-04 12:46] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 12:46:52,684 - __main__ - INFO - [2017-Aug-04 12:46] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 12:46:52,687 - __main__ - INFO - [2017-Aug-04 12:46] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 12:46:53,792 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-04 12:46:53,793 - __main__ - INFO - [2017-Aug-04 12:46] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-04 12:47:18,921 - __main__ - INFO - [2017-Aug-04 12:47] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:47:20,216 - __main__ - INFO - [2017-Aug-04 12:47] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:47:30,070 - __main__ - INFO - [2017-Aug-04 12:47] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:48:27,277 - __main__ - INFO - [2017-Aug-04 12:48] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 12:48:27,297 - __main__ - INFO - [2017-Aug-04 12:48] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 12:48:27,301 - __main__ - INFO - [2017-Aug-04 12:48] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 12:48:27,302 - __main__ - INFO - [2017-Aug-04 12:48] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 12:48:28,394 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-04 12:48:28,394 - __main__ - INFO - [2017-Aug-04 12:48] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-04 12:48:32,158 - __main__ - INFO - [2017-Aug-04 12:48] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:49:08,446 - __main__ - INFO - [2017-Aug-04 12:49] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 12:49:08,460 - __main__ - INFO - [2017-Aug-04 12:49] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 12:49:08,462 - __main__ - INFO - [2017-Aug-04 12:49] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 12:49:08,463 - __main__ - INFO - [2017-Aug-04 12:49] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 12:49:09,525 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-04 12:49:09,526 - __main__ - INFO - [2017-Aug-04 12:49] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-04 12:49:13,041 - __main__ - INFO - [2017-Aug-04 12:49] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:50:17,598 - __main__ - INFO - [2017-Aug-04 12:50] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 12:50:17,614 - __main__ - INFO - [2017-Aug-04 12:50] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 12:50:17,618 - __main__ - INFO - [2017-Aug-04 12:50] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 12:50:17,620 - __main__ - INFO - [2017-Aug-04 12:50] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 12:50:18,703 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-04 12:50:18,703 - __main__ - INFO - [2017-Aug-04 12:50] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-04 12:50:34,428 - __main__ - INFO - [2017-Aug-04 12:50] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:50:34,430 - __main__ - INFO - [2017-Aug-04 12:50] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 12:50:36,798 - __main__ - INFO - [2017-Aug-04 12:50] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 12:50:36,799 - __main__ - INFO - [2017-Aug-04 12:50] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 12:50:36,800 - __main__ - INFO - [2017-Aug-04 12:50] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 12:50:37,860 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-04 12:50:37,860 - __main__ - INFO - [2017-Aug-04 12:50] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-04 12:51:04,353 - __main__ - INFO - [2017-Aug-04 12:51] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:51:04,356 - __main__ - INFO - [2017-Aug-04 12:51] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 12:51:05,568 - __main__ - INFO - [2017-Aug-04 12:51] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 12:51:05,570 - __main__ - INFO - [2017-Aug-04 12:51] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 12:51:05,571 - __main__ - INFO - [2017-Aug-04 12:51] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 12:51:06,664 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-04 12:51:06,664 - __main__ - INFO - [2017-Aug-04 12:51] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-04 12:52:27,858 - __main__ - INFO - [2017-Aug-04 12:52] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:53:05,597 - __main__ - INFO - [2017-Aug-04 12:53] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 12:53:05,611 - __main__ - INFO - [2017-Aug-04 12:53] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 12:53:05,613 - __main__ - INFO - [2017-Aug-04 12:53] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 12:53:05,615 - __main__ - INFO - [2017-Aug-04 12:53] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 12:53:06,710 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-04 12:53:06,710 - __main__ - INFO - [2017-Aug-04 12:53] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-04 12:54:25,330 - __main__ - INFO - [2017-Aug-04 12:54] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:54:25,332 - __main__ - INFO - [2017-Aug-04 12:54] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 12:54:26,827 - __main__ - INFO - [2017-Aug-04 12:54] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 12:54:26,829 - __main__ - INFO - [2017-Aug-04 12:54] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 12:54:26,830 - __main__ - INFO - [2017-Aug-04 12:54] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 12:54:27,930 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-04 12:54:27,930 - __main__ - INFO - [2017-Aug-04 12:54] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-04 12:54:39,695 - __main__ - INFO - [2017-Aug-04 12:54] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:54:51,294 - __main__ - ERROR - Page not found: /api/stock/
+2017-08-04 12:54:51,294 - __main__ - INFO - [2017-Aug-04 12:54] - 127.0.0.1 - GET - http - /api/stock/? - 404 NOT FOUND
+2017-08-04 12:54:55,019 - __main__ - INFO - [2017-Aug-04 12:54] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:55:08,738 - __main__ - INFO - [2017-Aug-04 12:55] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:55:10,413 - __main__ - INFO - [2017-Aug-04 12:55] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:55:10,564 - __main__ - INFO - [2017-Aug-04 12:55] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:55:10,732 - __main__ - INFO - [2017-Aug-04 12:55] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:55:10,931 - __main__ - INFO - [2017-Aug-04 12:55] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:55:11,073 - __main__ - INFO - [2017-Aug-04 12:55] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:55:11,253 - __main__ - INFO - [2017-Aug-04 12:55] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:55:11,422 - __main__ - INFO - [2017-Aug-04 12:55] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:55:11,591 - __main__ - INFO - [2017-Aug-04 12:55] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:55:11,777 - __main__ - INFO - [2017-Aug-04 12:55] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:55:11,949 - __main__ - INFO - [2017-Aug-04 12:55] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:55:12,143 - __main__ - INFO - [2017-Aug-04 12:55] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:55:12,293 - __main__ - INFO - [2017-Aug-04 12:55] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:55:12,448 - __main__ - INFO - [2017-Aug-04 12:55] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:55:12,628 - __main__ - INFO - [2017-Aug-04 12:55] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:55:12,811 - __main__ - INFO - [2017-Aug-04 12:55] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:55:12,990 - __main__ - INFO - [2017-Aug-04 12:55] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:55:13,164 - __main__ - INFO - [2017-Aug-04 12:55] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:55:13,328 - __main__ - INFO - [2017-Aug-04 12:55] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:55:13,485 - __main__ - INFO - [2017-Aug-04 12:55] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:55:13,679 - __main__ - INFO - [2017-Aug-04 12:55] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:55:13,851 - __main__ - INFO - [2017-Aug-04 12:55] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:55:14,024 - __main__ - INFO - [2017-Aug-04 12:55] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:55:14,218 - __main__ - INFO - [2017-Aug-04 12:55] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:55:14,407 - __main__ - INFO - [2017-Aug-04 12:55] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:55:14,629 - __main__ - INFO - [2017-Aug-04 12:55] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:55:14,763 - __main__ - INFO - [2017-Aug-04 12:55] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:55:14,949 - __main__ - INFO - [2017-Aug-04 12:55] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:55:15,280 - __main__ - INFO - [2017-Aug-04 12:55] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:55:15,506 - __main__ - INFO - [2017-Aug-04 12:55] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:57:54,453 - __main__ - INFO - [2017-Aug-04 12:57] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 12:57:54,479 - __main__ - INFO - [2017-Aug-04 12:57] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 12:57:54,481 - __main__ - INFO - [2017-Aug-04 12:57] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 12:57:54,483 - __main__ - INFO - [2017-Aug-04 12:57] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 12:57:57,869 - __main__ - INFO - [2017-Aug-04 12:57] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 12:58:53,484 - __main__ - INFO - [2017-Aug-04 12:58] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 12:58:53,505 - __main__ - INFO - [2017-Aug-04 12:58] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 12:58:53,508 - __main__ - INFO - [2017-Aug-04 12:58] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 12:58:53,509 - __main__ - INFO - [2017-Aug-04 12:58] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 12:58:57,521 - __main__ - INFO - [2017-Aug-04 12:58] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 13:00:02,865 - __main__ - INFO - [2017-Aug-04 13:00] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 13:00:02,887 - __main__ - INFO - [2017-Aug-04 13:00] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 13:00:02,890 - __main__ - INFO - [2017-Aug-04 13:00] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 13:00:02,891 - __main__ - INFO - [2017-Aug-04 13:00] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 13:00:07,314 - __main__ - INFO - [2017-Aug-04 13:00] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 13:00:13,530 - __main__ - INFO - [2017-Aug-04 13:00] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 13:00:13,551 - __main__ - INFO - [2017-Aug-04 13:00] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 13:00:13,553 - __main__ - INFO - [2017-Aug-04 13:00] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 13:00:13,555 - __main__ - INFO - [2017-Aug-04 13:00] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 13:00:17,817 - __main__ - INFO - [2017-Aug-04 13:00] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 13:00:27,223 - __main__ - INFO - [2017-Aug-04 13:00] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 13:00:27,248 - __main__ - INFO - [2017-Aug-04 13:00] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 13:00:27,250 - __main__ - INFO - [2017-Aug-04 13:00] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 13:00:27,251 - __main__ - INFO - [2017-Aug-04 13:00] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 13:00:32,457 - __main__ - INFO - [2017-Aug-04 13:00] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 13:01:05,195 - __main__ - INFO - [2017-Aug-04 13:01] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 13:01:05,220 - __main__ - INFO - [2017-Aug-04 13:01] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 13:01:05,223 - __main__ - INFO - [2017-Aug-04 13:01] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 13:01:05,224 - __main__ - INFO - [2017-Aug-04 13:01] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 13:01:09,992 - __main__ - INFO - [2017-Aug-04 13:01] - 127.0.0.1 - GET - http - /api/stock/asdf? - 200 OK
+2017-08-04 13:01:34,662 - __main__ - INFO - [2017-Aug-04 13:01] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 13:26:43,721 - __main__ - INFO - [2017-Aug-04 13:26] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 13:26:45,663 - __main__ - INFO - [2017-Aug-04 13:26] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 13:26:45,676 - __main__ - INFO - [2017-Aug-04 13:26] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 13:26:45,679 - __main__ - INFO - [2017-Aug-04 13:26] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 13:26:45,680 - __main__ - INFO - [2017-Aug-04 13:26] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 13:26:47,066 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-04 13:26:47,066 - __main__ - INFO - [2017-Aug-04 13:26] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-04 13:27:55,198 - __main__ - INFO - [2017-Aug-04 13:27] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 13:27:55,215 - __main__ - INFO - [2017-Aug-04 13:27] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 13:27:55,217 - __main__ - INFO - [2017-Aug-04 13:27] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 13:27:55,219 - __main__ - INFO - [2017-Aug-04 13:27] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 13:27:56,306 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-04 13:27:56,306 - __main__ - INFO - [2017-Aug-04 13:27] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-04 13:30:13,441 - __main__ - INFO - [2017-Aug-04 13:30] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-04 13:30:13,457 - __main__ - INFO - [2017-Aug-04 13:30] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-04 13:30:13,460 - __main__ - INFO - [2017-Aug-04 13:30] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-04 13:30:13,462 - __main__ - INFO - [2017-Aug-04 13:30] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-04 13:30:14,539 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-04 13:30:14,539 - __main__ - INFO - [2017-Aug-04 13:30] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-04 13:32:46,289 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 13:42:51,495 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 13:42:51,906 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 13:43:07,107 - __main__ - INFO - [2017-Aug-04 13:43] - 127.0.0.1 - GET - http - /api/stock/GOOGL/historical? - 400 BAD REQUEST
+2017-08-04 13:44:00,905 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 13:44:24,063 - __main__ - INFO - [2017-Aug-04 13:44] - 127.0.0.1 - GET - http - /api/stock/GOOGL/historical?resilient=True - 400 BAD REQUEST
+2017-08-04 13:44:47,741 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 13:45:12,451 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 13:45:13,922 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 13:45:16,868 - __main__ - ERROR - Exception on /api/stock/GOOGL/historical [GET]
+Traceback (most recent call last):
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+TypeError: get() missing 1 required positional argument: 'resilient'
+2017-08-04 13:45:16,874 - __main__ - INFO - [2017-Aug-04 13:45] - 127.0.0.1 - GET - http - /api/stock/GOOGL/historical?resilient=True - 500 INTERNAL SERVER ERROR
+2017-08-04 13:45:27,489 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 13:45:30,992 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 13:46:32,997 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 13:46:36,495 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 13:46:44,003 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 13:46:48,916 - __main__ - INFO - [2017-Aug-04 13:46] - 127.0.0.1 - GET - http - /api/stock/GOOGL/historical?resilient=True - 400 BAD REQUEST
+2017-08-04 13:48:09,237 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 13:48:12,745 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 13:48:45,287 - __main__ - INFO - [2017-Aug-04 13:48] - 127.0.0.1 - GET - http - /api/stock/GOOGL/historical? - 400 BAD REQUEST
+2017-08-04 13:49:19,805 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 13:49:21,289 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 13:49:42,953 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 13:49:47,442 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 13:49:53,939 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 13:50:07,506 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 13:50:08,970 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 13:50:10,423 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 13:50:12,892 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 13:50:18,366 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 13:50:19,803 - __main__ - INFO - [2017-Aug-04 13:50] - 127.0.0.1 - GET - http - /api/stock/GOOGL/historical? - 400 BAD REQUEST
+2017-08-04 13:50:29,192 - __main__ - INFO - [2017-Aug-04 13:50] - 127.0.0.1 - GET - http - /api/stock/GOOGL/historical?resilient=True - 400 BAD REQUEST
+2017-08-04 13:51:15,316 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 13:52:46,627 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 13:52:48,069 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 13:54:35,450 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 13:54:36,889 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 13:54:59,593 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 13:55:27,297 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 13:55:29,750 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 13:55:38,386 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 13:55:38,780 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 13:55:43,820 - __main__ - INFO - [2017-Aug-04 13:55] - 127.0.0.1 - GET - http - /api/stock/GOOGL/historical?resilient=True - 400 BAD REQUEST
+2017-08-04 13:55:55,457 - __main__ - INFO - [2017-Aug-04 13:55] - 127.0.0.1 - GET - http - /api/stock/GOOGL/historical?resilient=False - 400 BAD REQUEST
+2017-08-04 13:56:12,537 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 13:56:27,098 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 13:59:12,843 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 13:59:13,224 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 13:59:15,187 - __main__ - INFO - [2017-Aug-04 13:59] - 127.0.0.1 - GET - http - /api/stock/GOOGL/historical?resilient=True - 400 BAD REQUEST
+2017-08-04 13:59:47,003 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:00:01,613 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:00:13,162 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:01:02,109 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:01:18,689 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:09:06,630 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:09:07,026 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:09:09,496 - __main__ - INFO - [2017-Aug-04 14:09] - 127.0.0.1 - GET - http - /api/stock/GOOGL/historical?resilient=True - 400 BAD REQUEST
+2017-08-04 14:09:10,406 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-04 14:09:10,407 - __main__ - INFO - [2017-Aug-04 14:09] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-04 14:09:21,023 - __main__ - INFO - [2017-Aug-04 14:09] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-04 14:09:48,841 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:09:50,305 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:09:52,755 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:09:54,213 - __main__ - INFO - [2017-Aug-04 14:09] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 400 BAD REQUEST
+2017-08-04 14:10:32,571 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:10:43,128 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:10:45,904 - __main__ - INFO - [2017-Aug-04 14:10] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 400 BAD REQUEST
+2017-08-04 14:11:00,756 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:11:12,322 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:11:23,873 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:11:26,106 - __main__ - INFO - [2017-Aug-04 14:11] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 400 BAD REQUEST
+2017-08-04 14:11:30,388 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:11:31,859 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:11:39,393 - __main__ - INFO - [2017-Aug-04 14:11] - 127.0.0.1 - GET - http - /api/stock/GOOGL?resilient=True - 200 OK
+2017-08-04 14:12:05,638 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:12:07,101 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:13:00,024 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:13:03,521 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:13:07,033 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:13:11,494 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:13:12,974 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:13:19,445 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:13:25,966 - __main__ - INFO - [2017-Aug-04 14:13] - 127.0.0.1 - GET - http - /api/stock/GOOGL?resilient=True - 200 OK
+2017-08-04 14:13:33,004 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:14:49,199 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:14:56,727 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:15:27,454 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:15:53,146 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:15:54,607 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:16:02,145 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:16:13,661 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:16:19,154 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:16:22,655 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:16:31,174 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:16:34,650 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:16:38,114 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:16:44,592 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:16:46,027 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:17:40,014 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:17:41,445 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:18:03,068 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:18:09,602 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:18:21,150 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:18:24,603 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:18:28,047 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:19:06,830 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:19:13,376 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:19:16,874 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:19:20,324 - __main__ - INFO - 	> Application launching just fine.
+2017-08-04 14:19:22,824 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 09:43:03,465 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 09:43:03,911 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 09:43:06,253 - __main__ - INFO - [2017-Aug-05 09:43] - 127.0.0.1 - GET - http - /api/stock/GOOGL/historical?resilient=True - 400 BAD REQUEST
+2017-08-05 09:43:26,511 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 09:43:33,073 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 09:43:34,789 - __main__ - INFO - [2017-Aug-05 09:43] - 127.0.0.1 - GET - http - /api/stock/GOOGL/historical?resilient=True - 400 BAD REQUEST
+2017-08-05 09:44:38,073 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 09:44:39,568 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 09:45:12,128 - __main__ - INFO - [2017-Aug-05 09:45] - 127.0.0.1 - GET - http - /api/stock/GOOGL/historical?resilient=True&start=2014-09-01&end=2014-11-01 - 200 OK
+2017-08-05 09:48:08,896 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 09:49:15,922 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 09:50:17,884 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 09:50:37,462 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 09:51:03,110 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 09:51:04,551 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 09:51:18,134 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 09:51:19,578 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 09:51:45,261 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 09:51:51,775 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 09:52:41,646 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 09:53:12,365 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 09:54:27,497 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 09:54:34,971 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 09:55:07,719 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 09:55:09,182 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 09:55:11,634 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 09:55:18,175 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:00:20,406 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:00:37,975 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:01:55,086 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:02:02,581 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:02:06,055 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:02:16,525 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:02:26,087 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:02:27,519 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:02:32,452 - __main__ - ERROR - Exception on /api/stock/GOOGL/historical [GET]
+Traceback (most recent call last):
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/yahoo_finance/__init__.py", line 120, in _request
+    _, results = response['query']['results'].popitem()
+AttributeError: 'NoneType' object has no attribute 'popitem'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/yahoo_finance/__init__.py", line 123, in _request
+    raise YQLQueryError(response['error']['description'])
+KeyError: 'error'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/nate/projects/amper/StockTunes/api/stock/endpoints/endpoints.py", line 225, in get
+    data = get_historical(ticker, start, end)
+  File "/Users/nate/projects/amper/StockTunes/api/stock/stock.py", line 140, in get_historical
+    data = share.get_historical(start, end)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/yahoo_finance/__init__.py", line 342, in get_historical
+    result = self._request(query)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/yahoo_finance/__init__.py", line 125, in _request
+    raise YQLResponseMalformedError()
+yahoo_finance.YQLResponseMalformedError: Response malformed.
+2017-08-05 10:02:32,460 - __main__ - INFO - [2017-Aug-05 10:02] - 127.0.0.1 - GET - http - /api/stock/GOOGL/historical?resilient=True&start=2014-09-01&end=2014-11-01 - 500 INTERNAL SERVER ERROR

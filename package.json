@@ -1,0 +1,20 @@
+{
+  "name": "StockTunes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Nathaniel Moon",
+  "license": "MIT",
+  "homepage": "https://github.com/nightCapLounge/StockTunes2",
+  "devDependencies": {
+    "bower": "^1.8.0",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-browser": "^3.0.6",
+    "gulp-size": "^2.1.0",
+    "reactify": "^1.1.1"
+  },
+  "dependencies": {
+    "whatwg-fetch": "^2.0.3"
+  }
+}

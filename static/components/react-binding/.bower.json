@@ -1,0 +1,39 @@
+{
+  "name": "react-binding",
+  "homepage": "https://github.com/rsamec/react-binding",
+  "authors": [
+    "Roman Samec <roman.samec2@gmail.com>"
+  ],
+  "description": "BindToMixin - react data binding for complex objects and arrays.",
+  "main": "dist/react-binding",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "react",
+    "binding"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "typings",
+    "src",
+    "tsd.json",
+    "out"
+  ],
+  "_release": "d3d477c3ba",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "d3d477c3bad3a5f6f0cb4901c7722adf4aed3304"
+  },
+  "_source": "https://github.com/rsamec/react-binding.git",
+  "_target": "*",
+  "_originalSource": "react-binding",
+  "_direct": true
+}
