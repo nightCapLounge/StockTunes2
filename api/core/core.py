@@ -1,4 +1,20 @@
 
+"""
+    endpoints.py
+    api.stock.stock
+
+    Author:
+        Nathaniel Moon
+        nathaniel.c.moon@gmail.com
+    
+    Date:
+        3 August 2017
+
+    Description:
+        Provides core methods for creating midi files.
+
+"""
+
 from models.music.midi_engine import MidiEngine
 
 

@@ -1,3 +1,19 @@
+"""
+    endpoints.py
+    api.core.endpoints
+
+    Author:
+        Nathaniel Moon
+        nathaniel.c.moon@gmail.com
+    
+    Date:
+        3 August 2017
+
+    Description:
+        Provides endpoints for the core midi functionality.
+
+"""
+
 from flask_restplus import Resource
 from flask import request, send_file
 from api.api_config import api
@@ -26,7 +42,7 @@ class MIDIGenerator(Resource):
 
             Returns:
                 A midi file attachment of the music generated given a stock's
-                historical data
+                historical data.  This is "audio/midi".
 
             Description:
                 Queries for a specific stock's historical data and generates a MIDI file

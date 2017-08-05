@@ -1,3 +1,18 @@
+"""
+    midi_engine.py
+    models.music
+
+    Author:
+        Nathaniel Moon
+        nathaniel.c.moon@gmail.com
+    
+    Date:
+        3 August 2017
+
+    Description:
+        Provides core functionality of creating midi files out of data
+        
+"""
 
 import random, copy, json
 import mido as midi

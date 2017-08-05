@@ -1,4 +1,21 @@
+"""
+    stock.py
+    api.stock.stock
 
+    Author:
+        Nathaniel Moon
+        nathaniel.c.moon@gmail.com
+    
+    Date:
+        3 August 2017
+
+    Description:
+        Provides core methods for retrieving stock data.
+
+        Consider this a data layer but it's really just an
+        api relay.
+
+"""
 
 from yahoo_finance import Share
 from fix_yahoo_finance import download as yf_download

@@ -1,3 +1,19 @@
+"""
+    request_helpers.py
+    models.util
+
+    Author:
+        Nathaniel Moon
+        nathaniel.c.moon@gmail.com
+    
+    Date:
+        3 August 2017
+
+    Description:
+        Provides helper functions that are used widely in
+        endpoints
+
+"""
 
 from flask import request
 import datetime

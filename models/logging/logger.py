@@ -1,3 +1,21 @@
+
+"""
+    lpgger.py
+    models.logging
+
+    Author:
+        Nathaniel Moon
+        nathaniel.c.moon@gmail.com
+    
+    Date:
+        3 August 2017
+
+    Description:
+        Provides logging facilities for the application.  
+
+"""
+
+
 import logging
 import time
 import os
