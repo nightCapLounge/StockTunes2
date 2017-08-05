@@ -2360,3 +2360,9 @@ werkzeug.exceptions.InternalServerError: 500 Internal Server Error: The server e
 2017-08-05 17:40:34,356 - __main__ - INFO - 	> Application launching just fine.
 2017-08-05 17:40:49,277 - __main__ - INFO - 	> Application launching just fine.
 2017-08-05 17:40:58,118 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:49:17,627 - __main__ - INFO - [2017-Aug-05 17:49] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-05 17:49:17,650 - __main__ - INFO - [2017-Aug-05 17:49] - 127.0.0.1 - GET - http - /static/app/styles/style.css? - 200 OK
+2017-08-05 17:49:17,656 - __main__ - INFO - [2017-Aug-05 17:49] - 127.0.0.1 - GET - http - /static/app/scripts/dist/main.js? - 200 OK
+2017-08-05 17:49:17,658 - __main__ - INFO - [2017-Aug-05 17:49] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-05 17:52:53,850 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 17:52:55,675 - __main__ - INFO - 	> Application launching just fine.

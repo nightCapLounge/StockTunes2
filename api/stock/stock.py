@@ -5,6 +5,25 @@ from fix_yahoo_finance import download as yf_download
 from pandas_datareader import data as pdr
 
 def get_open(ticker, _share=None):
+    """
+        get_open
+
+        Parameters:
+            ticker:string
+                The stock ticker to be searched
+            _share:yahoo_finance::Share
+                Optional. A share object to be used. If not given, a share object
+                is created.  Note that ticker is not used if share is given. 
+                This is more optimal if several methods are being called from calling 
+                function.
+
+        Returns:
+            A dictionary with errors, the resulting value, and the unit of the value. 
+
+        Description:
+            Retrieves current open value of stock.
+
+    """
     try:
         share = None
         if _share is None:
@@ -30,6 +49,25 @@ def get_open(ticker, _share=None):
 
 
 def get_price(ticker, _share=None):
+    """
+        get_price
+
+        Parameters:
+            ticker:string
+                The stock ticker to be searched
+            _share:yahoo_finance::Share
+                Optional. A share object to be used. If not given, a share object
+                is created.  Note that ticker is not used if share is given. 
+                This is more optimal if several methods are being called from calling 
+                function.
+
+        Returns:
+            A dictionary with errors, the resulting value, and the unit of the value. 
+
+        Description:
+            Retrieves current price of stock.
+
+    """
     try:
         share = None
         if _share is None:
@@ -55,6 +93,25 @@ def get_price(ticker, _share=None):
 
 
 def get_avg_daily_volume(ticker, _share=None):
+    """
+        get_av_daily_volume
+
+        Parameters:
+            ticker:string
+                The stock ticker to be searched
+            _share:yahoo_finance::Share
+                Optional. A share object to be used. If not given, a share object
+                is created.  Note that ticker is not used if share is given. 
+                This is more optimal if several methods are being called from calling 
+                function.
+
+        Returns:
+            A dictionary with errors, the resulting value, and the unit of the value. 
+
+        Description:
+            Retrieves current average daily volume of stock.
+
+    """
     try:
         share = None
         if _share is None:
@@ -80,6 +137,25 @@ def get_avg_daily_volume(ticker, _share=None):
 
 
 def get_percent_change(ticker, _share=None):
+    """
+        get_percent_change
+
+        Parameters:
+            ticker:string
+                The stock ticker to be searched
+            _share:yahoo_finance::Share
+                Optional. A share object to be used. If not given, a share object
+                is created.  Note that ticker is not used if share is given. 
+                This is more optimal if several methods are being called from calling 
+                function.
+
+        Returns:
+            A dictionary with errors, the resulting value, and the unit of the value. 
+
+        Description:
+            Retrieves current percent change of stock.
+
+    """
     try:
         share = None
         if _share is None:
@@ -106,6 +182,25 @@ def get_percent_change(ticker, _share=None):
 
 
 def get_volume(ticker, _share=None):
+    """
+        get_volume
+
+        Parameters:
+            ticker:string
+                The stock ticker to be searched
+            _share:yahoo_finance::Share
+                Optional. A share object to be used. If not given, a share object
+                is created.  Note that ticker is not used if share is given. 
+                This is more optimal if several methods are being called from calling 
+                function.
+
+        Returns:
+            A dictionary with errors, the resulting value, and the unit of the value. 
+
+        Description:
+            Retrieves current volume of stock.
+
+    """
     try:
         share = None
         if _share is None:
@@ -132,6 +227,26 @@ def get_volume(ticker, _share=None):
 
 
 def get_historical(ticker, start, end):
+    """
+        get_historical
+
+        Parameters:
+            ticker:string
+                The stock ticker to be searched
+            start:datestring
+                The start date of date range for historical data
+                '%Y-%m-%d'
+            end:datestring
+                the end date of date range for historical data
+                '%Y-%m-%d'
+
+        Returns:
+            A dictionary with errors, the resulting historical data (a list of dictionaries)
+
+        Description:
+            Retrieves historical data of a stock give a date range.
+
+    """
     try:   
         data = yf_download(ticker, start=start, end=end)
         data = list(data.T.to_dict().values())
