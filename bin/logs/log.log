@@ -1600,3 +1600,375 @@ Traceback (most recent call last):
     raise YQLResponseMalformedError()
 yahoo_finance.YQLResponseMalformedError: Response malformed.
 2017-08-05 10:02:32,460 - __main__ - INFO - [2017-Aug-05 10:02] - 127.0.0.1 - GET - http - /api/stock/GOOGL/historical?resilient=True&start=2014-09-01&end=2014-11-01 - 500 INTERNAL SERVER ERROR
+2017-08-05 10:11:29,752 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:11:30,342 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:12:38,898 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:12:47,749 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:13:09,740 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:13:21,622 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:13:25,391 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:14:05,544 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:14:08,307 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:14:15,660 - __main__ - ERROR - Exception on /api/stock/GOOGL/historical [GET]
+Traceback (most recent call last):
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/api.py", line 317, in wrapper
+    return self.make_response(data, code, headers=headers)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/api.py", line 338, in make_response
+    resp = self.representations[mediatype](data, *args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/representations.py", line 22, in output_json
+    dumped = dumps(data, **settings) + "\n"
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/json/__init__.py", line 237, in dumps
+    **kw).encode(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/json/encoder.py", line 200, in encode
+    chunks = list(chunks)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/json/encoder.py", line 429, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/json/encoder.py", line 403, in _iterencode_dict
+    yield from chunks
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/json/encoder.py", line 436, in _iterencode
+    o = _default(o)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/json/encoder.py", line 179, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError:                   Open        High         Low       Close   Adj Close  \
+Date                                                                     
+2014-09-02  582.950012  589.299988  582.400024  588.630005  588.630005   
+2014-09-03  591.729980  594.489990  586.500000  589.520020  589.520020   
+2014-09-04  592.130005  598.000000  590.599976  593.140015  593.140015   
+2014-09-05  595.130005  598.500000  593.549988  597.780029  597.780029   
+2014-09-08  599.140015  603.520020  598.020020  601.630005  601.630005   
+2014-09-09  600.270020  600.599976  590.479980  591.969971  591.969971   
+2014-09-10  591.739990  593.719971  587.140015  593.419983  593.419983   
+2014-09-11  590.000000  591.950012  586.039978  591.109985  591.109985   
+2014-09-12  590.390015  591.479980  583.280029  584.900024  584.900024   
+2014-09-15  582.239990  583.919983  577.010010  581.640015  581.640015   
+2014-09-16  580.950012  590.150024  580.950012  588.780029  588.780029   
+2014-09-17  589.510010  596.070007  587.119995  593.289978  593.289978   
+2014-09-18  595.049988  597.559998  593.020020  597.270020  597.270020   
+2014-09-19  599.489990  605.400024  597.760010  605.400024  605.400024   
+2014-09-22  602.500000  603.799988  593.119995  597.270020  597.270020   
+2014-09-23  595.000000  596.650024  590.239990  591.179993  591.179993   
+2014-09-24  591.570007  600.109985  590.299988  598.419983  598.419983   
+2014-09-25  596.989990  598.070007  584.739990  585.250000  585.250000   
+2014-09-26  585.929993  589.570007  585.000000  587.900024  587.900024   
+2014-09-29  581.830017  589.309998  581.570007  587.809998  587.809998   
+2014-09-30  587.489990  591.000000  584.500000  588.409973  588.409973   
+2014-10-01  586.799988  588.719971  578.020020  579.630005  579.630005   
+2014-10-02  578.000000  583.239990  574.049988  580.880005  580.880005   
+2014-10-03  584.099976  588.289978  583.500000  586.250000  586.250000   
+2014-10-06  589.950012  592.400024  585.400024  587.780029  587.780029   
+2014-10-07  584.900024  585.849976  574.099976  574.099976  574.099976   
+2014-10-08  574.789978  584.690002  567.640015  583.739990  583.739990   
+2014-10-09  581.609985  582.530029  569.030029  570.809998  570.809998   
+2014-10-10  567.469971  575.229980  555.010010  555.190002  555.190002   
+2014-10-13  555.130005  560.880005  544.429993  544.750000  544.750000   
+2014-10-14  550.140015  558.630005  544.500000  548.690002  548.690002   
+2014-10-15  542.080017  543.919983  528.419983  540.729980  540.729980   
+2014-10-16  527.000000  540.989990  524.950012  536.919983  536.919983   
+2014-10-17  540.450012  543.450012  518.409973  522.969971  522.969971   
+2014-10-20  520.450012  533.159973  519.140015  532.380005  532.380005   
+2014-10-21  537.270020  538.770020  530.200012  538.030029  538.030029   
+2014-10-22  541.049988  550.760010  540.229980  542.690002  542.690002   
+2014-10-23  548.280029  557.400024  545.500000  553.650024  553.650024   
+2014-10-24  554.979980  555.000000  545.159973  548.900024  548.900024   
+2014-10-27  547.760010  554.000000  547.200012  549.880005  549.880005   
+2014-10-28  551.710022  559.200012  550.429993  558.940002  558.940002   
+2014-10-29  560.849976  564.969971  555.979980  558.450012  558.450012   
+2014-10-30  558.250000  562.500000  552.130005  560.270020  560.270020   
+2014-10-31  568.299988  568.729980  564.809998  567.869995  567.869995   
+
+             Volume  
+Date                 
+2014-09-02  1583000  
+2014-09-03  1579000  
+2014-09-04  1630800  
+2014-09-05  1799100  
+2014-09-08  1599200  
+2014-09-09  1571200  
+2014-09-10  1160100  
+2014-09-11  1501400  
+2014-09-12  1851500  
+2014-09-15  1545400  
+2014-09-16  1579600  
+2014-09-17  1719500  
+2014-09-18  1494500  
+2014-09-19  4191600  
+2014-09-22  1782200  
+2014-09-23  1403700  
+2014-09-24  1758000  
+2014-09-25  1671000  
+2014-09-26  1289100  
+2014-09-29  1143700  
+2014-09-30  1571500  
+2014-10-01  1447700  
+2014-10-02  1536300  
+2014-10-03  1214500  
+2014-10-06  1286100  
+2014-10-07  1545700  
+2014-10-08  2207900  
+2014-10-09  2411700  
+2014-10-10  2978700  
+2014-10-13  2755800  
+2014-10-14  2609900  
+2014-10-15  3836000  
+2014-10-16  3805000  
+2014-10-17  5996500  
+2014-10-20  2748200  
+2014-10-21  2459500  
+2014-10-22  2973700  
+2014-10-23  2151300  
+2014-10-24  2175400  
+2014-10-27  1596700  
+2014-10-28  1738700  
+2014-10-29  2053300  
+2014-10-30  1612500  
+2014-10-31  2340500   is not JSON serializable
+2017-08-05 10:14:15,665 - __main__ - INFO - [2017-Aug-05 10:14] - 127.0.0.1 - GET - http - /api/stock/GOOGL/historical?resilient=True&start=2014-09-01&end=2014-11-01 - 500 INTERNAL SERVER ERROR
+2017-08-05 10:15:21,883 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:15:27,288 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:15:27,884 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:15:33,731 - __main__ - ERROR - Exception on /api/stock/GOOGL/historical [GET]
+Traceback (most recent call last):
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/api.py", line 317, in wrapper
+    return self.make_response(data, code, headers=headers)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/api.py", line 338, in make_response
+    resp = self.representations[mediatype](data, *args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/representations.py", line 22, in output_json
+    dumped = dumps(data, **settings) + "\n"
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/json/__init__.py", line 237, in dumps
+    **kw).encode(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/json/encoder.py", line 200, in encode
+    chunks = list(chunks)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/json/encoder.py", line 429, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/json/encoder.py", line 403, in _iterencode_dict
+    yield from chunks
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/json/encoder.py", line 436, in _iterencode
+    o = _default(o)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/json/encoder.py", line 179, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[  5.82950012e+02,   5.89299988e+02,   5.82400024e+02,
+          5.88630005e+02,   5.88630005e+02,   1.58300000e+06],
+       [  5.91729980e+02,   5.94489990e+02,   5.86500000e+02,
+          5.89520020e+02,   5.89520020e+02,   1.57900000e+06],
+       [  5.92130005e+02,   5.98000000e+02,   5.90599976e+02,
+          5.93140015e+02,   5.93140015e+02,   1.63080000e+06],
+       [  5.95130005e+02,   5.98500000e+02,   5.93549988e+02,
+          5.97780029e+02,   5.97780029e+02,   1.79910000e+06],
+       [  5.99140015e+02,   6.03520020e+02,   5.98020020e+02,
+          6.01630005e+02,   6.01630005e+02,   1.59920000e+06],
+       [  6.00270020e+02,   6.00599976e+02,   5.90479980e+02,
+          5.91969971e+02,   5.91969971e+02,   1.57120000e+06],
+       [  5.91739990e+02,   5.93719971e+02,   5.87140015e+02,
+          5.93419983e+02,   5.93419983e+02,   1.16010000e+06],
+       [  5.90000000e+02,   5.91950012e+02,   5.86039978e+02,
+          5.91109985e+02,   5.91109985e+02,   1.50140000e+06],
+       [  5.90390015e+02,   5.91479980e+02,   5.83280029e+02,
+          5.84900024e+02,   5.84900024e+02,   1.85150000e+06],
+       [  5.82239990e+02,   5.83919983e+02,   5.77010010e+02,
+          5.81640015e+02,   5.81640015e+02,   1.54540000e+06],
+       [  5.80950012e+02,   5.90150024e+02,   5.80950012e+02,
+          5.88780029e+02,   5.88780029e+02,   1.57960000e+06],
+       [  5.89510010e+02,   5.96070007e+02,   5.87119995e+02,
+          5.93289978e+02,   5.93289978e+02,   1.71950000e+06],
+       [  5.95049988e+02,   5.97559998e+02,   5.93020020e+02,
+          5.97270020e+02,   5.97270020e+02,   1.49450000e+06],
+       [  5.99489990e+02,   6.05400024e+02,   5.97760010e+02,
+          6.05400024e+02,   6.05400024e+02,   4.19160000e+06],
+       [  6.02500000e+02,   6.03799988e+02,   5.93119995e+02,
+          5.97270020e+02,   5.97270020e+02,   1.78220000e+06],
+       [  5.95000000e+02,   5.96650024e+02,   5.90239990e+02,
+          5.91179993e+02,   5.91179993e+02,   1.40370000e+06],
+       [  5.91570007e+02,   6.00109985e+02,   5.90299988e+02,
+          5.98419983e+02,   5.98419983e+02,   1.75800000e+06],
+       [  5.96989990e+02,   5.98070007e+02,   5.84739990e+02,
+          5.85250000e+02,   5.85250000e+02,   1.67100000e+06],
+       [  5.85929993e+02,   5.89570007e+02,   5.85000000e+02,
+          5.87900024e+02,   5.87900024e+02,   1.28910000e+06],
+       [  5.81830017e+02,   5.89309998e+02,   5.81570007e+02,
+          5.87809998e+02,   5.87809998e+02,   1.14370000e+06],
+       [  5.87489990e+02,   5.91000000e+02,   5.84500000e+02,
+          5.88409973e+02,   5.88409973e+02,   1.57150000e+06],
+       [  5.86799988e+02,   5.88719971e+02,   5.78020020e+02,
+          5.79630005e+02,   5.79630005e+02,   1.44770000e+06],
+       [  5.78000000e+02,   5.83239990e+02,   5.74049988e+02,
+          5.80880005e+02,   5.80880005e+02,   1.53630000e+06],
+       [  5.84099976e+02,   5.88289978e+02,   5.83500000e+02,
+          5.86250000e+02,   5.86250000e+02,   1.21450000e+06],
+       [  5.89950012e+02,   5.92400024e+02,   5.85400024e+02,
+          5.87780029e+02,   5.87780029e+02,   1.28610000e+06],
+       [  5.84900024e+02,   5.85849976e+02,   5.74099976e+02,
+          5.74099976e+02,   5.74099976e+02,   1.54570000e+06],
+       [  5.74789978e+02,   5.84690002e+02,   5.67640015e+02,
+          5.83739990e+02,   5.83739990e+02,   2.20790000e+06],
+       [  5.81609985e+02,   5.82530029e+02,   5.69030029e+02,
+          5.70809998e+02,   5.70809998e+02,   2.41170000e+06],
+       [  5.67469971e+02,   5.75229980e+02,   5.55010010e+02,
+          5.55190002e+02,   5.55190002e+02,   2.97870000e+06],
+       [  5.55130005e+02,   5.60880005e+02,   5.44429993e+02,
+          5.44750000e+02,   5.44750000e+02,   2.75580000e+06],
+       [  5.50140015e+02,   5.58630005e+02,   5.44500000e+02,
+          5.48690002e+02,   5.48690002e+02,   2.60990000e+06],
+       [  5.42080017e+02,   5.43919983e+02,   5.28419983e+02,
+          5.40729980e+02,   5.40729980e+02,   3.83600000e+06],
+       [  5.27000000e+02,   5.40989990e+02,   5.24950012e+02,
+          5.36919983e+02,   5.36919983e+02,   3.80500000e+06],
+       [  5.40450012e+02,   5.43450012e+02,   5.18409973e+02,
+          5.22969971e+02,   5.22969971e+02,   5.99650000e+06],
+       [  5.20450012e+02,   5.33159973e+02,   5.19140015e+02,
+          5.32380005e+02,   5.32380005e+02,   2.74820000e+06],
+       [  5.37270020e+02,   5.38770020e+02,   5.30200012e+02,
+          5.38030029e+02,   5.38030029e+02,   2.45950000e+06],
+       [  5.41049988e+02,   5.50760010e+02,   5.40229980e+02,
+          5.42690002e+02,   5.42690002e+02,   2.97370000e+06],
+       [  5.48280029e+02,   5.57400024e+02,   5.45500000e+02,
+          5.53650024e+02,   5.53650024e+02,   2.15130000e+06],
+       [  5.54979980e+02,   5.55000000e+02,   5.45159973e+02,
+          5.48900024e+02,   5.48900024e+02,   2.17540000e+06],
+       [  5.47760010e+02,   5.54000000e+02,   5.47200012e+02,
+          5.49880005e+02,   5.49880005e+02,   1.59670000e+06],
+       [  5.51710022e+02,   5.59200012e+02,   5.50429993e+02,
+          5.58940002e+02,   5.58940002e+02,   1.73870000e+06],
+       [  5.60849976e+02,   5.64969971e+02,   5.55979980e+02,
+          5.58450012e+02,   5.58450012e+02,   2.05330000e+06],
+       [  5.58250000e+02,   5.62500000e+02,   5.52130005e+02,
+          5.60270020e+02,   5.60270020e+02,   1.61250000e+06],
+       [  5.68299988e+02,   5.68729980e+02,   5.64809998e+02,
+          5.67869995e+02,   5.67869995e+02,   2.34050000e+06]]) is not JSON serializable
+2017-08-05 10:15:33,734 - __main__ - INFO - [2017-Aug-05 10:15] - 127.0.0.1 - GET - http - /api/stock/GOOGL/historical?resilient=True&start=2014-09-01&end=2014-11-01 - 500 INTERNAL SERVER ERROR
+2017-08-05 10:16:22,266 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:16:29,988 - __main__ - ERROR - Exception on /api/stock/GOOGL/historical [GET]
+Traceback (most recent call last):
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/pandas/core/indexes/base.py", line 2442, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas/_libs/index.pyx", line 132, in pandas._libs.index.IndexEngine.get_loc (pandas/_libs/index.c:5280)
+  File "pandas/_libs/index.pyx", line 154, in pandas._libs.index.IndexEngine.get_loc (pandas/_libs/index.c:5126)
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1210, in pandas._libs.hashtable.PyObjectHashTable.get_item (pandas/_libs/hashtable.c:20523)
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1218, in pandas._libs.hashtable.PyObjectHashTable.get_item (pandas/_libs/hashtable.c:20477)
+KeyError: 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/nate/projects/amper/StockTunes/api/stock/endpoints/endpoints.py", line 226, in get
+    data = get_historical(ticker, start, end)
+  File "/Users/nate/projects/amper/StockTunes/api/stock/stock.py", line 137, in get_historical
+    print(data[0])
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/pandas/core/frame.py", line 1964, in __getitem__
+    return self._getitem_column(key)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/pandas/core/frame.py", line 1971, in _getitem_column
+    return self._get_item_cache(key)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/pandas/core/generic.py", line 1645, in _get_item_cache
+    values = self._data.get(item)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/pandas/core/internals.py", line 3590, in get
+    loc = self.items.get_loc(item)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/pandas/core/indexes/base.py", line 2444, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 132, in pandas._libs.index.IndexEngine.get_loc (pandas/_libs/index.c:5280)
+  File "pandas/_libs/index.pyx", line 154, in pandas._libs.index.IndexEngine.get_loc (pandas/_libs/index.c:5126)
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1210, in pandas._libs.hashtable.PyObjectHashTable.get_item (pandas/_libs/hashtable.c:20523)
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1218, in pandas._libs.hashtable.PyObjectHashTable.get_item (pandas/_libs/hashtable.c:20477)
+KeyError: 0
+2017-08-05 10:16:29,994 - __main__ - INFO - [2017-Aug-05 10:16] - 127.0.0.1 - GET - http - /api/stock/GOOGL/historical?resilient=True&start=2014-09-01&end=2014-11-01 - 500 INTERNAL SERVER ERROR
+2017-08-05 10:18:09,229 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:18:12,297 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:18:12,961 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:18:15,654 - __main__ - ERROR - Exception on /api/stock/GOOGL/historical [GET]
+Traceback (most recent call last):
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/api.py", line 317, in wrapper
+    return self.make_response(data, code, headers=headers)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/api.py", line 338, in make_response
+    resp = self.representations[mediatype](data, *args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/representations.py", line 22, in output_json
+    dumped = dumps(data, **settings) + "\n"
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/json/__init__.py", line 237, in dumps
+    **kw).encode(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/json/encoder.py", line 200, in encode
+    chunks = list(chunks)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/json/encoder.py", line 429, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/json/encoder.py", line 403, in _iterencode_dict
+    yield from chunks
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/json/encoder.py", line 436, in _iterencode
+    o = _default(o)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/json/encoder.py", line 179, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: dict_values([{'High': 598.07000700000003, 'Adj Close': 585.25, 'Volume': 1671000.0, 'Low': 584.73999000000003, 'Close': 585.25, 'Open': 596.98999000000003}, {'High': 585.84997599999997, 'Adj Close': 574.09997599999997, 'Volume': 1545700.0, 'Low': 574.09997599999997, 'Close': 574.09997599999997, 'Open': 584.90002400000003}, {'High': 603.52002000000005, 'Adj Close': 601.63000499999998, 'Volume': 1599200.0, 'Low': 598.02002000000005, 'Close': 601.63000499999998, 'Open': 599.14001500000006}, {'High': 533.15997300000004, 'Adj Close': 532.38000499999998, 'Volume': 2748200.0, 'Low': 519.14001500000006, 'Close': 532.38000499999998, 'Open': 520.45001200000002}, {'High': 555.0, 'Adj Close': 548.90002400000003, 'Volume': 2175400.0, 'Low': 545.15997300000004, 'Close': 548.90002400000003, 'Open': 554.97997999999995}, {'High': 589.57000700000003, 'Adj Close': 587.90002400000003, 'Volume': 1289100.0, 'Low': 585.0, 'Close': 587.90002400000003, 'Open': 585.92999299999997}, {'High': 605.40002400000003, 'Adj Close': 605.40002400000003, 'Volume': 4191600.0, 'Low': 597.76000999999997, 'Close': 605.40002400000003, 'Open': 599.48999000000003}, {'High': 540.98999000000003, 'Adj Close': 536.919983, 'Volume': 3805000.0, 'Low': 524.95001200000002, 'Close': 536.919983, 'Open': 527.0}, {'High': 575.22997999999995, 'Adj Close': 555.19000199999994, 'Volume': 2978700.0, 'Low': 555.01000999999997, 'Close': 555.19000199999994, 'Open': 567.46997099999999}, {'High': 584.69000199999994, 'Adj Close': 583.73999000000003, 'Volume': 2207900.0, 'Low': 567.64001500000006, 'Close': 583.73999000000003, 'Open': 574.78997800000002}, {'High': 591.0, 'Adj Close': 588.40997300000004, 'Volume': 1571500.0, 'Low': 584.5, 'Close': 588.40997300000004, 'Open': 587.48999000000003}, {'High': 598.5, 'Adj Close': 597.78002900000001, 'Volume': 1799100.0, 'Low': 593.54998799999998, 'Close': 597.78002900000001, 'Open': 595.13000499999998}, {'High': 589.29998799999998, 'Adj Close': 588.63000499999998, 'Volume': 1583000.0, 'Low': 582.40002400000003, 'Close': 588.63000499999998, 'Open': 582.95001200000002}, {'High': 596.07000700000003, 'Adj Close': 593.28997800000002, 'Volume': 1719500.0, 'Low': 587.11999500000002, 'Close': 593.28997800000002, 'Open': 589.51000999999997}, {'High': 559.20001200000002, 'Adj Close': 558.94000199999994, 'Volume': 1738700.0, 'Low': 550.42999299999997, 'Close': 558.94000199999994, 'Open': 551.71002199999998}, {'High': 568.72997999999995, 'Adj Close': 567.86999500000002, 'Volume': 2340500.0, 'Low': 564.80999800000006, 'Close': 567.86999500000002, 'Open': 568.29998799999998}, {'High': 543.45001200000002, 'Adj Close': 522.96997099999999, 'Volume': 5996500.0, 'Low': 518.40997300000004, 'Close': 522.96997099999999, 'Open': 540.45001200000002}, {'High': 550.76000999999997, 'Adj Close': 542.69000199999994, 'Volume': 2973700.0, 'Low': 540.22997999999995, 'Close': 542.69000199999994, 'Open': 541.04998799999998}, {'High': 600.59997599999997, 'Adj Close': 591.96997099999999, 'Volume': 1571200.0, 'Low': 590.47997999999995, 'Close': 591.96997099999999, 'Open': 600.27002000000005}, {'High': 591.47997999999995, 'Adj Close': 584.90002400000003, 'Volume': 1851500.0, 'Low': 583.28002900000001, 'Close': 584.90002400000003, 'Open': 590.39001500000006}, {'High': 597.55999800000006, 'Adj Close': 597.27002000000005, 'Volume': 1494500.0, 'Low': 593.02002000000005, 'Close': 597.27002000000005, 'Open': 595.04998799999998}, {'High': 594.48999000000003, 'Adj Close': 589.52002000000005, 'Volume': 1579000.0, 'Low': 586.5, 'Close': 589.52002000000005, 'Open': 591.72997999999995}, {'High': 588.71997099999999, 'Adj Close': 579.63000499999998, 'Volume': 1447700.0, 'Low': 578.02002000000005, 'Close': 579.63000499999998, 'Open': 586.79998799999998}, {'High': 554.0, 'Adj Close': 549.88000499999998, 'Volume': 1596700.0, 'Low': 547.20001200000002, 'Close': 549.88000499999998, 'Open': 547.76000999999997}, {'High': 603.79998799999998, 'Adj Close': 597.27002000000005, 'Volume': 1782200.0, 'Low': 593.11999500000002, 'Close': 597.27002000000005, 'Open': 602.5}, {'High': 538.77002000000005, 'Adj Close': 538.03002900000001, 'Volume': 2459500.0, 'Low': 530.20001200000002, 'Close': 538.03002900000001, 'Open': 537.27002000000005}, {'High': 564.96997099999999, 'Adj Close': 558.45001200000002, 'Volume': 2053300.0, 'Low': 555.97997999999995, 'Close': 558.45001200000002, 'Open': 560.84997599999997}, {'High': 593.71997099999999, 'Adj Close': 593.419983, 'Volume': 1160100.0, 'Low': 587.14001500000006, 'Close': 593.419983, 'Open': 591.73999000000003}, {'High': 598.0, 'Adj Close': 593.14001500000006, 'Volume': 1630800.0, 'Low': 590.59997599999997, 'Close': 593.14001500000006, 'Open': 592.13000499999998}, {'High': 557.40002400000003, 'Adj Close': 553.65002400000003, 'Volume': 2151300.0, 'Low': 545.5, 'Close': 553.65002400000003, 'Open': 548.28002900000001}, {'High': 583.919983, 'Adj Close': 581.64001500000006, 'Volume': 1545400.0, 'Low': 577.01000999999997, 'Close': 581.64001500000006, 'Open': 582.23999000000003}, {'High': 591.95001200000002, 'Adj Close': 591.10998499999994, 'Volume': 1501400.0, 'Low': 586.03997800000002, 'Close': 591.10998499999994, 'Open': 590.0}, {'High': 558.63000499999998, 'Adj Close': 548.69000199999994, 'Volume': 2609900.0, 'Low': 544.5, 'Close': 548.69000199999994, 'Open': 550.14001500000006}, {'High': 588.28997800000002, 'Adj Close': 586.25, 'Volume': 1214500.0, 'Low': 583.5, 'Close': 586.25, 'Open': 584.09997599999997}, {'High': 600.10998499999994, 'Adj Close': 598.419983, 'Volume': 1758000.0, 'Low': 590.29998799999998, 'Close': 598.419983, 'Open': 591.57000700000003}, {'High': 589.30999800000006, 'Adj Close': 587.80999800000006, 'Volume': 1143700.0, 'Low': 581.57000700000003, 'Close': 587.80999800000006, 'Open': 581.830017}, {'High': 590.15002400000003, 'Adj Close': 588.78002900000001, 'Volume': 1579600.0, 'Low': 580.95001200000002, 'Close': 588.78002900000001, 'Open': 580.95001200000002}, {'High': 596.65002400000003, 'Adj Close': 591.17999299999997, 'Volume': 1403700.0, 'Low': 590.23999000000003, 'Close': 591.17999299999997, 'Open': 595.0}, {'High': 582.53002900000001, 'Adj Close': 570.80999800000006, 'Volume': 2411700.0, 'Low': 569.03002900000001, 'Close': 570.80999800000006, 'Open': 581.60998499999994}, {'High': 562.5, 'Adj Close': 560.27002000000005, 'Volume': 1612500.0, 'Low': 552.13000499999998, 'Close': 560.27002000000005, 'Open': 558.25}, {'High': 583.23999000000003, 'Adj Close': 580.88000499999998, 'Volume': 1536300.0, 'Low': 574.04998799999998, 'Close': 580.88000499999998, 'Open': 578.0}, {'High': 592.40002400000003, 'Adj Close': 587.78002900000001, 'Volume': 1286100.0, 'Low': 585.40002400000003, 'Close': 587.78002900000001, 'Open': 589.95001200000002}, {'High': 560.88000499999998, 'Adj Close': 544.75, 'Volume': 2755800.0, 'Low': 544.42999299999997, 'Close': 544.75, 'Open': 555.13000499999998}, {'High': 543.919983, 'Adj Close': 540.72997999999995, 'Volume': 3836000.0, 'Low': 528.419983, 'Close': 540.72997999999995, 'Open': 542.080017}]) is not JSON serializable
+2017-08-05 10:18:15,657 - __main__ - INFO - [2017-Aug-05 10:18] - 127.0.0.1 - GET - http - /api/stock/GOOGL/historical?resilient=True&start=2014-09-01&end=2014-11-01 - 500 INTERNAL SERVER ERROR
+2017-08-05 10:21:38,072 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:21:45,956 - __main__ - ERROR - Exception on /api/stock/GOOGL/historical [GET]
+Traceback (most recent call last):
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/nate/projects/amper/StockTunes/api/stock/endpoints/endpoints.py", line 226, in get
+    data = get_historical(ticker, start, end)
+  File "/Users/nate/projects/amper/StockTunes/api/stock/stock.py", line 137, in get_historical
+    data = data.T.to_dict().values().to_json()
+AttributeError: 'dict_values' object has no attribute 'to_json'
+2017-08-05 10:21:45,958 - __main__ - INFO - [2017-Aug-05 10:21] - 127.0.0.1 - GET - http - /api/stock/GOOGL/historical?resilient=True&start=2014-09-01&end=2014-11-01 - 500 INTERNAL SERVER ERROR
+2017-08-05 10:22:44,611 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:22:52,394 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:22:54,102 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:22:57,757 - __main__ - INFO - [2017-Aug-05 10:22] - 127.0.0.1 - GET - http - /api/stock/GOOGL/historical?resilient=True&start=2014-09-01&end=2014-11-01 - 200 OK
+2017-08-05 10:23:48,454 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:23:58,248 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:24:00,020 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:24:09,637 - __main__ - INFO - [2017-Aug-05 10:24] - 127.0.0.1 - GET - http - /api/stock/asdf/historical?resilient=True&start=2014-09-01&end=2014-11-01 - 200 OK
+2017-08-05 10:24:20,153 - __main__ - INFO - [2017-Aug-05 10:24] - 127.0.0.1 - GET - http - /api/stock/GOOGL/historical?resilient=True&start=2014-09-01&end=2014-11-01 - 200 OK
+2017-08-05 10:24:26,068 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:24:29,853 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:24:42,736 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:24:44,467 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:24:46,174 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:24:59,029 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:25:31,085 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:25:47,014 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:26:19,157 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:26:31,091 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:26:34,526 - __main__ - INFO - [2017-Aug-05 10:26] - 127.0.0.1 - GET - http - /api/stock/asdf/historical?resilient=True&start=2014-09-01&end=2014-11-01 - 200 OK
+2017-08-05 10:26:39,018 - __main__ - INFO - [2017-Aug-05 10:26] - 127.0.0.1 - GET - http - /api/stock/GOOGL/historical?resilient=True&start=2014-09-01&end=2014-11-01 - 200 OK
+2017-08-05 10:26:43,241 - __main__ - INFO - [2017-Aug-05 10:26] - 127.0.0.1 - GET - http - /api/stock/GOOGL/historical?resilient&start=2014-09-01&end=2014-11-01 - 200 OK
+2017-08-05 10:27:05,249 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:27:35,279 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:27:43,058 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:27:48,848 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:27:50,633 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:27:52,428 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:27:55,177 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:28:16,125 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:28:19,077 - __main__ - INFO - [2017-Aug-05 10:28] - 127.0.0.1 - GET - http - /api/stock/GOOGL/historical?resilient&start=2014-09-01&end=2014-11-01 - 200 OK
+2017-08-05 10:28:28,015 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:29:44,620 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:29:56,387 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:32:06,493 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:32:07,094 - __main__ - INFO - 	> Application launching just fine.
+2017-08-05 10:32:31,106 - __main__ - INFO - 	> Application launching just fine.

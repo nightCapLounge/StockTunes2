@@ -1,6 +1,8 @@
 
 
 from yahoo_finance import Share
+from fix_yahoo_finance import download as yf_download
+from pandas_datareader import data as pdr
 
 def get_open(ticker, _share=None):
     try:
@@ -129,22 +131,17 @@ def get_volume(ticker, _share=None):
 
 
 
-def get_historical(ticker, start, end, _share=None):
-    try:
-        share = None
-        if _share is None:
-            share = Share(ticker)
-        else:
-            share = _share        
-
-        data = share.get_historical(start, end)
+def get_historical(ticker, start, end):
+    try:   
+        data = yf_download(ticker, start=start, end=end)
+        data = list(data.T.to_dict().values())
         response = {
             "errors" : [],
             "data" : {}
         }
-        if data is None:
+        if data is None or len(data) == 0:
             response["errors"].append("Ticker doesn't exist.")
-            return response  
+            return response
         else:
             response["data"] = data
             return response

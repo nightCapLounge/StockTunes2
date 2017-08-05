@@ -21,11 +21,14 @@ from flask_restplus import Resource
 from flask import request
 import json
 from yahoo_finance import Share
+from pandas_datareader import data as pdr
 
 from api.api_config import api
 from api.stock.stock import get_open, get_price, get_avg_daily_volume, get_percent_change, get_volume, get_historical
 
 from models.util.request_helpers import is_resilient, is_valid_date
+
+
 
 # Create a namespace for the stock api domain
 _namespace = api.namespace('stock', description='Operations related to stock information.')
@@ -223,9 +226,11 @@ class Historical(Resource):
             api.abort(code=400, message="End date must be of the format '%Y-%m-%d'")
     
         data = get_historical(ticker, start, end)
+
+        if len(data["errors"]) > 0:
+            api.abort(code=500, message=data["errors"])
+
         return data
-
-
 
 
 
