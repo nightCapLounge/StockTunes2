@@ -26,7 +26,7 @@ from pandas_datareader import data as pdr
 from api.api_config import api
 from api.stock.stock import get_open, get_price, get_avg_daily_volume, get_percent_change, get_volume, get_historical
 
-from models.util.request_helpers import is_resilient, is_valid_date
+from models.util.request_helpers import is_resilient, is_valid_date, merge_dicts
 
 
 
@@ -56,21 +56,20 @@ class Stock(Resource):
         # Derive share here and pass it in to minimize network traffic
         share = Share(ticker)
 
-        response = {
-            "price" : get_price(ticker, _share=share),
-            "open" : get_open(ticker, _share=share),
-            "volume" : get_volume(ticker, _share=share),
-            "avg-daily-volume" : get_avg_daily_volume(ticker, _share=share),
-            "percent-change" : get_percent_change(ticker, _share=share),
-            "nasty" : {"errors":["I'm nasty"]}
-        }
+        response = [
+            merge_dicts({"metric" : "price"}, get_price(ticker, _share=share)),
+            merge_dicts({"metric" : "open"}, get_open(ticker, _share=share)),
+            merge_dicts({"metric" : "volume"}, get_volume(ticker, _share=share)),
+            merge_dicts({"metric" : "avg-daily-volume"}, get_avg_daily_volume(ticker, _share=share)),
+            merge_dicts({"metric" : "percent-change"}, get_percent_change(ticker, _share=share))
+        ]
 
         if is_resilient():
             return response
         else:
             errors = []
-            for _, value in response.items():
-                errors += value["errors"]
+            for item in response:
+                errors += item["errors"]
             
             if len(errors) > 0:
                 api.abort(code=400, message=json.dumps(errors))

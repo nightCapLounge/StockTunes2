@@ -1,0 +1,54 @@
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  background: linear-gradient(to right, #1bbcb2, #37b9e9) no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#root {
+  height: 100%;
+  width: 100%; }
+
+.app .search-col {
+  padding-top: 110px;
+  padding-bottom: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.app h1 {
+  font-size: 50px; }
+
+.app h1, .app small {
+  color: white;
+  font-family: Helvetica, sans-serif; }
+
+.stock {
+  padding-bottom: 50px; }
+  .stock h2 {
+    color: white; }
+  .stock ul {
+    list-style-type: none; }
+  .stock .stockRow h4 {
+    color: white;
+    margin-bottom: 2px; }
+  .stock .stockRow p {
+    color: white;
+    padding-left: 15px; }
+  .stock .midi-button {
+    background: transparent;
+    border: 1px solid lightblue;
+    min-width: 150px;
+    min-height: 50px;
+    color: lightblue;
+    transition-duration: .2s;
+    -webkit-transition-duration: .2s; }
+  .stock .midi-button:hover {
+    color: white;
+    border-color: white; }
+  .stock .midi-button:focus {
+    outline: none; }
+  .stock small {
+    color: white; }
+  .stock form {
+    display: none; }

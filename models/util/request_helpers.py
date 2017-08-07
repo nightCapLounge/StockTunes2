@@ -17,6 +17,7 @@
 
 from flask import request
 import datetime
+import copy
 
 def is_resilient():
     resilient = False
@@ -41,3 +42,8 @@ def is_valid_date(datestring, formatting):
     
     return result
 
+
+def merge_dicts(d1, d2):
+    d3 = d1.copy()
+    d3.update(d2)
+    return d3
