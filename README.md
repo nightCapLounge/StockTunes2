@@ -1,6 +1,6 @@
 # StockTunes
 
-This is a small, fun project to explore using a REST API and Flask to create music our of stock market data.
+This is a small, fun project to explore using a REST API and Flask to create music out of stock market data.
 
 
 ## The API
@@ -12,7 +12,7 @@ There are only GET requests present in the API, as stock market data is immutabl
 
 ### Resilience
 
-The API is built to be resilient, if the user wants it to be.  The data collection mechanisms behind the actual API can be categorized into aggregate and basic operations.  Basic operations query a single source of data, and aggregate operations query many.  That being said, all aggregate operations allow the user to send a "resilient" flag with the requests.  This tells the API to return as much data as possible without throwing an error, even if parts of the aggregation fail.  
+The API is built to be resilient if the user wants it to be.  The data collection mechanisms behind the actual API can be categorized into aggregate and basic operations.  Basic operations query a single source of data, and aggregate operations query many.  That being said, all aggregate operations allow the user to send a "resilient" flag with the requests.  This tells the API to return as much data as possible without throwing an error, even if parts of the aggregation fail.  
 
 An example of this can be found when getting the data dump for a stock: e.g. "/api/stock/GOOGL" returns many data points about a stock that are separately retrieved.  Using the parameter "resilient" as True will tell the API to get as much data in that query as possible -- for instance, return the average daily volume even if everything else is unavailable.  
 
@@ -36,12 +36,12 @@ The start parameter is the beginning of the historical frame, and the end parame
 
 ## The Model
 
-At the moment, StockTunes uses the simplest possible model for turning data into music.  Given a stream of stock data, a field from the stream is selected (e.g. Adjusted Close), and if the field goes up in a discrete timestep, a major chord from a given key is randomly selected, and if the data trends downward, a minor chord randomly selected.  There is one chord per time step.  The tones from the chord that are played are then randomly selected and written to MIDI.  
+At the moment, StockTunes uses the simplest possible model for turning data into music.  Given a stream of stock data, a field from the stream is selected (e.g. Adjusted Close), and if the field goes up in a discrete timestep, a major chord from a given key is randomly selected, and if the data trends downward, a minor chord is randomly selected.  There is one chord per time step.  The tones from the chord that are played are then randomly selected and written to MIDI.  
 
 
 ## React Front-end
 
-There is a bare-bones React front end to accompany the application.  It allows the user to choose a stock, a time range, and produce MIDI from that data.  There is currently minimal error handling in this section of the application.  
+There is a bare-bones React front end to accompany the application.  It allows the user to choose a stock and a time range, and produce MIDI from that data.  There is currently minimal error handling in this section of the application.  
 
 
 
