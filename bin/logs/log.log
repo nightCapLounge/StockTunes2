@@ -3171,3 +3171,116 @@ werkzeug.exceptions.InternalServerError: 500 Internal Server Error: The server e
 2017-08-07 13:49:22,787 - __main__ - INFO - [2017-Aug-07 13:49] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
 2017-08-07 13:49:55,554 - __main__ - INFO - [2017-Aug-07 13:49] - 127.0.0.1 - GET - http - /api/stock/SPY? - 200 OK
 2017-08-07 13:50:14,460 - __main__ - INFO - [2017-Aug-07 13:50] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-07 13:58:29,945 - __main__ - INFO - [2017-Aug-07 13:58] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-07 13:58:29,960 - __main__ - INFO - [2017-Aug-07 13:58] - 127.0.0.1 - GET - http - /static/app/src/dist/bundle.js? - 200 OK
+2017-08-07 13:58:29,968 - __main__ - INFO - [2017-Aug-07 13:58] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-07 13:58:30,986 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-07 13:58:30,987 - __main__ - INFO - [2017-Aug-07 13:58] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-07 13:58:57,827 - __main__ - INFO - [2017-Aug-07 13:58] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-07 13:59:37,880 - __main__ - INFO - [2017-Aug-07 13:59] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-07 13:59:37,893 - __main__ - INFO - [2017-Aug-07 13:59] - 127.0.0.1 - GET - http - /static/app/src/dist/bundle.js? - 200 OK
+2017-08-07 13:59:37,898 - __main__ - INFO - [2017-Aug-07 13:59] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-07 13:59:38,868 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-07 13:59:38,868 - __main__ - INFO - [2017-Aug-07 13:59] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-07 14:00:48,754 - __main__ - INFO - [2017-Aug-07 14:00] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-07 14:00:48,769 - __main__ - INFO - [2017-Aug-07 14:00] - 127.0.0.1 - GET - http - /static/app/src/dist/bundle.js? - 200 OK
+2017-08-07 14:00:48,778 - __main__ - INFO - [2017-Aug-07 14:00] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-07 14:00:49,794 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-07 14:00:49,795 - __main__ - INFO - [2017-Aug-07 14:00] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-07 14:01:23,577 - __main__ - INFO - [2017-Aug-07 14:01] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-07 14:04:05,810 - __main__ - INFO - [2017-Aug-07 14:04] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-07 14:04:05,826 - __main__ - INFO - [2017-Aug-07 14:04] - 127.0.0.1 - GET - http - /static/app/src/dist/bundle.js? - 200 OK
+2017-08-07 14:04:05,832 - __main__ - INFO - [2017-Aug-07 14:04] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-07 14:04:06,832 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-07 14:04:06,832 - __main__ - INFO - [2017-Aug-07 14:04] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-07 14:05:14,235 - __main__ - INFO - [2017-Aug-07 14:05] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-07 14:05:14,320 - __main__ - INFO - [2017-Aug-07 14:05] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-07 14:06:39,163 - __main__ - INFO - [2017-Aug-07 14:06] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-07 14:06:39,181 - __main__ - INFO - [2017-Aug-07 14:06] - 127.0.0.1 - GET - http - /static/app/src/dist/bundle.js? - 200 OK
+2017-08-07 14:06:39,188 - __main__ - INFO - [2017-Aug-07 14:06] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-07 14:06:40,197 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-07 14:06:40,197 - __main__ - INFO - [2017-Aug-07 14:06] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-07 14:07:50,139 - __main__ - INFO - [2017-Aug-07 14:07] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-07 14:12:49,461 - __main__ - INFO - [2017-Aug-07 14:12] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-07 14:12:49,474 - __main__ - INFO - [2017-Aug-07 14:12] - 127.0.0.1 - GET - http - /static/app/src/dist/bundle.js? - 200 OK
+2017-08-07 14:12:49,479 - __main__ - INFO - [2017-Aug-07 14:12] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-07 14:12:50,472 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-07 14:12:50,473 - __main__ - INFO - [2017-Aug-07 14:12] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-07 14:13:01,846 - __main__ - INFO - [2017-Aug-07 14:13] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-07 14:14:58,962 - __main__ - INFO - [2017-Aug-07 14:14] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-07 14:14:58,980 - __main__ - INFO - [2017-Aug-07 14:14] - 127.0.0.1 - GET - http - /static/app/src/dist/bundle.js? - 200 OK
+2017-08-07 14:14:58,986 - __main__ - INFO - [2017-Aug-07 14:14] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-07 14:14:59,937 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-07 14:14:59,938 - __main__ - INFO - [2017-Aug-07 14:14] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-07 14:15:42,026 - __main__ - INFO - [2017-Aug-07 14:15] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-07 14:16:34,281 - __main__ - INFO - [2017-Aug-07 14:16] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-07 14:16:34,296 - __main__ - INFO - [2017-Aug-07 14:16] - 127.0.0.1 - GET - http - /static/app/src/dist/bundle.js? - 200 OK
+2017-08-07 14:16:34,300 - __main__ - INFO - [2017-Aug-07 14:16] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-07 14:16:35,296 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-07 14:16:35,296 - __main__ - INFO - [2017-Aug-07 14:16] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-07 14:17:56,523 - __main__ - INFO - [2017-Aug-07 14:17] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-07 14:18:24,938 - __main__ - INFO - [2017-Aug-07 14:18] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-07 14:18:24,953 - __main__ - INFO - [2017-Aug-07 14:18] - 127.0.0.1 - GET - http - /static/app/src/dist/bundle.js? - 200 OK
+2017-08-07 14:18:24,957 - __main__ - INFO - [2017-Aug-07 14:18] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-07 14:18:25,940 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-07 14:18:25,940 - __main__ - INFO - [2017-Aug-07 14:18] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-07 14:18:34,539 - __main__ - INFO - [2017-Aug-07 14:18] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-07 14:18:34,552 - __main__ - INFO - [2017-Aug-07 14:18] - 127.0.0.1 - GET - http - /static/app/src/dist/bundle.js? - 200 OK
+2017-08-07 14:18:34,557 - __main__ - INFO - [2017-Aug-07 14:18] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-07 14:18:34,865 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-07 14:18:34,865 - __main__ - INFO - [2017-Aug-07 14:18] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-07 14:18:44,890 - __main__ - INFO - [2017-Aug-07 14:18] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-07 14:19:26,805 - __main__ - INFO - [2017-Aug-07 14:19] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-07 14:19:26,818 - __main__ - INFO - [2017-Aug-07 14:19] - 127.0.0.1 - GET - http - /static/app/src/dist/bundle.js? - 200 OK
+2017-08-07 14:19:26,825 - __main__ - INFO - [2017-Aug-07 14:19] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-07 14:19:27,838 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-07 14:19:27,839 - __main__ - INFO - [2017-Aug-07 14:19] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-07 14:20:20,237 - __main__ - INFO - 	> Application launching just fine.
+2017-08-07 14:20:20,408 - __main__ - INFO - [2017-Aug-07 14:20] - 127.0.0.1 - GET - http - /api/stock/SPY? - 200 OK
+2017-08-07 14:20:25,869 - __main__ - INFO - [2017-Aug-07 14:20] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-07 14:20:25,891 - __main__ - INFO - [2017-Aug-07 14:20] - 127.0.0.1 - GET - http - /static/app/src/dist/bundle.js? - 200 OK
+2017-08-07 14:20:25,899 - __main__ - INFO - [2017-Aug-07 14:20] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-07 14:20:26,849 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-07 14:20:26,850 - __main__ - INFO - [2017-Aug-07 14:20] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-07 14:20:41,128 - __main__ - INFO - [2017-Aug-07 14:20] - 127.0.0.1 - GET - http - /api/stock/SPY? - 200 OK
+2017-08-07 14:21:24,737 - __main__ - INFO - [2017-Aug-07 14:21] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-07 14:21:24,753 - __main__ - INFO - [2017-Aug-07 14:21] - 127.0.0.1 - GET - http - /static/app/src/dist/bundle.js? - 200 OK
+2017-08-07 14:21:24,758 - __main__ - INFO - [2017-Aug-07 14:21] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 200 OK
+2017-08-07 14:21:25,765 - __main__ - ERROR - Page not found: /favicon.ico
+2017-08-07 14:21:25,765 - __main__ - INFO - [2017-Aug-07 14:21] - 127.0.0.1 - GET - http - /favicon.ico? - 404 NOT FOUND
+2017-08-07 14:22:08,856 - __main__ - INFO - [2017-Aug-07 14:22] - 127.0.0.1 - GET - http - /api/stock/SPY? - 200 OK
+2017-08-07 14:22:39,630 - __main__ - INFO - [2017-Aug-07 14:22] - 127.0.0.1 - GET - http - /api/midi/SPY?start=2015-01-01&end=2015-03-01 - 200 OK
+2017-08-07 14:26:59,827 - __main__ - INFO - [2017-Aug-07 14:26] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-07 20:35:20,662 - __main__ - INFO - 	> Application launching just fine.
+2017-08-07 20:35:21,269 - __main__ - INFO - 	> Application launching just fine.
+2017-08-07 20:35:23,941 - __main__ - INFO - [2017-Aug-07 20:35] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-07 20:35:36,558 - __main__ - INFO - [2017-Aug-07 20:35] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-07 20:35:44,760 - __main__ - ERROR - Exception on /api/midi/GOOGL [GET]
+Traceback (most recent call last):
+  File "/Users/nate/projects/amper/StockTunes/models/util/request_helpers.py", line 38, in is_valid_date
+    datetime.datetime.strptime(datestring, formatting)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/_strptime.py", line 510, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/_strptime.py", line 343, in _strptime
+    (data_string, format))
+ValueError: time data '' does not match format '%Y-%m-%d'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/nate/projects/amper/StockTunes/api/core/endpoints/endpoints.py", line 61, in get
+    if not is_valid_date(start, '%Y-%m-%d'):
+  File "/Users/nate/projects/amper/StockTunes/models/util/request_helpers.py", line 40, in is_valid_date
+    raise ValueError("Incorrect data format, should be YYYY-MM-DD")
+ValueError: Incorrect data format, should be YYYY-MM-DD
+2017-08-07 20:35:44,766 - __main__ - INFO - [2017-Aug-07 20:35] - 127.0.0.1 - GET - http - /api/midi/GOOGL?start=&end= - 500 INTERNAL SERVER ERROR

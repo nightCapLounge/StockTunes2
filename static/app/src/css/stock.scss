@@ -48,6 +48,25 @@
     }
 
     form {
-        display: none;
+        display: block;
     }
+
+    #midi-form {
+        span {
+            color: white;
+            font-size: large;
+        }
+    }
+
+    input[type='date'] {
+        display: inline;
+        background: transparent;
+        border: 1px solid lightblue;
+        outline: none;
+        transition-duration: .2s;
+        -webkit-transition-duration: .2s;
+        padding: 3px;
+        color: white;
+    }
+
 }

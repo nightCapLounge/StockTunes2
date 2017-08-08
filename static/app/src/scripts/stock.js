@@ -28,6 +28,7 @@ export default class Stock extends React.Component {
                         <div className="row">
                             <div className="col-md-12">
                                 <h2>{ this.props.query != "" ? this.props.query : "Choose a stock ..." }</h2>
+                                <small>{this.props.query != "" && this.props.stockData.length == 0 ? "Press search to get data" : ""}</small>
                             </div>
                         </div>
                         <div className="row">
@@ -52,14 +53,20 @@ export default class Stock extends React.Component {
                                     <div>
                                         <div className="text-center">
                                             <button className="midi-button" onClick={this.getMidi}>Get MIDI</button>
-                                            <form action={'http://localhost:5000/api/midi/' + this.props.query} method="GET" id="midi-form">
-                                                <input type="text" value="2014-09-01" name="start"/>
-                                                <input type="text" value="2014-11-01" name="end"/>
-                                            </form>
                                         </div>
                                         <br/>
                                         <div className="text-center">
                                             <small>Transform this stock's historical data into MIDI.</small>
+                                        </div>
+                                        <br/>
+                                        <div className="text-center">
+                                            <form action={'http://localhost:5000/api/midi/' + this.props.query} method="GET" id="midi-form">
+                                                <div className="form-group row">
+                                                    <input class="form-control" type="date" name="start" />
+                                                    <span> to </span>
+                                                    <input class="form-control" type="date" name="end" />
+                                                </div>
+                                            </form>
                                         </div>
                                     </div>
                                 }

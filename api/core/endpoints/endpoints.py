@@ -70,6 +70,6 @@ class MIDIGenerator(Resource):
         else: 
             midifile = create_midi_file(data["data"], "Adj Close")["file"]
             midifile.seek(0)
-            return send_file(midifile, mimetype='audio/midi', as_attachment=True, attachment_filename = ticker + '.mid')
+            return send_file(midifile, mimetype='audio/midi', as_attachment=True, attachment_filename = ticker + "_" + start + "_" + end + '.mid')
 
 

@@ -24481,6 +24481,11 @@
 	                                    'h2',
 	                                    null,
 	                                    this.props.query != "" ? this.props.query : "Choose a stock ..."
+	                                ),
+	                                _react2.default.createElement(
+	                                    'small',
+	                                    null,
+	                                    this.props.query != "" && this.props.stockData.length == 0 ? "Press search to get data" : ""
 	                                )
 	                            )
 	                        ),
@@ -24544,12 +24549,6 @@
 	                                            'button',
 	                                            { className: 'midi-button', onClick: this.getMidi },
 	                                            'Get MIDI'
-	                                        ),
-	                                        _react2.default.createElement(
-	                                            'form',
-	                                            { action: 'http://localhost:5000/api/midi/' + this.props.query, method: 'GET', id: 'midi-form' },
-	                                            _react2.default.createElement('input', { type: 'text', value: '2014-09-01', name: 'start' }),
-	                                            _react2.default.createElement('input', { type: 'text', value: '2014-11-01', name: 'end' })
 	                                        )
 	                                    ),
 	                                    _react2.default.createElement('br', null),
@@ -24560,6 +24559,26 @@
 	                                            'small',
 	                                            null,
 	                                            'Transform this stock\'s historical data into MIDI.'
+	                                        )
+	                                    ),
+	                                    _react2.default.createElement('br', null),
+	                                    _react2.default.createElement(
+	                                        'div',
+	                                        { className: 'text-center' },
+	                                        _react2.default.createElement(
+	                                            'form',
+	                                            { action: 'http://localhost:5000/api/midi/' + this.props.query, method: 'GET', id: 'midi-form' },
+	                                            _react2.default.createElement(
+	                                                'div',
+	                                                { className: 'form-group row' },
+	                                                _react2.default.createElement('input', { 'class': 'form-control', type: 'date', name: 'start' }),
+	                                                _react2.default.createElement(
+	                                                    'span',
+	                                                    null,
+	                                                    ' to '
+	                                                ),
+	                                                _react2.default.createElement('input', { 'class': 'form-control', type: 'date', name: 'end' })
+	                                            )
 	                                        )
 	                                    )
 	                                )
@@ -24616,7 +24635,7 @@
 
 
 	// module
-	exports.push([module.id, "body {\n  min-height: 100vh;\n  min-width: 100vw;\n  background: linear-gradient(to right, #1bbcb2, #37b9e9) no-repeat;\n  background-repeat: no-repeat;\n  background-size: cover; }\n\n#root {\n  height: 100%;\n  width: 100%; }\n\n.app .search-col {\n  padding-top: 110px;\n  padding-bottom: 110px;\n  display: flex;\n  justify-content: center;\n  align-items: center; }\n\n.app h1 {\n  font-size: 50px; }\n\n.app h1, .app small {\n  color: white;\n  font-family: Helvetica, sans-serif; }\n\n.stock {\n  padding-bottom: 50px; }\n  .stock h2 {\n    color: white; }\n  .stock ul {\n    list-style-type: none; }\n  .stock .stockRow h4 {\n    color: white;\n    margin-bottom: 2px; }\n  .stock .stockRow p {\n    color: white;\n    padding-left: 15px; }\n  .stock .midi-button {\n    background: transparent;\n    border: 1px solid lightblue;\n    min-width: 150px;\n    min-height: 50px;\n    color: lightblue;\n    transition-duration: .2s;\n    -webkit-transition-duration: .2s; }\n  .stock .midi-button:hover {\n    color: white;\n    border-color: white; }\n  .stock .midi-button:focus {\n    outline: none; }\n  .stock small {\n    color: white; }\n  .stock form {\n    display: none; }\n", "", {"version":3,"sources":["/Users/nate/projects/amper/StockTunes/static/app/src/css/static/app/src/css/main.scss","/Users/nate/projects/amper/StockTunes/static/app/src/css/static/app/src/css/stock.scss"],"names":[],"mappings":"AAKA;EACI,kBAAiB;EACjB,iBAAgB;EAChB,kEAAqE;EACrE,6BAA4B;EAC5B,uBAAsB,EACzB;;AAED;EACI,aAAY;EACZ,YAAW,EACd;;AAED;EAGQ,mBAAkB;EAClB,sBAAqB;EACrB,cAAa;EACb,wBAAuB;EACvB,oBAAmB,EACtB;;AARL;EAWQ,gBAAe,EAClB;;AAZL;EAeQ,aAAY;EACZ,mCAAkC,EACrC;;ACjCL;EAuBI,qBAAoB,EA2BvB;EAlDD;IAEQ,aAAY,EACf;EAHL;IAKQ,sBAAqB,EACxB;EANL;IAYY,aAAY;IACZ,mBAAkB,EACrB;EAdT;IAiBY,aAAY;IACZ,mBAAkB,EACrB;EAnBT;IAyBQ,wBAAuB;IACvB,4BAA2B;IAC3B,iBAAgB;IAChB,iBAAgB;IAChB,iBAAgB;IAChB,yBAAwB;IACxB,iCAAgC,EACnC;EAhCL;IAmCQ,aAAY;IACZ,oBAAmB,EACtB;EArCL;IAwCQ,cAAa,EAChB;EAzCL;IA4CQ,aAAY,EACf;EA7CL;IAgDQ,cAAa,EAChB","file":"stock.scss","sourcesContent":["\n$primary: rgb(55,185,233);\n$secondary: rgb(27,188,178);\n$secondary-dark: rgb(17,178,168);\n\nbody {\n    min-height: 100vh;\n    min-width: 100vw;\n    background: linear-gradient(to right, $secondary, $primary) no-repeat;\n    background-repeat: no-repeat;\n    background-size: cover; \n}\n\n#root {\n    height: 100%;\n    width: 100%;\n}\n\n.app {\n\n    .search-col {\n        padding-top: 110px;\n        padding-bottom: 110px;\n        display: flex;\n        justify-content: center;\n        align-items: center;\n    }\n\n    h1 {\n        font-size: 50px;\n    }\n\n    h1, small{\n        color: white;\n        font-family: Helvetica, sans-serif;\n    }\n}\n","@import './main.scss';\n\n.stock {\n    h2 {\n        color: white;\n    }\n    ul {\n        list-style-type: none;\n    }\n    .stockRow{\n\n\n\n        h4 {\n            color: white;\n            margin-bottom: 2px;\n        }\n\n        p {\n            color: white;\n            padding-left: 15px;\n        }\n\n    }\n\n    padding-bottom: 50px;\n    .midi-button {\n        background: transparent;\n        border: 1px solid lightblue;\n        min-width: 150px;\n        min-height: 50px;\n        color: lightblue;\n        transition-duration: .2s;\n        -webkit-transition-duration: .2s;\n    }\n\n    .midi-button:hover {\n        color: white;\n        border-color: white;\n    }\n\n    .midi-button:focus {\n        outline: none;\n    }\n\n    small {\n        color: white;\n    }\n\n    form {\n        display: none;\n    }\n}"],"sourceRoot":""}]);
+	exports.push([module.id, "body {\n  min-height: 100vh;\n  min-width: 100vw;\n  background: linear-gradient(to right, #1bbcb2, #37b9e9) no-repeat;\n  background-repeat: no-repeat;\n  background-size: cover; }\n\n#root {\n  height: 100%;\n  width: 100%; }\n\n.app .search-col {\n  padding-top: 110px;\n  padding-bottom: 110px;\n  display: flex;\n  justify-content: center;\n  align-items: center; }\n\n.app h1 {\n  font-size: 50px; }\n\n.app h1, .app small {\n  color: white;\n  font-family: Helvetica, sans-serif; }\n\n.stock {\n  padding-bottom: 50px; }\n  .stock h2 {\n    color: white; }\n  .stock ul {\n    list-style-type: none; }\n  .stock .stockRow h4 {\n    color: white;\n    margin-bottom: 2px; }\n  .stock .stockRow p {\n    color: white;\n    padding-left: 15px; }\n  .stock .midi-button {\n    background: transparent;\n    border: 1px solid lightblue;\n    min-width: 150px;\n    min-height: 50px;\n    color: lightblue;\n    transition-duration: .2s;\n    -webkit-transition-duration: .2s; }\n  .stock .midi-button:hover {\n    color: white;\n    border-color: white; }\n  .stock .midi-button:focus {\n    outline: none; }\n  .stock small {\n    color: white; }\n  .stock form {\n    display: block; }\n  .stock #midi-form span {\n    color: white;\n    font-size: large; }\n  .stock input[type='date'] {\n    display: inline;\n    background: transparent;\n    border: 1px solid lightblue;\n    outline: none;\n    transition-duration: .2s;\n    -webkit-transition-duration: .2s;\n    padding: 3px;\n    color: white; }\n", "", {"version":3,"sources":["/Users/nate/projects/amper/StockTunes/static/app/src/css/static/app/src/css/main.scss","/Users/nate/projects/amper/StockTunes/static/app/src/css/static/app/src/css/stock.scss"],"names":[],"mappings":"AAKA;EACI,kBAAiB;EACjB,iBAAgB;EAChB,kEAAqE;EACrE,6BAA4B;EAC5B,uBAAsB,EACzB;;AAED;EACI,aAAY;EACZ,YAAW,EACd;;AAED;EAGQ,mBAAkB;EAClB,sBAAqB;EACrB,cAAa;EACb,wBAAuB;EACvB,oBAAmB,EACtB;;AARL;EAWQ,gBAAe,EAClB;;AAZL;EAeQ,aAAY;EACZ,mCAAkC,EACrC;;ACjCL;EAuBI,qBAAoB,EA8CvB;EArED;IAEQ,aAAY,EACf;EAHL;IAKQ,sBAAqB,EACxB;EANL;IAYY,aAAY;IACZ,mBAAkB,EACrB;EAdT;IAiBY,aAAY;IACZ,mBAAkB,EACrB;EAnBT;IAyBQ,wBAAuB;IACvB,4BAA2B;IAC3B,iBAAgB;IAChB,iBAAgB;IAChB,iBAAgB;IAChB,yBAAwB;IACxB,iCAAgC,EACnC;EAhCL;IAmCQ,aAAY;IACZ,oBAAmB,EACtB;EArCL;IAwCQ,cAAa,EAChB;EAzCL;IA4CQ,aAAY,EACf;EA7CL;IAgDQ,eAAc,EACjB;EAjDL;IAqDY,aAAY;IACZ,iBAAgB,EACnB;EAvDT;IA2DQ,gBAAe;IACf,wBAAuB;IACvB,4BAA2B;IAC3B,cAAa;IACb,yBAAwB;IACxB,iCAAgC;IAChC,aAAY;IACZ,aAAY,EACf","file":"stock.scss","sourcesContent":["\n$primary: rgb(55,185,233);\n$secondary: rgb(27,188,178);\n$secondary-dark: rgb(17,178,168);\n\nbody {\n    min-height: 100vh;\n    min-width: 100vw;\n    background: linear-gradient(to right, $secondary, $primary) no-repeat;\n    background-repeat: no-repeat;\n    background-size: cover; \n}\n\n#root {\n    height: 100%;\n    width: 100%;\n}\n\n.app {\n\n    .search-col {\n        padding-top: 110px;\n        padding-bottom: 110px;\n        display: flex;\n        justify-content: center;\n        align-items: center;\n    }\n\n    h1 {\n        font-size: 50px;\n    }\n\n    h1, small{\n        color: white;\n        font-family: Helvetica, sans-serif;\n    }\n}\n","@import './main.scss';\n\n.stock {\n    h2 {\n        color: white;\n    }\n    ul {\n        list-style-type: none;\n    }\n    .stockRow{\n\n\n\n        h4 {\n            color: white;\n            margin-bottom: 2px;\n        }\n\n        p {\n            color: white;\n            padding-left: 15px;\n        }\n\n    }\n\n    padding-bottom: 50px;\n    .midi-button {\n        background: transparent;\n        border: 1px solid lightblue;\n        min-width: 150px;\n        min-height: 50px;\n        color: lightblue;\n        transition-duration: .2s;\n        -webkit-transition-duration: .2s;\n    }\n\n    .midi-button:hover {\n        color: white;\n        border-color: white;\n    }\n\n    .midi-button:focus {\n        outline: none;\n    }\n\n    small {\n        color: white;\n    }\n\n    form {\n        display: block;\n    }\n\n    #midi-form {\n        span {\n            color: white;\n            font-size: large;\n        }\n    }\n\n    input[type='date'] {\n        display: inline;\n        background: transparent;\n        border: 1px solid lightblue;\n        outline: none;\n        transition-duration: .2s;\n        -webkit-transition-duration: .2s;\n        padding: 3px;\n        color: white;\n    }\n\n}"],"sourceRoot":""}]);
 
 	// exports
 

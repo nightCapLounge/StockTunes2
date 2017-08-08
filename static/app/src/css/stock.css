@@ -51,4 +51,16 @@ body {
   .stock small {
     color: white; }
   .stock form {
-    display: none; }
+    display: block; }
+  .stock #midi-form span {
+    color: white;
+    font-size: large; }
+  .stock input[type='date'] {
+    display: inline;
+    background: transparent;
+    border: 1px solid lightblue;
+    outline: none;
+    transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    padding: 3px;
+    color: white; }
