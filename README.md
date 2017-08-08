@@ -2,6 +2,8 @@
 
 This is a small, fun project to explore using a REST API and Flask to create music out of stock market data.
 
+Theoretically, with a refined enough model that deeply expresses the trends of a stock, a person should be able to make intuitive and accurate market predictions simply by listening to and learning what a stock sounds like when it exhibits certain behavior.  Humans are astonishingly good at pattern recognition, especially when it comes to hearing.  StockTunes is an interesting alternative to gazing at charts.  
+
 
 ## The API
 
