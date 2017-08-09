@@ -3284,3 +3284,133 @@ Traceback (most recent call last):
     raise ValueError("Incorrect data format, should be YYYY-MM-DD")
 ValueError: Incorrect data format, should be YYYY-MM-DD
 2017-08-07 20:35:44,766 - __main__ - INFO - [2017-Aug-07 20:35] - 127.0.0.1 - GET - http - /api/midi/GOOGL?start=&end= - 500 INTERNAL SERVER ERROR
+2017-08-08 21:07:03,680 - __main__ - INFO - [2017-Aug-08 21:07] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-08 22:20:32,416 - __main__ - INFO - [2017-Aug-08 22:20] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-08 22:20:32,440 - __main__ - INFO - [2017-Aug-08 22:20] - 127.0.0.1 - GET - http - /static/app/src/dist/bundle.js? - 304 NOT MODIFIED
+2017-08-08 22:20:32,441 - __main__ - INFO - [2017-Aug-08 22:20] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 304 NOT MODIFIED
+2017-08-08 22:20:53,789 - __main__ - INFO - [2017-Aug-08 22:20] - 127.0.0.1 - GET - http - /api/stock/UPS? - 200 OK
+2017-08-08 22:21:32,371 - __main__ - ERROR - Exception on /api/midi/UPS [GET]
+Traceback (most recent call last):
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/nate/projects/amper/StockTunes/api/core/endpoints/endpoints.py", line 69, in get
+    api.abort(code=500, message=data["errors"])
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/namespace.py", line 127, in abort
+    abort(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/errors.py", line 29, in abort
+    flask.abort(code)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/werkzeug/exceptions.py", line 707, in abort
+    return _aborter(status, *args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/werkzeug/exceptions.py", line 687, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.InternalServerError: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request.  Either the server is overloaded or there is an error in the application.
+2017-08-08 22:21:32,375 - __main__ - INFO - [2017-Aug-08 22:21] - 127.0.0.1 - GET - http - /api/midi/UPS?start=2016-05-24&end=2017-05-08 - 500 INTERNAL SERVER ERROR
+2017-08-08 22:22:02,660 - __main__ - INFO - [2017-Aug-08 22:22] - 127.0.0.1 - GET - http - /api/stock/UPS? - 200 OK
+2017-08-08 22:22:02,867 - __main__ - INFO - [2017-Aug-08 22:22] - 127.0.0.1 - GET - http - /api/stock/UPS? - 200 OK
+2017-08-08 22:23:02,089 - __main__ - ERROR - Exception on /api/midi/UPS [GET]
+Traceback (most recent call last):
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/nate/projects/amper/StockTunes/api/core/endpoints/endpoints.py", line 69, in get
+    api.abort(code=500, message=data["errors"])
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/namespace.py", line 127, in abort
+    abort(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/errors.py", line 29, in abort
+    flask.abort(code)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/werkzeug/exceptions.py", line 707, in abort
+    return _aborter(status, *args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/werkzeug/exceptions.py", line 687, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.InternalServerError: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request.  Either the server is overloaded or there is an error in the application.
+2017-08-08 22:23:02,090 - __main__ - INFO - [2017-Aug-08 22:23] - 127.0.0.1 - GET - http - /api/midi/UPS?start=2017-08-16&end=2017-08-29 - 500 INTERNAL SERVER ERROR
+2017-08-08 22:49:20,075 - __main__ - ERROR - Exception on /api/midi/NYSE [GET]
+Traceback (most recent call last):
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/nate/projects/amper/StockTunes/api/core/endpoints/endpoints.py", line 69, in get
+    api.abort(code=500, message=data["errors"])
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/namespace.py", line 127, in abort
+    abort(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/errors.py", line 29, in abort
+    flask.abort(code)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/werkzeug/exceptions.py", line 707, in abort
+    return _aborter(status, *args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/werkzeug/exceptions.py", line 687, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.InternalServerError: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request.  Either the server is overloaded or there is an error in the application.
+2017-08-08 22:49:20,076 - __main__ - INFO - [2017-Aug-08 22:49] - 127.0.0.1 - GET - http - /api/midi/NYSE?start=2017-08-16&end=2017-08-29 - 500 INTERNAL SERVER ERROR
+2017-08-08 22:50:05,514 - __main__ - ERROR - Exception on /api/midi/UA [GET]
+Traceback (most recent call last):
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/nate/projects/amper/StockTunes/api/core/endpoints/endpoints.py", line 69, in get
+    api.abort(code=500, message=data["errors"])
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/namespace.py", line 127, in abort
+    abort(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/errors.py", line 29, in abort
+    flask.abort(code)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/werkzeug/exceptions.py", line 707, in abort
+    return _aborter(status, *args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/werkzeug/exceptions.py", line 687, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.InternalServerError: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request.  Either the server is overloaded or there is an error in the application.
+2017-08-08 22:50:05,515 - __main__ - INFO - [2017-Aug-08 22:50] - 127.0.0.1 - GET - http - /api/midi/UA?start=2017-08-16&end=2017-08-29 - 500 INTERNAL SERVER ERROR
+2017-08-08 22:50:17,486 - __main__ - INFO - [2017-Aug-08 22:50] - 127.0.0.1 - GET - http - /api/midi/UA?start=2016-08-16&end=2016-08-29 - 200 OK
+2017-08-08 22:50:30,180 - __main__ - ERROR - Exception on /api/midi/UPS [GET]
+Traceback (most recent call last):
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/api.py", line 313, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask/views.py", line 84, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/nate/projects/amper/StockTunes/api/core/endpoints/endpoints.py", line 69, in get
+    api.abort(code=500, message=data["errors"])
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/namespace.py", line 127, in abort
+    abort(*args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/flask_restplus/errors.py", line 29, in abort
+    flask.abort(code)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/werkzeug/exceptions.py", line 707, in abort
+    return _aborter(status, *args, **kwargs)
+  File "/Users/nate/projects/amper/venv/lib/python3.5/site-packages/werkzeug/exceptions.py", line 687, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.InternalServerError: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request.  Either the server is overloaded or there is an error in the application.
+2017-08-08 22:50:30,181 - __main__ - INFO - [2017-Aug-08 22:50] - 127.0.0.1 - GET - http - /api/midi/UPS?start=2017-08-16&end=2017-08-29 - 500 INTERNAL SERVER ERROR
+2017-08-08 22:50:39,520 - __main__ - INFO - [2017-Aug-08 22:50] - 127.0.0.1 - GET - http - /api/midi/UPS?start=2016-08-16&end=2016-08-29 - 200 OK
+2017-08-09 07:40:45,654 - __main__ - INFO - [2017-Aug-09 07:40] - 127.0.0.1 - GET - http - /api/stock/UPS? - 200 OK

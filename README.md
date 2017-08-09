@@ -23,6 +23,7 @@ An example of this can be found when getting the data dump for a stock: e.g. "/a
 
 There are two primary zones of the API -- the stock zone and the midi zone.  These are created as namespaces in Flask.  The stock zone queries the Yahoo Finance API for stock data.  The midi zone performs midi operations on historical stock data.  
 
+
 #### Stocks
 
 A user can get a data dump of a stock by submitting a GET request in the following form: "/api/stock/<ticker:string>".
@@ -40,10 +41,12 @@ The start parameter is the beginning of the historical frame, and the end parame
 
 At the moment, StockTunes uses the simplest possible model for turning data into music.  Given a stream of stock data, a field from the stream is selected (e.g. Adjusted Close), and if the field goes up in a discrete timestep, a major chord from a given key is randomly selected, and if the data trends downward, a minor chord is randomly selected.  There is one chord per time step.  The tones from the chord that are played are then randomly selected and written to MIDI.  
 
+It generally produces results along these lines:  [SPY_2015-01-01_2015-03-01.mid](https://soundcloud.com/nathaniel-moon/spy-2015-01-01-2015-03-01)
+
 
 ## React Front-end
 
-There is a bare-bones React front end to accompany the application.  It allows the user to choose a stock and a time range, and produce MIDI from that data.  There is currently minimal error handling in this section of the application.  
+There is a bare-bones React front end to accompany the application.  It allows the user to choose a stock and a time range, and produce MIDI from that data.  There is currently minimal error handling in this section of the application.
 
 
 
