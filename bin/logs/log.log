@@ -3414,3 +3414,13 @@ werkzeug.exceptions.InternalServerError: 500 Internal Server Error: The server e
 2017-08-08 22:50:30,181 - __main__ - INFO - [2017-Aug-08 22:50] - 127.0.0.1 - GET - http - /api/midi/UPS?start=2017-08-16&end=2017-08-29 - 500 INTERNAL SERVER ERROR
 2017-08-08 22:50:39,520 - __main__ - INFO - [2017-Aug-08 22:50] - 127.0.0.1 - GET - http - /api/midi/UPS?start=2016-08-16&end=2016-08-29 - 200 OK
 2017-08-09 07:40:45,654 - __main__ - INFO - [2017-Aug-09 07:40] - 127.0.0.1 - GET - http - /api/stock/UPS? - 200 OK
+2017-08-09 15:18:39,084 - __main__ - INFO - [2017-Aug-09 15:18] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-09 15:18:39,099 - __main__ - INFO - [2017-Aug-09 15:18] - 127.0.0.1 - GET - http - /static/app/src/dist/bundle.js? - 304 NOT MODIFIED
+2017-08-09 15:18:39,109 - __main__ - INFO - [2017-Aug-09 15:18] - 127.0.0.1 - GET - http - /static/components/fetch/fetch.js? - 304 NOT MODIFIED
+2017-08-09 15:18:43,605 - __main__ - INFO - [2017-Aug-09 15:18] - 127.0.0.1 - GET - http - /? - 200 OK
+2017-08-09 15:18:51,673 - __main__ - INFO - [2017-Aug-09 15:18] - 127.0.0.1 - GET - http - /api/stock/GOOGLP? - 400 BAD REQUEST
+2017-08-09 15:19:04,581 - __main__ - INFO - [2017-Aug-09 15:19] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-09 15:20:56,621 - __main__ - INFO - [2017-Aug-09 15:20] - 127.0.0.1 - GET - http - /api/stock/GOOGL? - 200 OK
+2017-08-09 15:21:04,303 - __main__ - INFO - [2017-Aug-09 15:21] - 127.0.0.1 - GET - http - /api/stock/SPY? - 200 OK
+2017-08-09 20:06:51,808 - __main__ - INFO - 	> Application launching just fine.
+2017-08-09 20:06:53,591 - __main__ - INFO - 	> Application launching just fine.

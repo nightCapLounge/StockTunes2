@@ -38,7 +38,6 @@ def is_valid_date(datestring, formatting):
         datetime.datetime.strptime(datestring, formatting)
     except ValueError:
         raise ValueError("Incorrect data format, should be YYYY-MM-DD")
-        result = False
     
     return result
 

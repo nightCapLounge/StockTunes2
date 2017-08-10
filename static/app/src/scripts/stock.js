@@ -28,7 +28,7 @@ export default class Stock extends React.Component {
                         <div className="row">
                             <div className="col-md-12">
                                 <h2>{ this.props.query != "" ? this.props.query : "Choose a stock ..." }</h2>
-                                <small>{this.props.query != "" && this.props.stockData.length == 0 ? "Press search to get data" : ""}</small>
+                                <small>{ this.props.query != "" && this.props.stockData.length == 0 ? "Press search to get data" : "" }</small>
                             </div>
                         </div>
                         <div className="row">
